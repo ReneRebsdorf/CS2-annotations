@@ -34,4 +34,4 @@ jobs:
       # Run your tests
       - name: Run tests
         run: |
-          python -m pytest Code\CS2-annotations\tests/test_files.py
+          python -m pytest tests/test_files.py
