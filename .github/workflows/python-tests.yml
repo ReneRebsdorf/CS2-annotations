@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        python-version: [3.8, 3.9, 3.10]  # You can adjust the versions here
+        python-version: [3.12]
 
     steps:
       # Checkout the code from the repository
