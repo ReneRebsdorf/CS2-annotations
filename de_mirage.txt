@@ -1,10 +1,10 @@
-﻿<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	MapName = "de_mirage"
-	ScreenText = 
+	ScreenText =
 	{
 	}
-	MapAnnotationNode0 = 
+	MapAnnotationNode0 =
 	{
 		Enabled = true
 		Type = "position"
@@ -18,14 +18,14 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Window Smoke"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -33,7 +33,7 @@
 			FadeOutDist = 40.0
 		}
 	}
-	MapAnnotationNode1 = 
+	MapAnnotationNode1 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -47,14 +47,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -62,7 +62,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode2 = 
+	MapAnnotationNode2 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -75,14 +75,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -91,7 +91,7 @@
 		}
 		MasterNodeId = "0d167ed9-5e4b-4209-ae83-cb0706dec5be"
 	}
-	MapAnnotationNode3 = 
+	MapAnnotationNode3 =
 	{
 		Enabled = true
 		Type = "text"
@@ -105,14 +105,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Window Smoke"
 			FontSize = 125
 			FadeInDist = 800.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = "Aim at the point shown, strafe right for half a second and jump throw."
 			FontSize = 75
@@ -120,7 +120,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode4 = 
+	MapAnnotationNode4 =
 	{
 		Enabled = true
 		Type = "position"
@@ -134,14 +134,14 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Stairs Smoke"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -149,7 +149,7 @@
 			FadeOutDist = 40.0
 		}
 	}
-	MapAnnotationNode5 = 
+	MapAnnotationNode5 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -163,14 +163,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -178,7 +178,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode6 = 
+	MapAnnotationNode6 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -191,14 +191,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -207,7 +207,7 @@
 		}
 		MasterNodeId = "c5dec25a-1269-4a92-a122-b2a4586f1883"
 	}
-	MapAnnotationNode7 = 
+	MapAnnotationNode7 =
 	{
 		Enabled = true
 		Type = "text"
@@ -221,14 +221,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Stairs Smoke"
 			FontSize = 125
 			FadeInDist = 800.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = "Aim slightly off the edge of the building as shown and jump throw. \\n Must combine with a jungle smoke to be effective."
 			FontSize = 75
@@ -236,7 +236,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode8 = 
+	MapAnnotationNode8 =
 	{
 		Enabled = true
 		Type = "position"
@@ -250,14 +250,14 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Jungle Smoke"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -265,7 +265,7 @@
 			FadeOutDist = 40.0
 		}
 	}
-	MapAnnotationNode9 = 
+	MapAnnotationNode9 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -279,14 +279,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -294,7 +294,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode10 = 
+	MapAnnotationNode10 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -307,14 +307,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -323,7 +323,7 @@
 		}
 		MasterNodeId = "4a8c4fc6-57bc-4ae2-a52c-3533e49d6e0f"
 	}
-	MapAnnotationNode11 = 
+	MapAnnotationNode11 =
 	{
 		Enabled = true
 		Type = "text"
@@ -337,14 +337,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Jungle Smoke"
 			FontSize = 125
 			FadeInDist = 800.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = "Aim at the dot on the wall as shown and jump throw. \\n Must combine with a stairs smoke to be effective."
 			FontSize = 75
@@ -352,7 +352,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode12 = 
+	MapAnnotationNode12 =
 	{
 		Enabled = true
 		Type = "position"
@@ -366,14 +366,14 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Lamp Flash"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -381,7 +381,7 @@
 			FadeOutDist = 40.0
 		}
 	}
-	MapAnnotationNode13 = 
+	MapAnnotationNode13 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -395,14 +395,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -410,7 +410,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode14 = 
+	MapAnnotationNode14 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -423,14 +423,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -439,7 +439,7 @@
 		}
 		MasterNodeId = "7ea05297-5a56-4132-a0b9-24ee1888a1a4"
 	}
-	MapAnnotationNode15 = 
+	MapAnnotationNode15 =
 	{
 		Enabled = true
 		Type = "text"
@@ -453,14 +453,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Lamp Flash"
 			FontSize = 125
 			FadeInDist = 800.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = "Aim at the tip of the lamp as shown and normal throw."
 			FontSize = 75
@@ -468,7 +468,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode16 = 
+	MapAnnotationNode16 =
 	{
 		Enabled = true
 		Type = "position"
@@ -482,14 +482,14 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Short Smoke"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -497,7 +497,7 @@
 			FadeOutDist = 40.0
 		}
 	}
-	MapAnnotationNode17 = 
+	MapAnnotationNode17 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -511,14 +511,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -526,7 +526,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode18 = 
+	MapAnnotationNode18 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -539,14 +539,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -555,7 +555,7 @@
 		}
 		MasterNodeId = "5f97881b-3067-4d50-893f-f30e19ebeacf"
 	}
-	MapAnnotationNode19 = 
+	MapAnnotationNode19 =
 	{
 		Enabled = true
 		Type = "text"
@@ -569,14 +569,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Short Smoke"
 			FontSize = 125
 			FadeInDist = 800.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = "Aim at the tip of the antenna as shown and normal throw."
 			FontSize = 75
@@ -584,7 +584,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode20 = 
+	MapAnnotationNode20 =
 	{
 		Enabled = true
 		Type = "position"
@@ -598,14 +598,14 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "A Main Lurk Smoke"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -613,7 +613,7 @@
 			FadeOutDist = 40.0
 		}
 	}
-	MapAnnotationNode21 = 
+	MapAnnotationNode21 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -627,14 +627,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -642,7 +642,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode22 = 
+	MapAnnotationNode22 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -655,14 +655,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -671,7 +671,7 @@
 		}
 		MasterNodeId = "11c4d5cc-206b-4ece-ae05-dc7175a58fb1"
 	}
-	MapAnnotationNode23 = 
+	MapAnnotationNode23 =
 	{
 		Enabled = true
 		Type = "text"
@@ -685,14 +685,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "A Main Lurk Smoke"
 			FontSize = 125
 			FadeInDist = 800.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = "Look in the middle of the line as shown and normal throw."
 			FontSize = 75
@@ -700,7 +700,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode24 = 
+	MapAnnotationNode24 =
 	{
 		Enabled = true
 		Type = "position"
@@ -714,14 +714,14 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Palace Lurk Smoke"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -729,7 +729,7 @@
 			FadeOutDist = 40.0
 		}
 	}
-	MapAnnotationNode25 = 
+	MapAnnotationNode25 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -743,14 +743,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -758,7 +758,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode26 = 
+	MapAnnotationNode26 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -771,14 +771,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -787,7 +787,7 @@
 		}
 		MasterNodeId = "7b6c0d9f-4d2d-42f5-8b25-559d92a2eb38"
 	}
-	MapAnnotationNode27 = 
+	MapAnnotationNode27 =
 	{
 		Enabled = true
 		Type = "text"
@@ -801,14 +801,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Palace Lurk Smoke"
 			FontSize = 125
 			FadeInDist = 800.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = "Aim on the vertical line between the two horizontal lines and normal throw."
 			FontSize = 75
@@ -816,7 +816,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode28 = 
+	MapAnnotationNode28 =
 	{
 		Enabled = true
 		Type = "position"
@@ -830,14 +830,14 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Top Con Smoke"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -845,7 +845,7 @@
 			FadeOutDist = 40.0
 		}
 	}
-	MapAnnotationNode29 = 
+	MapAnnotationNode29 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -859,14 +859,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -874,7 +874,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode30 = 
+	MapAnnotationNode30 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -887,14 +887,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -903,7 +903,7 @@
 		}
 		MasterNodeId = "50aab8f6-2043-438d-953d-62608f4c3a0c"
 	}
-	MapAnnotationNode31 = 
+	MapAnnotationNode31 =
 	{
 		Enabled = true
 		Type = "text"
@@ -917,14 +917,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Top Con Smoke"
 			FontSize = 125
 			FadeInDist = 800.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = "Aim at the top middle of the antenna and jump throw."
 			FontSize = 75
@@ -932,7 +932,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode32 = 
+	MapAnnotationNode32 =
 	{
 		Enabled = true
 		Type = "position"
@@ -946,14 +946,14 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Top Mid Smoke"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -961,7 +961,7 @@
 			FadeOutDist = 40.0
 		}
 	}
-	MapAnnotationNode33 = 
+	MapAnnotationNode33 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -975,14 +975,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -990,7 +990,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode34 = 
+	MapAnnotationNode34 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -1003,14 +1003,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -1019,7 +1019,7 @@
 		}
 		MasterNodeId = "d32ab759-81b4-4f29-b8bd-981040eebfdc"
 	}
-	MapAnnotationNode35 = 
+	MapAnnotationNode35 =
 	{
 		Enabled = true
 		Type = "text"
@@ -1033,14 +1033,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Top Mid Smoke"
 			FontSize = 125
 			FadeInDist = 800.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = "Aim at the tip of the antenna and normal throw."
 			FontSize = 75
@@ -1048,7 +1048,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode36 = 
+	MapAnnotationNode36 =
 	{
 		Enabled = true
 		Type = "position"
@@ -1062,14 +1062,14 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Jungle Smoke"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -1077,7 +1077,7 @@
 			FadeOutDist = 40.0
 		}
 	}
-	MapAnnotationNode37 = 
+	MapAnnotationNode37 =
 	{
 		Enabled = true
 		Type = "position"
@@ -1091,14 +1091,14 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Window Smoke"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -1106,7 +1106,7 @@
 			FadeOutDist = 40.0
 		}
 	}
-	MapAnnotationNode38 = 
+	MapAnnotationNode38 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -1120,14 +1120,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -1135,7 +1135,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode39 = 
+	MapAnnotationNode39 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -1148,14 +1148,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -1164,7 +1164,7 @@
 		}
 		MasterNodeId = "715c746f-2cc6-462a-995a-11c0ad32a705"
 	}
-	MapAnnotationNode40 = 
+	MapAnnotationNode40 =
 	{
 		Enabled = true
 		Type = "text"
@@ -1178,14 +1178,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Window Smoke"
 			FontSize = 125
 			FadeInDist = 800.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = "Place the '1x' tick of your grenade reticle on the tip of the box flap and normal throw."
 			FontSize = 75
@@ -1193,7 +1193,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode41 = 
+	MapAnnotationNode41 =
 	{
 		Enabled = true
 		Type = "position"
@@ -1207,14 +1207,14 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Large Window Smoke"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -1222,7 +1222,7 @@
 			FadeOutDist = 40.0
 		}
 	}
-	MapAnnotationNode44 = 
+	MapAnnotationNode44 =
 	{
 		Enabled = true
 		Type = "text"
@@ -1236,14 +1236,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Large Window Smoke"
 			FontSize = 125
 			FadeInDist = 800.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = "Aim at the left side of the point in the arch as shown and jump throw."
 			FontSize = 75
@@ -1251,7 +1251,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode45 = 
+	MapAnnotationNode45 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -1265,14 +1265,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -1280,7 +1280,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode46 = 
+	MapAnnotationNode46 =
 	{
 		Enabled = true
 		Type = "spot"
@@ -1293,14 +1293,14 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75

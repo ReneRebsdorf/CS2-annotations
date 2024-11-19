@@ -1,5 +1,6 @@
 import pytest
 import os
+import keyvalues3 as kv3
 
 # Find txt files starting with 'de_' in the root folder of the project
 test_files = []
@@ -9,7 +10,6 @@ for file_name in os.listdir():
 
 
 @pytest.mark.parametrize("file_name", test_files)
-def test_that_number_of_opening_and_closing_braces_are_equal(file_name):
-    with open(file_name, "r") as file:
-        data = file.read()
-        assert data.count("{") == data.count("}")
+def test_that_parser_works(file_name):
+    bt_config = kv3.read(file_name)
+    assert bt_config is not None
