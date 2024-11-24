@@ -34,7 +34,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode1 = 
 	{
@@ -125,7 +125,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode4 = 
 	{
@@ -216,7 +216,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode7 = 
 	{
@@ -398,7 +398,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode13 = 
 	{
@@ -489,7 +489,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode16 = 
 	{
@@ -566,7 +566,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Molo hut and flash site (run jump throws)"
+			Text = "Molo hut and flash site"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -580,7 +580,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode19 = 
 	{
@@ -597,14 +597,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Molo hut and flash site (run jump throws)"
+			Text = "Molo hut and flash site"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "Glass must be broken before throwing"
+			Text = "Run jump throws\nGlass must be broken before throwing"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -657,7 +657,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke ramp entry (step throw or walk throw)"
+			Text = "Smoke ramp entry"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -688,14 +688,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke ramp entry (step throw)"
+			Text = "Smoke ramp entry"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = ""
+			Text = "Step throw or walk throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1203,7 +1203,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "molo silo (run several steps, middle jump throw)"
+			Text = "Molo silo"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -1217,7 +1217,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode40 = 
 	{
@@ -1234,14 +1234,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "molo silo (run several steps, middle jump throw)"
+			Text = "Molo silo"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = ""
+			Text = "Run several steps, middle jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1294,7 +1294,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke door at A (step jump throw)"
+			Text = "Smoke door at A"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -1308,7 +1308,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode43 = 
 	{
@@ -1325,14 +1325,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke door at A (step jump throw)"
+			Text = "Smoke door at A"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "Glass must be broken"
+			Text = "Glass must be broken\nStep jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0

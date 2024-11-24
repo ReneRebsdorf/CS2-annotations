@@ -513,7 +513,7 @@
 		}
 		Desc = 
 		{
-			Text = "Middle of the line and normal throw"
+			Text = "Middle of the line\nLeft click throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0

@@ -34,7 +34,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode1 = 
 	{
@@ -51,14 +51,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Middle click, jump throw"
+			Text = "Smoke CT Cross"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = ""
+			Text = "Middle click, jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -216,7 +216,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode7 = 
 	{
@@ -240,7 +240,7 @@
 		}
 		Desc = 
 		{
-			Text = "jump throw"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -482,14 +482,14 @@
 		}
 		Desc = 
 		{
-			Text = "Jump throw"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode16 = 
 	{
@@ -580,7 +580,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode19 = 
 	{
@@ -853,7 +853,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode28 = 
 	{
@@ -877,7 +877,7 @@
 		}
 		Desc = 
 		{
-			Text = "aim at reticule (top of where white and grey meets), run 2 steps towards the wall and jump throw"
+			Text = "aim at reticule (top of where white and grey meets)\nRun 2 steps towards the wall and jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -944,7 +944,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode31 = 
 	{
@@ -1035,7 +1035,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode34 = 
 	{
@@ -1150,7 +1150,7 @@
 		}
 		Desc = 
 		{
-			Text = "at cable, to the left of the spike above the door"
+			Text = "At cable, to the left of the spike above the door"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1399,7 +1399,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode46 = 
 	{
@@ -1490,7 +1490,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode49 = 
 	{
@@ -1514,7 +1514,7 @@
 		}
 		Desc = 
 		{
-			Text = "Bottom of lamp, jump throw"
+			Text = "Bottom of lamp\nJump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
