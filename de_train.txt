@@ -795,7 +795,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke ivy (jumpthrow)"
+			Text = "Smoke ivy"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -809,7 +809,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode27 = 
 	{
@@ -826,14 +826,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke ivy (jumpthrow)"
+			Text = "Smoke ivy"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = ""
+			Text = "jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -886,7 +886,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke connector (jumpthrow)"
+			Text = "Smoke connector"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -900,7 +900,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode30 = 
 	{
@@ -917,14 +917,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke connector (jumpthrow)"
+			Text = "Smoke connector"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = ""
+			Text = "Jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -977,7 +977,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke gate (jumpthrow)"
+			Text = "Smoke gate"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -991,7 +991,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode33 = 
 	{
@@ -1008,14 +1008,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke gate (jumpthrow)"
+			Text = "Smoke gate"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = ""
+			Text = "Jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0

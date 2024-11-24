@@ -34,7 +34,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode1 = 
 	{
@@ -216,7 +216,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode7 = 
 	{
@@ -657,7 +657,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke center of mid (jump throw)"
+			Text = "Smoke center of mid"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -671,7 +671,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode25 = 
 	{
@@ -688,7 +688,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke center of mid (jump throw)"
+			Text = "Smoke center of mid"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -748,7 +748,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke center of mid (run forward, throw just before falling)"
+			Text = "Smoke center of mid"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -779,14 +779,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke center of mid (run forward, throw just before falling)"
+			Text = "Smoke center of mid"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = ""
+			Text = "Run forward, throw just before falling"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
