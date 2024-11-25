@@ -58,7 +58,7 @@
 		}
 		Desc = 
 		{
-			Text = "Middle click, jump throw"
+			Text = "Middle click"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -149,7 +149,7 @@
 		}
 		Desc = 
 		{
-			Text = "Jump throw"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -307,7 +307,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode10 = 
 	{
@@ -398,7 +398,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode13 = 
 	{
@@ -968,7 +968,7 @@
 		}
 		Desc = 
 		{
-			Text = "step jump throw (w + jump throw)"
+			Text = "step jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1059,7 +1059,7 @@
 		}
 		Desc = 
 		{
-			Text = "Top of key panel, jump throw"
+			Text = "Top of key panel"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1423,7 +1423,7 @@
 		}
 		Desc = 
 		{
-			Text = "Jump throw"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1514,7 +1514,7 @@
 		}
 		Desc = 
 		{
-			Text = "Bottom of lamp\nJump throw"
+			Text = "Bottom of lamp"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
