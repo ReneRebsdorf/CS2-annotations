@@ -1563,7 +1563,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Molo behind silo"
+			Text = "Molo back of A site"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -1577,7 +1577,7 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 	}
 	MapAnnotationNode52 = 
 	{
@@ -1594,7 +1594,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Molo behind silo"
+			Text = "Molo back of A site"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
