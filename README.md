@@ -2,6 +2,10 @@
 
 This repository contains utility lineups for Counter-Strike 2, using the built-in annotations feature.
 
+|||
+|---|---|
+|![Preview standing positions](assets/positions.jpg)|![Preview aim targets](assets/aim-targets.jpg) |
+
 Annotations are to be placed in the following directory:
 
 ```text
