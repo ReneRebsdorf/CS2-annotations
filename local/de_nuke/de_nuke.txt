@@ -1507,7 +1507,6 @@
 	}
 	MapAnnotationNode46 = 
 	{
-		GrenadeType = "smoke"
 		Enabled = true
 		Type = "spot"
 		Id = "c685d0ed-83b1-42dc-96ea-9efbabe5ce2b"
@@ -1539,7 +1538,6 @@
 	}
 	MapAnnotationNode47 = 
 	{
-		GrenadeType = "smoke"
 		Enabled = true
 		Type = "spot"
 		Id = "df5ee8d0-45f1-49a2-bf43-3ef4aa10b463"
@@ -1763,6 +1761,104 @@
 			ShowBackground = true
 		}
 		MasterNodeId = "f41bf8f9-b798-452f-b4ce-ffae5ae1e1a7"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode54 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "d50225e9-35f7-4123-bfae-8b576f76bcb9"
+		SubType = "main"
+		Position = [ 1864.01355, -280.028564, -351.96875 ]
+		Angles = [ 0.0, -171.762314, 0.0 ]
+		VisiblePfx = true
+		Color = [ 151, 201, 250 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Pop flash to A"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Stand infront of the electric danger sign"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "flash"
+	}
+	MapAnnotationNode55 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "f828b44d-da62-4ad5-a28a-f0053fe06cb2"
+		SubType = "aim_target"
+		Position = [ 1776.013184, -297.675476, -244.031937 ]
+		Angles = [ -26.165672, -168.660751, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Pop flash to A"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Aim at the lamp"
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "d50225e9-35f7-4123-bfae-8b576f76bcb9"
+	}
+	MapAnnotationNode56 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "fea0ad20-f96d-4be6-8086-09bacf58886b"
+		SubType = "destination"
+		Position = [ 942.937622, -464.736511, -102.691017 ]
+		Angles = [ -26.165672, -168.660751, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "d50225e9-35f7-4123-bfae-8b576f76bcb9"
 		DistanceThreshold = 80.0
 	}
 }
