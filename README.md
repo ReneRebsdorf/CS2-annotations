@@ -18,6 +18,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\ga
 
 - Download the latest 'local.zip' file from the
   [releases page](https://github.com/ReneRebsdorf/CS2-annotations/releases)
+- Create a new directory in the csgo directory called 'annotations' if it does not exist
 - Extract the zip file to the csgo directory (path mentioned above), replace any files if prompted
 - Start the game, select _practice_ in the top menu, choose a map, enable 'Load Map Guide' on the left, and click 'Go'
   to launch the server.
