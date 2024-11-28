@@ -236,7 +236,6 @@
 	MapAnnotationNode7 = 
 	{
 		Enabled = true
-		GrenadeType = "smoke"
 		Type = "text"
 		Id = "99747641-9865-447e-80d7-3279eab595fe"
 		SubType = "aim_target"
@@ -299,7 +298,6 @@
 	MapAnnotationNode9 = 
 	{
 		Enabled = true
-		GrenadeType = "smoke"
 		Type = "text"
 		Id = "846a215e-3fd9-4708-92f8-9277bd5aec70"
 		SubType = "aim_target"
@@ -362,7 +360,6 @@
 	MapAnnotationNode11 = 
 	{
 		Enabled = false
-		GrenadeType = "smoke"
 		Type = "text"
 		Id = "ebdb3a30-1234-4450-8eb2-3c4e6f035d65"
 		SubType = "aim_target"
@@ -424,8 +421,8 @@
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
-	}
 		GrenadeType = "smoke"
+	}
 	MapAnnotationNode13 = 
 	{
 		Enabled = true
@@ -523,7 +520,6 @@
 	MapAnnotationNode16 = 
 	{
 		Enabled = true
-		GrenadeType = "smoke"
 		Type = "spot"
 		Id = "a936bc04-bfcd-48e5-a546-16829b5e0fac"
 		SubType = "aim_target"
@@ -586,7 +582,6 @@
 	}
 	MapAnnotationNode18 = 
 	{
-		GrenadeType = "smoke"
 		Enabled = true
 		Type = "spot"
 		Id = "4bb114d0-15f7-49a4-82a5-714f73dd9a99"
@@ -650,7 +645,6 @@
 	}
 	MapAnnotationNode20 = 
 	{
-		GrenadeType = "smoke"
 		Enabled = true
 		Type = "spot"
 		Id = "c42be36f-cf3a-4d83-a053-10aa5eceb12e"
@@ -713,8 +707,8 @@
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
 		JumpThrow = true
-	}
 		GrenadeType = "smoke"
+	}
 	MapAnnotationNode22 = 
 	{
 		Enabled = true
@@ -812,7 +806,6 @@
 	}
 	MapAnnotationNode25 = 
 	{
-		GrenadeType = "smoke"
 		Enabled = true
 		Type = "spot"
 		Id = "f734a43b-9de8-49f0-a291-8e510e307260"
@@ -875,8 +868,8 @@
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
 		JumpThrow = true
-	}
 		GrenadeType = "smoke"
+	}
 	MapAnnotationNode27 = 
 	{
 		Enabled = true
@@ -973,8 +966,8 @@
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
 		JumpThrow = true
-	}
 		GrenadeType = "smoke"
+	}
 	MapAnnotationNode30 = 
 	{
 		Enabled = true
@@ -1071,8 +1064,8 @@
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
 		JumpThrow = true
-	}
 		GrenadeType = "smoke"
+	}
 	MapAnnotationNode33 = 
 	{
 		Enabled = true
