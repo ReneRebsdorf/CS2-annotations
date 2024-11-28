@@ -2,9 +2,9 @@
 
 This repository contains utility lineups for Counter-Strike 2, using the built-in annotations feature.
 
-|||
-|---|---|
-|![Preview standing positions](assets/positions.jpg)|![Preview aim targets](assets/aim-targets.jpg) |
+|                                                     |                                                |
+| --------------------------------------------------- | ---------------------------------------------- |
+| ![Preview standing positions](assets/positions.jpg) | ![Preview aim targets](assets/aim-targets.jpg) |
 
 Annotations are to be placed in the following directory:
 
@@ -36,7 +36,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\ga
 - Start the game with annotations enabled (see above or use sv_allow_annotations 1)
 - Throw the lineup you want to create annotations for (this is important to record the destination target, whether it is
   a jump throw, etc.)
-- Open the console and type `annotation_create grenade newLineup`
+- Open the console and type `annotation_create grenade [smoke|flash|he|fire|decoy] "label"`
 - Save the annotations with `annotation_save de_map-name`
 - Open the annotation file in the annotations directory and copy the new annotations to this repository,
   or just use [git method described under 'Usage'](#using-git-advanced)
@@ -57,8 +57,8 @@ Annotations use the annotation\_\* commands in the console. Below are some usefu
 - `annotation_create`: Creates a new lineup, described below. Omit parameters to get help text.
   The below commands can be used in combination to provide a more detailed lineup, with where to stand, where to aim,
   etc.
-  - `annotation_create grenade text`: Creates a set of annotations with predefined values and uses a grenade icon with
-    an arrow to help find the lineup. the text field becomes the name of the lineup. This also results in the lineup
+  - `annotation_create grenade [smoke|flash|he|fire|decoy] "label"`: Creates a set of annotations with predefined values and uses a grenade icon with
+    an arrow to help find the lineup. the label field becomes the name of the lineup. This also results in the lineup
     having a success-score, where after 2 successful throws, the help text and icons will disappear, and you will have to
     line it up yourself for 2 more successful throws. This is the recommended way to create lineups, but do note that the
     help text needs to be customized in the annotations file manually.
