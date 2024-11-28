@@ -2,4 +2,6 @@
 
 *.pyc
 
-local/
+# Ignores all local annotations except for those named as map names
+local/*
+!local/de_*/
