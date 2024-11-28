@@ -5,7 +5,10 @@
     "dictionaries": [],
     "words": [
         "csgo",
+        "iniconfig",
+        "keyvalues",
         "Molo",
+        "pluggy",
         "pytest",
         "steamapps",
         "venv"
