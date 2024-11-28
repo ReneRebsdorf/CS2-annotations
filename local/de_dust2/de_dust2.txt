@@ -1630,7 +1630,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim slightly to the right of the antenna\nRun until you reach the curb\nJump throw"
+			Text = "Aim slightly to the right of the antenna\nRun until you reach the curb on the other side of the road\nJump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
