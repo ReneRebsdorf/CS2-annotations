@@ -18,7 +18,8 @@ C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\ga
 
 - Download the latest 'annotations.zip' file from the
   [releases page](https://github.com/ReneRebsdorf/CS2-annotations/releases)
-- Extract the zip file to the csgo directory (path mentioned above), replace any files if prompted
+- Extract the zip file to the annotations directory from the above step (path mentioned above), replace any files if
+  prompted
 - Start the game, select _practice_ in the top menu, choose a map, enable 'Load Map Guide' on the left, and click 'Go'
   to launch the server.
 - Start a competitive practice game, the annotations will be loaded automatically
@@ -78,9 +79,8 @@ Annotations use the annotation\_\* commands in the console. Below are some usefu
 It is possible to change the color of the annotations by modifying the `Color` field in the annotation file. The in-game
 color codes are as follows:
 
-- `white`: [ 255, 255, 255 ]
 - `ct-blue`: [ 151, 201, 250 ]
-- `t-yellow`: [ 234, 191, 86 ]
+- `t-yellow`: [ 255, 239, 111 ]
 
 ## Testing
 

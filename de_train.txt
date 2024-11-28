@@ -255,7 +255,7 @@
 		Position = [ -798.970581, 1260.833496, -215.96875 ]
 		Angles = [ 0.0, -43.130951, 0.0 ]
 		VisiblePfx = false
-		Color = [ 234, 191, 86 ]
+		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
@@ -520,7 +520,7 @@
 		Position = [ -798.968872, 1260.571533, -215.96875 ]
 		Angles = [ 0.0, -32.631104, 0.0 ]
 		VisiblePfx = false
-		Color = [ 234, 191, 86 ]
+		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
@@ -579,7 +579,7 @@
 		Position = [ -362.03125, 1384.03125, -160.966797 ]
 		Angles = [ 0.0, -110.45208, 0.0 ]
 		VisiblePfx = false
-		Color = [ 234, 191, 86 ]
+		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
@@ -729,7 +729,7 @@
 		Position = [ -427.969116, 1777.950195, -209.96875 ]
 		Angles = [ 0.0, -63.770142, 0.0 ]
 		VisiblePfx = false
-		Color = [ 234, 191, 86 ]
+		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
@@ -788,7 +788,7 @@
 		Position = [ -1863.790283, 1479.968262, -138.358459 ]
 		Angles = [ 0.0, -27.537918, 0.0 ]
 		VisiblePfx = true
-		Color = [ 234, 191, 86 ]
+		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
@@ -879,7 +879,7 @@
 		Position = [ -1340.028931, 1463.981445, -169.972107 ]
 		Angles = [ 0.0, -47.169464, 0.0 ]
 		VisiblePfx = true
-		Color = [ 234, 191, 86 ]
+		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
@@ -970,7 +970,7 @@
 		Position = [ -1340.029297, 1463.981934, -169.972168 ]
 		Angles = [ 0.0, -32.860794, 0.0 ]
 		VisiblePfx = true
-		Color = [ 234, 191, 86 ]
+		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
