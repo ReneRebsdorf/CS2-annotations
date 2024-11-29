@@ -5,33 +5,35 @@ import keyvalues3 as kv3
 # Find txt files starting with 'de_' in the root folder of the project
 test_files = []
 annotations = []
-for file_name in os.listdir():
+for dirpath, dirnames, filenames in os.walk("./local/"):
+    for filename in [f for f in filenames if f.endswith(".txt")]:
+        if filename.startswith("de_"):
+            file_path = os.path.join(dirpath, filename)
+            test_files.append(file_path)
+for file_name in test_files:
     file_annotations = []
-    if file_name.startswith("de_") and file_name.endswith(".txt"):
-        dict = kv3.read(file_name)
+    dict = kv3.read(file_name)
 
-        def test_that_parser_works():
-            assert dict is not None
+    def test_that_parser_works():
+        assert dict is not None
 
-        # Get the annotations where the key is MapAnnotationNodeX
-        for key in dict:
-            if key.startswith("MapAnnotationNode"):
-                annotations.append(dict[key])
-                file_annotations.append(dict[key])
+    # Get the annotations where the key is MapAnnotationNodeX
+    for key in dict:
+        if key.startswith("MapAnnotationNode"):
+            annotations.append(dict[key])
+            file_annotations.append(dict[key])
     file_annotation_ids = [item["Id"] for item in file_annotations]
 
     # Tests for each file
-
-    # def test_master_node_id_is_in_annotations():
     for annotation in file_annotations:
         master_node_id = ""
         if "MasterNodeId" in annotation:
             master_node_id = annotation["MasterNodeId"]
         if master_node_id != "":
             assert master_node_id in file_annotation_ids
+assert len(annotations) > 0, "No annotations found in the test files"
 
 
-# Annotation tests across all files
 @pytest.mark.parametrize("annotation", annotations)
 def test_annotations_are_blue_or_yellow(annotation):
     if "Color" in annotation:
