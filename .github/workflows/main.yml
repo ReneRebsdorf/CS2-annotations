@@ -13,11 +13,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build
-        run: zip -r annotations.zip de_*.txt
+        run: zip -r local.zip local/
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          files: annotations.zip
+          files: local.zip
           fail_on_unmatched_files: true
           generate_release_notes: true
           make_latest: true
