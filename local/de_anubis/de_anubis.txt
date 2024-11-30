@@ -224,7 +224,7 @@
 		}
 		Desc = 
 		{
-			Text = "Wedge into corner"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1088,7 +1088,7 @@
 		Type = "grenade"
 		Id = "f1d44452-df79-4bb7-99ed-5eed86e94f66"
 		SubType = "main"
-		Position = [ 1149.96875, 610.03186, -188.833618 ]
+		Position = [ 1149.96875, 610.03186, -168.833618 ]
 		Angles = [ 0.0, 125.174805, 0.0 ]
 		VisiblePfx = true
 		Color = [ 255, 239, 111 ]

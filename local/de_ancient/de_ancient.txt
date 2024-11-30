@@ -1680,13 +1680,13 @@
 		Angles = [ 0.0, 90.0, 0.0 ]
 		VisiblePfx = true
 		Color = [ 255, 239, 111 ]
-		TextPositionOffset = [ 30.0, -150.0, 60.0 ]
-		TextFacePlayer = false
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Flame"
+			Text = "Molo behind crates"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -1694,7 +1694,7 @@
 		}
 		Desc = 
 		{
-			Text = "<-- Slowly walk out of cover"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1703,7 +1703,7 @@
 		StreakLimitGuidesOn = 0
 		StreakLimitGuidesOff = 0
 		JumpThrow = false
-		GrenadeType = "smoke"
+		GrenadeType = "molotov"
 	}
 	MapAnnotationNode52 = 
 	{
@@ -1720,7 +1720,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Flaming Crates A"
+			Text = "Molo behind crates"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1728,7 +1728,7 @@
 		}
 		Desc = 
 		{
-			Text = "Strong throw with x axis hovering \n on the top of the crates."
+			Text = "X axis hovering on the top of the crates"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
