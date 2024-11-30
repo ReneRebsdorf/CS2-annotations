@@ -13,9 +13,7 @@ for dirpath, dirnames, filenames in os.walk("./local/"):
 for file_name in test_files:
     file_annotations = []
     dict = kv3.read(file_name)
-
-    def test_that_parser_works():
-        assert dict is not None
+    assert dict is not None
 
     # Get the annotations where the key is MapAnnotationNodeX
     for key in dict:
@@ -25,12 +23,34 @@ for file_name in test_files:
     file_annotation_ids = [item["Id"] for item in file_annotations]
 
     # Tests for each file
+    positions = []
     for annotation in file_annotations:
         master_node_id = ""
         if "MasterNodeId" in annotation:
             master_node_id = annotation["MasterNodeId"]
         if master_node_id != "":
             assert master_node_id in file_annotation_ids
+        if annotation["Type"] == 'grenade' and annotation["SubType"] == "main":
+            name = annotation["Title"]["Text"]
+            position = annotation["Position"]
+            offset = annotation["TextPositionOffset"]
+            x = position[0] + offset[0]
+            y = position[1] + offset[1]
+            z = position[2] + offset[2]
+            positions.append((name, x, y, z))
+    for i in range(len(positions)):
+        for j in range(i + 1, len(positions)):
+            name1, x1, y1, z1 = positions[i]
+            name2, x2, y2, z2 = positions[j]
+            overlap_text = f"{positions[i]} and {positions[j]} overlap"
+            error_message = f"{file_name}: {overlap_text}"
+            # In a 3 dimensional plane, the distance between points
+            # (X1, Y1, Z1) and (X2, Y2, Z2) is given by:
+            # sqrt((X2 - X1)^2 + (Y2 - Y1)^2 + (Z2 - Z1)^2)
+            squared = ((x2 - x1) ** 2 + (y2 - y1) ** 2 + (z2 - z1) ** 2)
+            distance = squared ** 0.5
+            assert distance > 1, error_message
+
 assert len(annotations) > 0, "No annotations found in the test files"
 
 
