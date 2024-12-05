@@ -20,7 +20,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke red room"
+			Text = "Smoke red room - spawn 5"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -28,7 +28,7 @@
 		}
 		Desc = 
 		{
-			Text = "Spawn position"
+			Text = "setpos -392.00 -2224.00 -157.25"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -54,7 +54,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke red room"
+			Text = "Smoke red room - spawn 5"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -62,7 +62,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at yellow leaf, step jump throw"
+			Text = "Aim at yellow leaf\nStep jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1490,7 +1490,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke elbow"
+			Text = "Smoke elbow\nCT Spawn 5"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -1498,7 +1498,7 @@
 		}
 		Desc = 
 		{
-			Text = "Spawn lineup"
+			Text = "setpos -512.00 1696.00 30.75"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1524,7 +1524,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke elbow"
+			Text = "Smoke elbow - Spawn 5"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2550,6 +2550,398 @@
 			ShowBackground = true
 		}
 		MasterNodeId = "1fd34808-4c8d-4aa8-b3ed-d5a6f717204b"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode78 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "2d8a4257-84f5-4f5d-bec2-edc64c7039de"
+		SubType = "main"
+		Position = [ -456.0, -2288.0, -163.255737 ]
+		Angles = [ 0.0, 98.177612, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Red room - spawn 2"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "setpos -584.00 -2288.00 -156.79"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = true
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode79 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "9a2fa4a7-2df9-4dfb-882c-7cf0234ed7b5"
+		SubType = "aim_target"
+		Position = [ -459.006927, -2201.908691, -48.629444 ]
+		Angles = [ -30.521589, 92.000359, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Red room - spawn 2"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "aim as shown, step to the right until reaching right side of leaves\nStep jump throw"
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "2d8a4257-84f5-4f5d-bec2-edc64c7039de"
+	}
+	MapAnnotationNode80 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "67147777-5170-4b85-b5e2-69b15d1834a4"
+		SubType = "destination"
+		Position = [ -511.660339, 261.986328, 162.03125 ]
+		Angles = [ -30.521589, 92.000359, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "2d8a4257-84f5-4f5d-bec2-edc64c7039de"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode81 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "078cdbfa-8939-4553-a6e4-7e091c53f72a"
+		SubType = "main"
+		Position = [ -584.0, -2288.0, -162.422363 ]
+		Angles = [ 0.0, 88.64386, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Red room - spawn 1"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "setpos -456.00 -2288.00 -157.25"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = true
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode82 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "70df3877-259f-400f-b4a2-27c36697e0af"
+		SubType = "aim_target"
+		Position = [ -582.05481, -2205.827637, -41.981098 ]
+		Angles = [ -34.719151, 88.643944, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Red room - spawn 1"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Aim to the left of the wooden plank and above the flower"
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "078cdbfa-8939-4553-a6e4-7e091c53f72a"
+	}
+	MapAnnotationNode83 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "f1fe5eee-7704-4913-b82a-619653f2260b"
+		SubType = "destination"
+		Position = [ -523.936523, 258.074036, 162.03125 ]
+		Angles = [ -34.719151, 88.643944, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "078cdbfa-8939-4553-a6e4-7e091c53f72a"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode84 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "c196a30a-0bab-4901-a2b7-1c4962ac1827"
+		SubType = "main"
+		Position = [ -328.0, -2288.0, -163.255737 ]
+		Angles = [ 0.0, 94.019958, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Red room - spawn 3"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "setpos -328.00 -2288.00 -157.25"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode85 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "82961372-355b-4828-a7c3-b52c6397661c"
+		SubType = "aim_target"
+		Position = [ -333.891296, -2204.16748, -45.217976 ]
+		Angles = [ -32.818371, 94.019836, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Red room - spawn 3"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Aim above the tree on the left side"
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "c196a30a-0bab-4901-a2b7-1c4962ac1827"
+	}
+	MapAnnotationNode86 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "b6152e8e-634c-47c5-ac99-fd3c68bafea5"
+		SubType = "destination"
+		Position = [ -508.761902, 256.136444, 162.03125 ]
+		Angles = [ -32.818371, 94.019836, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "c196a30a-0bab-4901-a2b7-1c4962ac1827"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode87 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "139c967e-514a-4f52-be29-7b25c2eda3c3"
+		SubType = "main"
+		Position = [ -520.0, -2224.0, -163.255737 ]
+		Angles = [ 0.0, 88.565247, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Red room - spawn 4"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "setpos -520.00 -2224.00 -157.25"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = true
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode88 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "3d205488-e6b8-46e6-bbac-76212d1ac4d6"
+		SubType = "aim_target"
+		Position = [ -518.111755, -2148.615723, -33.737267 ]
+		Angles = [ -41.055119, 88.565155, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Red room - spawn 4"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Aim at the middle of the large brick. Walk to the left until reaching center of plant\nStep Jump throw"
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "139c967e-514a-4f52-be29-7b25c2eda3c3"
+	}
+	MapAnnotationNode89 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "a7c0d750-7a54-45ae-8a52-7ed46d404025"
+		SubType = "destination"
+		Position = [ -527.816406, 265.946686, 162.03125 ]
+		Angles = [ -41.055119, 88.565155, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "139c967e-514a-4f52-be29-7b25c2eda3c3"
 		DistanceThreshold = 80.0
 	}
 }
