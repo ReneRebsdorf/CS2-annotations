@@ -3,6 +3,8 @@ on:
   push:
     tags:
       - "v*.*.*"
+    branches: 
+      - "*"
 permissions:
   contents: write
   discussions: write
@@ -17,10 +19,12 @@ jobs:
           mkdir annotations
           cp -r local/ annotations/local/
           zip -r annotations.zip annotations/
+      # Only release when a tag is pushed, which triggered this workflow
       - name: Release
+        if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
-          files: local.zip
+          files: annotations.zip
           fail_on_unmatched_files: true
           generate_release_notes: true
           make_latest: true
