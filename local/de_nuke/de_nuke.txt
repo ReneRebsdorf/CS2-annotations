@@ -1838,7 +1838,7 @@
 		Position = [ -24.737305, -824.96814, -21.96875 ]
 		Angles = [ 0.0, 15.401123, 0.0 ]
 		VisiblePfx = true
-		Color = [ [ 255, 239, 111 ], 255 ]
+		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 70.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
@@ -1936,7 +1936,7 @@
 		Position = [ -1832.0, -1160.0, -415.96875 ]
 		Angles = [ 0.0, -1.682617, 0.0 ]
 		VisiblePfx = true
-		Color = [ [ 255, 239, 111 ], 255 ]
+		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
@@ -1951,7 +1951,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos -1832.00 -1160.00 -409.96"
+			Text = "setpos_exact -1832 -1160 -415"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2034,7 +2034,7 @@
 		Position = [ -1874.0, -1076.0, -415.96875 ]
 		Angles = [ 0.0, -2.540924, 0.0 ]
 		VisiblePfx = true
-		Color = [ [ 255, 239, 111 ], 255 ]
+		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
@@ -2049,7 +2049,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos -1874.00 -1076.00 -409.96"
+			Text = "setpos_exact -1874 -1076 -415"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2122,5 +2122,346 @@
 		}
 		MasterNodeId = "9aa249f3-97d7-46fc-b42b-5a69984a3431"
 		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode65 = 
+	{
+		Enabled = true
+		Type = "position"
+		Id = "45ce1583-b83d-4b74-852a-2c1eeb83c7bf"
+		SubType = "main"
+		Position = [ 2512.0, -504.0, -343.367126 ]
+		Angles = [ 0.0, 176.451752, 0.0 ]
+		VisiblePfx = true
+		Color = [ 151, 201, 250 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "CT Spawn 1"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "setpos_exact 2512 -504 -343"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode66 = 
+	{
+		Enabled = true
+		Type = "position"
+		Id = "d369a416-e6e5-4fb9-909c-0cbef6bdfad4"
+		SubType = "main"
+		Position = [ 2504.0, -344.0, -351.96875 ]
+		Angles = [ 0.0, 179.105988, 0.0 ]
+		VisiblePfx = true
+		Color = [ 151, 201, 250 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "CT Spawn 2"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "setpos_exact 2504 -344 -351"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode67 = 
+	{
+		Enabled = true
+		Type = "position"
+		Id = "43b96f71-f965-4cfb-b1b7-9ec552c3e146"
+		SubType = "main"
+		Position = [ 2584.0, -504.0, -351.96875 ]
+		Angles = [ 0.0, 179.168823, 0.0 ]
+		VisiblePfx = true
+		Color = [ 151, 201, 250 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "CT Spawn 3"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "setpos_exact 2584 -504 -351"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode68 = 
+	{
+		Enabled = true
+		Type = "position"
+		Id = "71f7a4ec-19ea-4c84-948b-b96dfb3af0e6"
+		SubType = "main"
+		Position = [ 2585.0, -344.0, -351.96875 ]
+		Angles = [ 0.0, -170.376663, 0.0 ]
+		VisiblePfx = true
+		Color = [ 151, 201, 250 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "CT Spawn 4"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "setpos_exact 2585 -344 -351"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode69 = 
+	{
+		Enabled = true
+		Type = "position"
+		Id = "bf2ab0aa-d795-40d6-82f5-ac80a61bbe43"
+		SubType = "main"
+		Position = [ 2552.0, -424.0, -351.96875 ]
+		Angles = [ 0.0, -175.514145, 0.0 ]
+		VisiblePfx = true
+		Color = [ 151, 201, 250 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "CT Spawn 5"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "setpos_exact 2552 -424 -351"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode70 = 
+	{
+		Enabled = true
+		Type = "position"
+		Id = "ac5f7687-7701-41ab-923e-6eed6984bd99"
+		SubType = "main"
+		Position = [ -1878.0, -980.0, -415.96875 ]
+		Angles = [ 0.0, 6.306839, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "T Spawn 1"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "setpos_exact -1878 -980 -415"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode71 = 
+	{
+		Enabled = true
+		Type = "position"
+		Id = "1530fb30-8627-4991-ad87-8ddc4c87d98a"
+		SubType = "main"
+		Position = [ -1808.0, -1025.0, -415.96875 ]
+		Angles = [ 0.0, 1.687088, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "T Spawn 2"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "setpos_exact -1808 -1025 -415"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode72 = 
+	{
+		Enabled = true
+		Type = "position"
+		Id = "1249dcb1-4da9-448c-9166-ee0aca3aa5a1"
+		SubType = "main"
+		Position = [ -1947.01001, -965.099976, -415.96875 ]
+		Angles = [ 0.0, 1.734467, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "T Spawn 4"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "setpos_exact -1947 -965 -415"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode73 = 
+	{
+		Enabled = true
+		Type = "position"
+		Id = "b90fefd3-f5a8-4120-9c15-b17ddf26d6d6"
+		SubType = "main"
+		Position = [ -1947.01001, -1102.099976, -415.96875 ]
+		Angles = [ 0.0, 1.388062, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "T Spawn 5"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "setpos_exact -1947 -1102 -415"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode74 = 
+	{
+		Enabled = true
+		Type = "position"
+		Id = "f2ed3294-3792-4078-b083-f57f6f9029a8"
+		SubType = "main"
+		Position = [ -1929.0, -1025.0, -415.96875 ]
+		Angles = [ 0.0, 1.388062, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "T Spawn 7"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "setpos_exact -1929 -1025 -415"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode75 = 
+	{
+		Enabled = true
+		Type = "position"
+		Id = "466727ca-8223-4a63-a472-5297ef39fa8b"
+		SubType = "main"
+		Position = [ -1808.0, -1089.0, -415.96875 ]
+		Angles = [ 0.0, 0.308655, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "T Spawn 8"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "setpos_exact -1808 -1089 -415"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
 	}
 }
