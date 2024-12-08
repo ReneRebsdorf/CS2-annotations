@@ -440,7 +440,7 @@
 		Position = [ 605.323669, 2955.686523, 284.258759 ]
 		Angles = [ -36.550533, -38.745838, 0.0 ]
 		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextPositionOffset = [ 0.0, -40.0, 20.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
@@ -1630,7 +1630,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at top of left steelbar on window - Run middleclick throw - release when crossing out of T main"
+			Text = "Aim at top of left steelbar on window\nRun middleclick throw\nrelease when crossing out of T main"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2120,7 +2120,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at bottom right of higest yellow dress - W + jumpthrow"
+			Text = "Aim at bottom right of yellow dress\nW + jumpthrow"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2184,7 +2184,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact 2472 2005 134"
+			Text = "setpos_exact 2472 2005 135"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2282,7 +2282,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact 2456 2153 132"
+			Text = "setpos_exact 2456 2153 133"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2380,7 +2380,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact 2353 1977 135"
+			Text = "setpos_exact 2353 1977 136"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2478,7 +2478,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact 2397 2079 132"
+			Text = "setpos_exact 2397 2079 133"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2576,7 +2576,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact 2292 2027 135"
+			Text = "setpos_exact 2292 2027 136"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2666,7 +2666,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke Mid\Spawn 2"
+			Text = "Smoke MidSpawn 2"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -2674,7 +2674,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact 2493 2090 132"
+			Text = "setpos_exact 2493 2090 133"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2700,7 +2700,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke Mid\Spawn 2"
+			Text = "Smoke MidSpawn 2"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2772,7 +2772,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1520 430 -63"
+			Text = "setpos_exact -1520 430 -64"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2803,7 +2803,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1586 440 -63"
+			Text = "setpos_exact -1586 440 -64"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2834,7 +2834,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1657 419 -63"
+			Text = "setpos_exact -1657 419 -64"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2865,7 +2865,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1675 351 -63"
+			Text = "setpos_exact -1675 351 -64"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2896,11 +2896,109 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1662 288 -63"
+			Text = "setpos_exact -1662 288 -64"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
+	}
+	MapAnnotationNode89 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "fe55c9d4-653d-4289-a005-9dbbdb724939"
+		SubType = "main"
+		Position = [ -858.96875, 450.638702, -26.09552 ]
+		Angles = [ 0.0, 6.297577, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Long smoke"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Wedge into corner at barrel"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = true
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode90 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "beb7d0a3-f682-41d6-baf9-8da3047282e4"
+		SubType = "aim_target"
+		Position = [ -788.355286, 458.431519, 106.248917 ]
+		Angles = [ -44.730782, 6.297611, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Long smoke"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Aim at bottom of left most support\nW + jumpthrow"
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "fe55c9d4-653d-4289-a005-9dbbdb724939"
+	}
+	MapAnnotationNode91 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "8a3b71f8-a57d-4eb4-b79a-bfdd4b8873af"
+		SubType = "destination"
+		Position = [ 1409.877319, 660.715271, 125.736374 ]
+		Angles = [ -44.730782, 6.297611, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "fe55c9d4-653d-4289-a005-9dbbdb724939"
+		DistanceThreshold = 80.0
 	}
 }
