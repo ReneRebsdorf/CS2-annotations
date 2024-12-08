@@ -13,7 +13,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build
-        run: zip -r local.zip local/
+        run: |
+          mkdir annotations
+          cp -r local/ annotations/local/
+          zip -r annotations.zip annotations/
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
