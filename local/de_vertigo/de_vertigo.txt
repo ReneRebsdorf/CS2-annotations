@@ -2086,7 +2086,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1439 -1251 11488"
+			Text = "setpos_exact -1439 -1251 11489"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2117,7 +2117,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1468 -1194 11488"
+			Text = "setpos_exact -1468 -1194 11489"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2148,7 +2148,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1502 -1360 11488"
+			Text = "setpos_exact -1502 -1360 11489"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2179,7 +2179,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1411 -1130 11488"
+			Text = "setpos_exact -1411 -1130 11489"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2210,7 +2210,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1439 -1322 11488"
+			Text = "setpos_exact -1439 -1322 11489"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2241,7 +2241,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1044 924 11776"
+			Text = "setpos_exact -1044 924 11777"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2272,7 +2272,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1126 925 11776"
+			Text = "setpos_exact -1126 925 11777"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2303,7 +2303,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -929 918 11776"
+			Text = "setpos_exact -929 918 11777"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2334,7 +2334,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1189 862 11776"
+			Text = "setpos_exact -1189 862 11777"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2365,7 +2365,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -860 940 11776"
+			Text = "setpos_exact -860 940 11777"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
