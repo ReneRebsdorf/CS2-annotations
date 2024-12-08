@@ -1694,7 +1694,7 @@
 		}
 		Desc = 
 		{
-			Text = "Lineup at lefside of the arch"
+			Text = "Lineup at left side of the arch"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1962,104 +1962,6 @@
 			ShowBackground = true
 		}
 		MasterNodeId = "b792d71c-10b2-4dae-bc03-8e0a6268c76f"
-		DistanceThreshold = 80.0
-	}
-	MapAnnotationNode60 = 
-	{
-		Enabled = true
-		Type = "grenade"
-		Id = "027d7e56-7c93-47e1-8d28-7c21ad4d19ff"
-		SubType = "main"
-		Position = [ 381.427124, -264.970581, 97.03125 ]
-		Angles = [ 0.0, 19.756165, 0.0 ]
-		VisiblePfx = true
-		Color = [ 255, 239, 111 ]
-		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
-		TextFacePlayer = true
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = "Smoke moto"
-			FontSize = 125
-			FadeInDist = 600.0
-			FadeOutDist = 40.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = "Stand infront of cabels"
-			FontSize = 75
-			FadeInDist = 300.0
-			FadeOutDist = 40.0
-			ShowBackground = true
-		}
-		StreakLimitGuidesOn = 2
-		StreakLimitGuidesOff = 2
-		JumpThrow = true
-		GrenadeType = "smoke"
-	}
-	MapAnnotationNode61 = 
-	{
-		Enabled = true
-		Type = "grenade"
-		Id = "cac533db-0f69-45ab-9a83-67f69c8f15c7"
-		SubType = "aim_target"
-		Position = [ 462.394012, -224.665344, 203.530869 ]
-		Angles = [ -25.251741, 26.464088, 0.0 ]
-		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = "Smoke moto"
-			FontSize = 125
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = "Aim at top right of C"
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		MasterNodeId = "027d7e56-7c93-47e1-8d28-7c21ad4d19ff"
-	}
-	MapAnnotationNode62 = 
-	{
-		Enabled = true
-		Type = "grenade"
-		Id = "47772073-8789-4c21-9b8d-0a186220b9bb"
-		SubType = "destination"
-		Position = [ 2275.338135, 814.901123, 152.842285 ]
-		Angles = [ -25.251741, 26.464088, 0.0 ]
-		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		MasterNodeId = "027d7e56-7c93-47e1-8d28-7c21ad4d19ff"
 		DistanceThreshold = 80.0
 	}
 	MapAnnotationNode63 = 
@@ -2999,6 +2901,104 @@
 			ShowBackground = true
 		}
 		MasterNodeId = "fe55c9d4-653d-4289-a005-9dbbdb724939"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode92 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "6797b1bd-2a9e-48f1-9314-56007a451fab"
+		SubType = "main"
+		Position = [ 263.03125, -293.966431, 99.031258 ]
+		Angles = [ 0.0, 14.835999, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Smoke moto"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Wedge in corner"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode93 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "37e1d4d2-a418-44e0-ae72-0d3f1aadfe29"
+		SubType = "aim_target"
+		Position = [ 349.076416, -253.718063, 194.117065 ]
+		Angles = [ -18.207436, 25.068251, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Smoke moto"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Aim at left most first star\nW + jumpthrow"
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "6797b1bd-2a9e-48f1-9314-56007a451fab"
+	}
+	MapAnnotationNode94 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "fc323cf1-79ab-49bc-ad6f-7d1b1148be1f"
+		SubType = "destination"
+		Position = [ 2303.436768, 745.443298, 152.967239 ]
+		Angles = [ -18.207436, 25.068251, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "6797b1bd-2a9e-48f1-9314-56007a451fab"
 		DistanceThreshold = 80.0
 	}
 }
