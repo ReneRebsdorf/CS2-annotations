@@ -3752,7 +3752,7 @@
 		}
 		Desc = 
 		{
-			Text = "stand i cornor"
+			Text = "Stand in corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
