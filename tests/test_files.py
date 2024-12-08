@@ -1,6 +1,7 @@
 import pytest
 import os
 import keyvalues3 as kv3
+import re
 
 # Find txt files starting with 'de_' in the root folder of the project
 test_files = []
@@ -76,3 +77,37 @@ def test_annotation_ids_are_unique():
         id = annotation["Id"]
         assert id not in ids
         ids.append(id)
+
+
+@pytest.mark.parametrize("annotation", annotations)
+def test_annotations_have_no_empty_title(annotation):
+    annotation_type = annotation["Type"]
+    if annotation_type in ["spot", "text"]:
+        return
+    subType = annotation["SubType"]
+    is_destination = subType == "destination"
+    if is_destination:
+        return
+    title = annotation["Title"]["Text"]
+    assert title != "", f"Empty title for {annotation_type}/{subType}"
+
+
+@pytest.mark.parametrize("annotation", annotations)
+def test_annotations_setpos_exact_has_no_overlap_with_z_position(annotation):
+    # Get the z-position of the annotation from the Position key
+    z = annotation["Position"][2]
+
+    # Get the description of the annotation, and check if it is a setpos_exact
+    description = annotation["Desc"]["Text"]
+    # Check the Desc.Text is potentially a valid setpos_exact command
+    setpos_exact_positions = None
+    if description.startswith("setpos_exact"):
+        # Get characters after the "setpos_exact "
+        desc_positions = description[13:]
+        # Split the string into a list of strings by the " " character
+        # This gets us x, y, and z
+        setpos_exact_positions = re.split(r" ", desc_positions)
+        # Check the length is as expected
+        if len(setpos_exact_positions) == 3:
+            setpos_exact_z = int(setpos_exact_positions[-1])
+            assert setpos_exact_z > z
