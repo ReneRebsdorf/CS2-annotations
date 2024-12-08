@@ -20,7 +20,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke red room - spawn 5"
+			Text = "Smoke red room\nT Spawn 5"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -54,7 +54,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke red room - spawn 5"
+			Text = "Smoke red room\nT Spawn 5"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2568,7 +2568,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Red room - spawn 2"
+			Text = "Smoke red room\nT Spawn 2"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -2602,7 +2602,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Red room - spawn 2"
+			Text = "Red room\nT Spawn 2"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2666,7 +2666,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Red room - spawn 1"
+			Text = "Red room\nT Spawn 1"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -2700,7 +2700,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Red room - spawn 1"
+			Text = "Red room\nT Spawn 1"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2764,7 +2764,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Red room - spawn 3"
+			Text = "Red room\nT Spawn 3"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -2798,7 +2798,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Red room - spawn 3"
+			Text = "Red room\nT Spawn 3"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2862,7 +2862,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Red room - spawn 4"
+			Text = "Red room\nT Spawn 4"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -2896,7 +2896,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Red room - spawn 4"
+			Text = "Red room\nT Spawn 4"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
