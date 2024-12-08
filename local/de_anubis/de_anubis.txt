@@ -2537,7 +2537,7 @@
 		Angles = [ 0.0, -119.134712, 0.0 ]
 		VisiblePfx = true
 		Color = [ 151, 201, 250 ]
-		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextPositionOffset = [ 0.0, 0.0, 70.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
@@ -2551,7 +2551,7 @@
 		}
 		Desc = 
 		{
-			Text = "Stand in corner"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2635,7 +2635,7 @@
 		Angles = [ 0.0, -126.580009, 0.0 ]
 		VisiblePfx = true
 		Color = [ 151, 201, 250 ]
-		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextPositionOffset = [ 0.0, 0.0, 80.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
@@ -2649,7 +2649,7 @@
 		}
 		Desc = 
 		{
-			Text = "Stand in corner"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
