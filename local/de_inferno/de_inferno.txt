@@ -1302,7 +1302,7 @@
 		}
 		Desc = 
 		{
-			Text = "Wedged into corner"
+			Text = "Wedge into corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1778,7 +1778,7 @@
 		Angles = [ 0.0, 7.999756, 0.0 ]
 		VisiblePfx = true
 		Color = [ 255, 239, 111 ]
-		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextPositionOffset = [ 0.0, 0.0, 70.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
@@ -2674,7 +2674,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1520 430 -64"
+			Text = "setpos_exact -1520 430 -62"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2705,7 +2705,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1586 440 -64"
+			Text = "setpos_exact -1586 440 -62"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2736,7 +2736,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1657 419 -64"
+			Text = "setpos_exact -1657 419 -62"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2767,7 +2767,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1675 351 -64"
+			Text = "setpos_exact -1675 351 -62"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2798,7 +2798,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1662 288 -64"
+			Text = "setpos_exact -1662 288 -62"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0

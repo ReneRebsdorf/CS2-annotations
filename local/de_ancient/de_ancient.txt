@@ -3164,7 +3164,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -448 1728 30"
+			Text = "setpos_exact -448 1728 31"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0

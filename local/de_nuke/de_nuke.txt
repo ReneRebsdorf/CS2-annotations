@@ -1951,7 +1951,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1832 -1160 -416"
+			Text = "setpos_exact -1832 -1160 -414"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2049,7 +2049,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1874 -1076 -416"
+			Text = "setpos_exact -1874 -1076 -414"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2147,7 +2147,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact 2512 -504 -344"
+			Text = "setpos_exact 2512 -504 -342"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2178,7 +2178,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact 2504 -344 -352"
+			Text = "setpos_exact 2504 -344 -350"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2209,7 +2209,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact 2584 -504 -352"
+			Text = "setpos_exact 2584 -504 -350"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2240,7 +2240,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact 2585 -344 -352"
+			Text = "setpos_exact 2585 -344 -350"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2271,7 +2271,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact 2552 -424 -352"
+			Text = "setpos_exact 2552 -424 -350"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2302,7 +2302,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1878 -980 -416"
+			Text = "setpos_exact -1878 -980 -414"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2333,7 +2333,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1808 -1025 -416"
+			Text = "setpos_exact -1808 -1025 -414"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2364,7 +2364,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1947 -965 -416"
+			Text = "setpos_exact -1947 -965 -414"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2395,7 +2395,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1947 -1102 -416"
+			Text = "setpos_exact -1947 -1102 -414"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2426,7 +2426,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1929 -1025 -416"
+			Text = "setpos_exact -1929 -1025 -414"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2457,7 +2457,7 @@
 		}
 		Desc = 
 		{
-			Text = "setpos_exact -1808 -1089 -416"
+			Text = "setpos_exact -1808 -1089 -414"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
