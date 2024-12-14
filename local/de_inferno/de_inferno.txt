@@ -4333,7 +4333,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at lampmount"
+			Text = "Aim at lamp mount"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -4383,13 +4383,13 @@
 		Angles = [ 0.0, -15.237701, 0.0 ]
 		VisiblePfx = true
 		Color = [ 255, 239, 111 ]
-		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextPositionOffset = [ 0.0, 0.0, 70.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Flash mid"
+			Text = "Flash short mid"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -4397,7 +4397,7 @@
 		}
 		Desc = 
 		{
-			Text = "Stand under left side of arch"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -4417,13 +4417,13 @@
 		Position = [ -184.816589, 891.351379, 143.171326 ]
 		Angles = [ -40.777485, -17.849493, 0.0 ]
 		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextPositionOffset = [ 30.0, 0.0, -20.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Flash mid"
+			Text = "Flash short mid"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -4487,7 +4487,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Flash mid"
+			Text = "Flash long mid"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -4515,13 +4515,13 @@
 		Position = [ -189.618164, 880.768066, 143.450729 ]
 		Angles = [ -41.014927, -26.614679, 0.0 ]
 		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextPositionOffset = [ 50.0, -20.0, 30.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Flash mid"
+			Text = "Flash long mid"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -4529,7 +4529,7 @@
 		}
 		Desc = 
 		{
-			Text = "Lineup with the bend gutter to the left and railing below\nStep throw"
+			Text = "Lineup with the bent gutter to the left and railing below\nStep throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
