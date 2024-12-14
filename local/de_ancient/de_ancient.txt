@@ -2904,7 +2904,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at the middle of the large brick. Walk to the left until reaching center of plant\nStep Jump throw"
+			Text = "Aim at the middle of the large brick.\nWalk to the left until reaching center of plant\nStep Jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
