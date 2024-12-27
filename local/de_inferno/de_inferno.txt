@@ -1434,7 +1434,7 @@
 		}
 		Desc = 
 		{
-			Text = "Middle top of the 2nd brick in the arch"
+			Text = "Aim at middle of grout between 2nd and 3rd brick"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1890,7 +1890,7 @@
 		}
 		Desc = 
 		{
-			Text = "Lineup at the lock at the bottom of the garage door"
+			Text = "In front of garage door (not sensitive)"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1924,7 +1924,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim in the middle of 2nd and 3rd stone\nW + jump throw"
+			Text = "X: Aim between 2nd and 3rd stone\nY: Align between tower windows\nW + jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -3907,7 +3907,7 @@
 		}
 		Desc = 
 		{
-			Text = "Stand in middle 2nd and 3rd mailbox"
+			Text = "Stand between 2nd and 3rd mailbox"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -3941,7 +3941,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at corner of the roof on the building in the distance\n2 step runthrow"
+			Text = "Aim slightly above corner of the roof on the building in the distance\n2 step runthrow"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
