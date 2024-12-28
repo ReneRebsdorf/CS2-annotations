@@ -9,3 +9,6 @@ local/*
 # Ignore output files
 annotations/*
 annotations.zip
+
+# tmp files
+tmp/

@@ -6,6 +6,7 @@ import subprocess  # nosec - This is a trusted command
 # TODO: Update github runner to run this script
 
 # Define variables
+tmp_path = "tmp"
 base_folder = "local"
 steamcmd_path = "C:\\path\\to\\steamcmd.exe"  # TODO: Update this
 
@@ -69,53 +70,53 @@ check_and_download_steamcmd()
 
 # Iterate through sub-folders and upload items
 for folder_name in os.listdir(base_folder):
-    folder_path = os.path.join(base_folder, folder_name)
+    map_name = folder_name
+    map_path = os.path.join(base_folder, map_name)
 
-    if os.path.isdir(folder_path):
-        # file name is the same as the folder name with .txt
-        file_name = folder_name + ".txt"
-        content_file = os.path.join(folder_path, file_name)
-        preview_file = os.path.join("assets", folder_name, ".PNG")
+    # file name is the same as the folder name with .txt
+    file_name = map_name + ".txt"
+    content_file = os.path.join(map_path, file_name)
+    preview_file = os.path.join("assets", map_name, ".PNG")
 
-        # Check if required files exist
-        if not os.path.exists(content_file):
-            raise FileNotFoundError(f"Content file missing for {folder_name}.")
-        if not os.path.exists(preview_file):
-            raise FileNotFoundError(f"Preview file missing for {folder_name}.")
+    # Check if required files exist
+    if not os.path.exists(content_file):
+        raise FileNotFoundError(f"Content file missing for {map_name}.")
+    if not os.path.exists(preview_file):
+        raise FileNotFoundError(f"Preview file missing for {map_name}.")
 
-        # Check if the folder name has a corresponding published_file_id
-        if folder_name not in published_file_id_map:
-            raise KeyError(f"No published_file_id found for {folder_name}.")
+    # Check if the folder name has a corresponding published_file_id
+    if map_name not in published_file_id_map:
+        raise KeyError(f"No published_file_id found for {map_name}.")
 
-        # Generate metadata for the VDF
-        title = f"zitrez {folder_name} annotations"
-        url = "https://github.com/ReneRebsdorf/CS2-annotations"
-        description = f"Map annotations from {url}"
-        published_file_id = published_file_id_map[folder_name]
+    # Generate metadata for the VDF
+    title = f"zitrez {map_name} annotations"
+    url = "https://github.com/ReneRebsdorf/CS2-annotations"
+    description = f"Map annotations from {url}"
+    published_file_id = published_file_id_map[map_name]
 
-        # Create a temporary VDF file for this folder
-        temp_vdf = os.path.join(folder_path, f"{folder_name}_metadata.vdf")
-        generate_vdf(
-            temp_vdf, folder_path, preview_file, title,
-            description, published_file_id
-        )
+    # Create a temporary VDF file for this folder
+    temp_vdf = os.path.join(tmp_path, f"{map_name}_metadata.vdf")
+    generate_vdf(
+        temp_vdf, map_path, preview_file, title,
+        description, published_file_id
+    )
 
-        # Run SteamCMD to upload the item
-        subprocess.run([  # nosec - This is a trusted command
-            # TODO: Determine if steam guard can be prompted,
-            #       which then requires user input which is probably fine
-            #       otherwise, I will probably need to make a new account
-            #       for this purpose
-            steamcmd_path,
-            "+login",
-            "<username>",  # TODO: Replace with env var
-            "<password>",  # TODO: Replace with env var
-            "+workshop_build_item", temp_vdf,
-            "+quit"
-        ], check=True)
-        print(f"Successfully uploaded {folder_name}.")
+    # Run SteamCMD to upload the item
+    subprocess.run([  # nosec - This is a trusted command
+        # TODO: Determine if steam guard can be prompted,
+        #       which then requires user input which is probably fine
+        #       otherwise, I will probably need to make a new account
+        #       for this purpose
+        steamcmd_path,
+        "+login",
+        "<username>",  # TODO: Replace with env var
+        "<password>",  # TODO: Replace with env var
+        "+workshop_build_item", temp_vdf,
+        "+quit"
+    ], check=True)
+    print(f"Successfully uploaded {map_name}.")
 
-        # Clean up temporary VDF file
-        os.remove(temp_vdf)
+    # Clean up temporary VDF file
+    os.remove(temp_vdf)
 
 print("All items processed.")
