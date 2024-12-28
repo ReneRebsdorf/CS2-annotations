@@ -4,6 +4,7 @@ import subprocess  # nosec - This is a trusted command
 # TODO: Ensure sub-process calls throw exceptions on error
 # TODO: Write tests
 # TODO: Update github runner to run this script
+#       https://github.com/kontu/workshop_updater
 
 # Define variables
 tmp_path = "tmp"
@@ -56,7 +57,7 @@ def generate_vdf(output_path, content_folder, preview_file, title,
                  description, published_file_id):
     vdf_content = f"""
     "workshopitem"
-    {{
+    {
         "appid"            "730"
         "contentfolder"    "{content_folder}"
         "previewfile"      "{preview_file}"
@@ -64,7 +65,7 @@ def generate_vdf(output_path, content_folder, preview_file, title,
         "title"            "{title}"
         "description"      "{description}"
         "publishedfileid"  "{published_file_id}"
-    }}
+    }
     """
 
     with open(output_path, "w") as output:
@@ -109,10 +110,8 @@ for folder_name in os.listdir(base_folder):
 
     # Run SteamCMD to upload the item
     subprocess.run([  # nosec - This is a trusted command
-        # TODO: Determine if steam guard can be prompted,
-        #       which then requires user input which is probably fine
-        #       otherwise, I will probably need to make a new account
-        #       for this purpose
+        # TODO: mfa skip described in
+        #       https://github.com/kontu/workshop_updater/blob/master/README.md
         steamcmd_path,
         "+login",
         "<username>",  # TODO: Replace with env var
