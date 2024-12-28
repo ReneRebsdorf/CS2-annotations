@@ -3,13 +3,7 @@ import subprocess  # nosec - This is a trusted command
 
 # TODO: Ensure sub-process calls throw exceptions on error
 # TODO: Write tests
-# TODO: Update github runner to run this script
-#       https://github.com/kontu/workshop_updater
-
-# Define variables
-tmp_path = "tmp"
-base_folder = "local"
-steamcmd_path = "C:\\path\\to\\steamcmd.exe"  # TODO: Update this
+# TODO: Look into reducing code logic and duplication in github workflow files
 
 # Map folder names to their corresponding published_file_id
 # At the time of writing, I have only found this to be working
@@ -26,30 +20,6 @@ published_file_id_map = {
     "de_train": "",
     "de_vertigo": "",
 }
-
-
-# Function to check and download SteamCMD if necessary
-def check_and_download_steamcmd():
-
-    # Check if SteamCMD exists, if so, return
-    if os.path.exists(steamcmd_path):
-        print("SteamCMD found.")
-        return
-
-    # Download SteamCMD
-    domain = "steamcdn-a.akamaihd.net"
-    url = f"https://{domain}/client/installer/steamcmd_linux.tar.gz"
-    print(f"SteamCMD not found. Downloading from {url} ...")
-
-    subprocess.run(  # nosec - This is a trusted command
-        ["curl", "-sqL", url],
-        stdout=subprocess.PIPE, check=True
-    )
-    subprocess.run(  # nosec - This is a trusted command
-        ["tar", "zxvf", "-"],
-        stdout=subprocess.PIPE, check=True
-    )
-    print("SteamCMD downloaded successfully.")
 
 
 # Function to generate the VDF content
@@ -72,10 +42,8 @@ def generate_vdf(output_path, content_folder, preview_file, title,
         output.write(vdf_content)
 
 
-# Check and download SteamCMD if necessary
-check_and_download_steamcmd()
-
 # Iterate through sub-folders and upload items
+base_folder = "local"
 for folder_name in os.listdir(base_folder):
     map_name = folder_name
     map_path = os.path.join(base_folder, map_name)
@@ -102,7 +70,7 @@ for folder_name in os.listdir(base_folder):
     published_file_id = published_file_id_map[map_name]
 
     # Create a temporary VDF file for this folder
-    temp_vdf = os.path.join(tmp_path, f"{map_name}_metadata.vdf")
+    temp_vdf = os.path.join(map_path, "metadata.vdf")
     generate_vdf(
         temp_vdf, map_path, preview_file, title,
         description, published_file_id
@@ -110,12 +78,9 @@ for folder_name in os.listdir(base_folder):
 
     # Run SteamCMD to upload the item
     subprocess.run([  # nosec - This is a trusted command
-        # TODO: mfa skip described in
-        #       https://github.com/kontu/workshop_updater/blob/master/README.md
-        steamcmd_path,
+        os.environ['STEAM_CMD'],
         "+login",
-        "<username>",  # TODO: Replace with env var
-        "<password>",  # TODO: Replace with env var
+        os.environ['STEAM_ACCOUNT_NAME'],
         "+workshop_build_item", temp_vdf,
         "+quit"
     ], check=True)
