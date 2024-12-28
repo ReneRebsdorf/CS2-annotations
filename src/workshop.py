@@ -29,20 +29,26 @@ published_file_id_map = {
 
 # Function to check and download SteamCMD if necessary
 def check_and_download_steamcmd():
-    if not os.path.exists(steamcmd_path):
-        domain = "steamcdn-a.akamaihd.net"
-        url = f"https://{domain}/client/installer/steamcmd_linux.tar.gz"
-        print(f"SteamCMD not found. Downloading from {url}...")
 
-        subprocess.run(  # nosec - This is a trusted command
-            ["curl", "-sqL", url],
-            stdout=subprocess.PIPE, check=True
-        )
-        subprocess.run(  # nosec - This is a trusted command
-            ["tar", "zxvf", "-"],
-            stdout=subprocess.PIPE, check=True
-        )
-        print("SteamCMD downloaded successfully.")
+    # Check if SteamCMD exists, if so, return
+    if os.path.exists(steamcmd_path):
+        print("SteamCMD found.")
+        return
+
+    # Download SteamCMD
+    domain = "steamcdn-a.akamaihd.net"
+    url = f"https://{domain}/client/installer/steamcmd_linux.tar.gz"
+    print(f"SteamCMD not found. Downloading from {url} ...")
+
+    subprocess.run(  # nosec - This is a trusted command
+        ["curl", "-sqL", url],
+        stdout=subprocess.PIPE, check=True
+    )
+    subprocess.run(  # nosec - This is a trusted command
+        ["tar", "zxvf", "-"],
+        stdout=subprocess.PIPE, check=True
+    )
+    print("SteamCMD downloaded successfully.")
 
 
 # Function to generate the VDF content
