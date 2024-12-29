@@ -111,3 +111,22 @@ def test_annotations_setpos_exact_has_no_overlap_with_z_position(annotation):
         if len(setpos_exact_positions) == 3:
             setpos_exact_z = int(setpos_exact_positions[-1])
             assert setpos_exact_z > z
+
+
+@pytest.mark.parametrize("annotation", annotations)
+def test_grenade_type(annotation):
+    if annotation["Type"] == 'grenade':
+        if annotation["SubType"] == "main":
+            grenade_type = annotation["GrenadeType"].lower()
+            valid_grenade_types = [
+                "smoke",
+                "flash",
+                "he",
+                "molotov",
+                "incendiary",
+                "decoy"
+            ]
+            assert grenade_type in valid_grenade_types
+
+# TODO: preview file sizes must be less than 1MB
+# TODO: each annotation should be referenced in the README.md file
