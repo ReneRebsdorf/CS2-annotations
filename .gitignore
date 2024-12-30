@@ -1,5 +1,5 @@
+# Python
 .venv
-
 *.pyc
 
 # Ignores all local annotations except for those named as map names
@@ -10,5 +10,5 @@ local/*
 annotations/*
 annotations.zip
 
-# tmp files
-tmp/
+# vs code settings
+.vscode/
