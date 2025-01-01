@@ -8,6 +8,9 @@ thumbnails = os.listdir("./assets/")
 thumbnails = [f for f in thumbnails if f.endswith(".PNG")]
 thumbnails = [f for f in thumbnails if f.startswith("de_")]
 
+# Get readme file content for use in test
+readme = open("README.md", "r")
+
 # Find txt files starting with 'de_' and assume them to be annotation files
 test_files = []
 annotations = []
@@ -140,4 +143,8 @@ def test_preview_file_size(thumbnail):
     sizeMB = size / 1024 / 1024
     assert sizeMB < 1, f"{thumbnail} is too large: {sizeMB} MB"
 
-# TODO: each annotation should be referenced in the README.md file
+
+@pytest.mark.parametrize("thumbnail", thumbnails)
+def test_map_is_referenced_in_readme(thumbnail):
+    map_name = thumbnail.split(".")[0]
+    assert f"[{map_name}](https://steamcommunity.com/sharedfiles/filedetails/?id=)" in readme.read()
