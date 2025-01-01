@@ -32,15 +32,15 @@ if __name__ == "__main__":
     # when the map is already uploaded to the workshop using the
     # workshop_annotation_submit command in the game console.
     published_file_id_map = {
-        "de_ancient": "",  # TODO: Replace with actual Published File IDs
-        "de_anubis": "",
-        "de_dust2": "",
-        "de_inferno": "",
-        "de_mirage": "",
+        "de_ancient": "3397846803",
+        "de_anubis": "3397845762",
+        "de_dust2": "3397851092",
+        "de_inferno": "3397850337",
+        "de_mirage": "3397848956",
         "de_nuke": "3393679779",
-        "de_overpass": "",
-        "de_train": "",
-        "de_vertigo": "",
+        "de_overpass": "3397844011",
+        "de_train": "3397841296",
+        "de_vertigo": "3397844974",
     }
 
     parser = argparse.ArgumentParser()
