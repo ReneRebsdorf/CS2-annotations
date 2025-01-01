@@ -58,22 +58,20 @@ if __name__ == "__main__":
     steam_cmd = args.steam_cmd
     steam_account_name = args.steam_account_name
 
-    # Iterate through sub-folders and upload items
     base_folder = "local"
+    cwd = os.getcwd()
+
+    # Iterate through sub-folders and upload items
     for folder_name in os.listdir(base_folder):
+        print(f"Processing: {folder_name}")
         map_name = folder_name
-        print(f"Processing {map_name} ...")
 
-        map_path = os.path.join(base_folder, map_name)
-
-        # file name is the same as the folder name with .txt
-        file_name = map_name + ".txt"
-        content_file = os.path.join(map_path, file_name)
-        preview_file = os.path.join("assets", map_name, ".PNG")
+        map_path = os.path.join(cwd, base_folder, map_name)
+        preview_file = os.path.join(cwd, "assets", f"{map_name}.PNG")
 
         # Check if required files exist
-        if not os.path.exists(content_file):
-            raise FileNotFoundError(f"Content file missing: {content_file}")
+        if not os.path.exists(map_path):
+            raise FileNotFoundError(f"Content folder missing: {map_path}")
         if not os.path.exists(preview_file):
             raise FileNotFoundError(f"Preview file missing: {preview_file}")
 
@@ -102,9 +100,11 @@ if __name__ == "__main__":
             "+workshop_build_item", temp_vdf,
             "+quit"
         ], check=True)
-        print(f"Successfully uploaded {map_name}.")
+        print(f"Successfully uploaded: {map_name}.")
 
         # Clean up temporary VDF file
         os.remove(temp_vdf)
+
+        print(f"Finished processing: {map_name}")
 
     print("All items processed.")
