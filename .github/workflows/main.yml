@@ -43,7 +43,6 @@ jobs:
         uses: CyberAndrii/setup-steamcmd@v1.2.0
       - id: setup-steam-dir
         run: |
-          mkdir "/home/runner/Steam/config"
           echo "${{ secrets.STEAM_CONFIG_VDF }}" | base64 "/home/runner/Steam/config/config.vdf"
           chmod 777 "/home/runner/Steam/config/config.vdf"
       - id: update_workshop
