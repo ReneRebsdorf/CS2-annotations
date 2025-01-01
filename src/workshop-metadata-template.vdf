@@ -1,0 +1,10 @@
+"workshopitem"
+{
+    "appid"            "730"
+    "contentfolder"    "{content_folder}"
+    "previewfile"      "{preview_file}"
+    "visibility"       "0"
+    "title"            "{title}"
+    "description"      "{description}"
+    "publishedfileid"  "{published_file_id}"
+}
