@@ -4,14 +4,26 @@
     "dictionaryDefinitions": [],
     "dictionaries": [],
     "words": [
+        "akamaihd",
+        "Andrii",
+        "contentfolder",
         "csgo",
+        "incgrenade",
         "iniconfig",
         "keyvalues",
         "Molo",
         "pluggy",
+        "previewfile",
+        "publishedfileid",
         "pytest",
+        "softprops",
         "steamapps",
-        "venv"
+        "steamcdn",
+        "steamupload",
+        "venv",
+        "workshopitem",
+        "zitrez",
+        "zxvf"
     ],
     "ignoreWords": [],
     "import": []

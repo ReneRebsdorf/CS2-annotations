@@ -1,9 +1,9 @@
-﻿name: main
+name: main
 on:
   push:
     tags:
-      - "v*.*.*"
-    branches: 
+      - v*.*.*
+    branches:
       - "*"
 permissions:
   contents: write
@@ -11,6 +11,9 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.12]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -19,8 +22,8 @@ jobs:
           mkdir annotations
           cp -r local/ annotations/local/
           zip -r annotations.zip annotations/
-      # Only release when a tag is pushed, which triggered this workflow
-      - name: Release
+      - name: Release zip
+        # Only release when a tag is pushed, which triggered this workflow
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
@@ -28,3 +31,29 @@ jobs:
           fail_on_unmatched_files: true
           generate_release_notes: true
           make_latest: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - id: setup-steam-dir
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          mkdir -p "/home/runner/Steam/config"
+          echo "$SteamConfigVDF" > "/home/runner/Steam/config/config.vdf"
+          chmod 777 "/home/runner/Steam/config/config.vdf"
+      - id: setup-steamcmd
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: CyberAndrii/setup-steamcmd@v1.2.0
+      - id: update_workshop
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          # Plain-text steam config vdf generated for the account being used. Used for MFA
+          # Generate the content by logging in locally using MFA
+          STEAM_CONFIG_VDF: ${{ secrets.STEAM_CONFIG_VDF }}
+        run: |
+          python src/workshop.py --steam_account_name ${{ secrets.STEAM_ACCOUNT_NAME }} --steam_cmd ${{ steps.setup-steamcmd.outputs.executable }}

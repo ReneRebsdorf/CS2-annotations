@@ -3,7 +3,15 @@ import os
 import keyvalues3 as kv3
 import re
 
-# Find txt files starting with 'de_' in the root folder of the project
+# Get all the preview files, which are PNGs with the map name as the filename
+thumbnails = os.listdir("./assets/")
+thumbnails = [f for f in thumbnails if f.endswith(".PNG")]
+thumbnails = [f for f in thumbnails if f.startswith("de_")]
+
+# Get readme file content for use in test
+readme = open("README.md", "r")
+
+# Find txt files starting with 'de_' and assume them to be annotation files
 test_files = []
 annotations = []
 for dirpath, dirnames, filenames in os.walk("./local/"):
@@ -111,3 +119,26 @@ def test_annotations_setpos_exact_has_no_overlap_with_z_position(annotation):
         if len(setpos_exact_positions) == 3:
             setpos_exact_z = int(setpos_exact_positions[-1])
             assert setpos_exact_z > z
+
+
+@pytest.mark.parametrize("annotation", annotations)
+def test_grenade_type(annotation):
+    if annotation["Type"] == 'grenade':
+        if annotation["SubType"] == "main":
+            grenade_type = annotation["GrenadeType"].lower()
+            valid_grenade_types = [
+                "smoke",
+                "flash",
+                "he",
+                "molotov",
+                "incendiary",
+                "decoy"
+            ]
+            assert grenade_type in valid_grenade_types
+
+
+@pytest.mark.parametrize("thumbnail", thumbnails)
+def test_preview_file_size(thumbnail):
+    size = os.path.getsize(f"./assets/{thumbnail}")
+    sizeMB = size / 1024 / 1024
+    assert sizeMB < 1, f"{thumbnail} is too large: {sizeMB} MB"
