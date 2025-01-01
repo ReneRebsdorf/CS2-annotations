@@ -1,43 +1,45 @@
 ﻿# CS2-Annotations
 
-This repository contains utility lineups for Counter-Strike 2, using the built-in annotations feature.
+This repository contains curated utility lineups for Counter-Strike 2, using the built-in annotations feature.
 
 |                                                     |                                                |
 | --------------------------------------------------- | ---------------------------------------------- |
 | ![Preview standing positions](assets/positions.jpg) | ![Preview aim targets](assets/aim-targets.jpg) |
 
-Annotations are to be placed in the following directory:
-
-```text
-C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\annotations
-```
-
 ## Usage
 
-### Using the zip file (recommended)
+1. Go to [the Steam workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=3397847952) and click
+   "Subscribe to all". This will download the annotations to your game. Any updates to the annotations will be
+   automatically downloaded.
+2. Start the game, select __practice__ and __competitive__ in the top menu, choose a map, enable 'Load Map Guide' on the
+   left, select the map guide from the dropdown, and click 'Go'. The annotations will be loaded and displayed in-game.
 
-- Download the latest 'annotations.zip' file from the
-  [releases page](https://github.com/ReneRebsdorf/CS2-annotations/releases)
-- Extract the zip file to the csgo directory from the above step, replace any files if prompted
-- Start the game, select _practice_ and _competitive_ in the top menu, choose a map, enable 'Load Map Guide' on the
-  left, and click 'Go'
+## Updating annotations
 
-### Using git (advanced)
+Annotations are to be placed in the following directory upon saving:
 
-- Git clone this repository in the csgo directory
-- Rename the directory from `CS2-annotations` to `annotations`
-- Start the game, select _practice_ and _competitive_ in the top menu, choose a map, enable 'Load Map Guide' on the
-  left, and click 'Go'
+```text
+C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\annotations\local\map-name\name-of-the-annotation-file.txt
+```
 
-## Creating annotations in-game
+It is important to know that when using annotation_create as described in the below steps, three annotations are
+created:
 
-- Start the game with annotations enabled (see above or use sv_allow_annotations 1)
+1. The position annotation for where to stand
+2. The lineup annotation for where to aim
+3. The destination annotation for where to throw (a target circle)
+
+Steps to update the annotations:
+
+- Start the game with annotations enabled (see above [Usage section](#usage)), __or__ use the zip file in the
+  [releases](https://github.com/ReneRebsdorf/CS2-annotations/releases), __or__ git clone this repo to the csgo folder,
+  and rename the folder to 'annotations'.
 - Throw the lineup you want to create annotations for (this is important to record the destination target, whether it is
   a jump throw, etc.)
-- Open the console and type `annotation_create grenade [smoke|flash|he|fire|decoy] "label"`
+- Open the console and type `annotation_create grenade [smoke|flash|he|molotov|incgrenade|decoy] "label"`
 - Save the annotations with `annotation_save de_map-name`
-- Open the annotation file in the annotations directory and copy the new annotations to this repository,
-  or just use [git method described under 'Usage'](#using-git-advanced)
+- Open the annotation file in the annotations directory and copy the new annotations to this repository (unless using
+  the git clone method from the first step)
 - Modify the 3 newest annotations (those in the bottom of the file), the following properties are useful to check:
   - For the first annotation (the position annotation):
     - `Color`: The color of the annotation, see [Color codes](#color-codes)
@@ -55,7 +57,7 @@ Annotations use the annotation\_\* commands in the console. Below are some usefu
 - `annotation_create`: Creates a new lineup, described below. Omit parameters to get help text.
   The below commands can be used in combination to provide a more detailed lineup, with where to stand, where to aim,
   etc.
-  - `annotation_create grenade [smoke|flash|he|fire|decoy] "label"`: Creates a set of annotations with predefined values and uses a grenade icon with
+  - `annotation_create grenade [smoke|flash|he|molotov|decoy] "label"`: Creates a set of annotations with predefined values and uses a grenade icon with
     an arrow to help find the lineup. the label field becomes the name of the lineup. This also results in the lineup
     having a success-score, where after 2 successful throws, the help text and icons will disappear, and you will have to
     line it up yourself for 2 more successful throws. This is the recommended way to create lineups, but do note that the

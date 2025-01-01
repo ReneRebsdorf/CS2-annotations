@@ -142,9 +142,3 @@ def test_preview_file_size(thumbnail):
     size = os.path.getsize(f"./assets/{thumbnail}")
     sizeMB = size / 1024 / 1024
     assert sizeMB < 1, f"{thumbnail} is too large: {sizeMB} MB"
-
-
-@pytest.mark.parametrize("thumbnail", thumbnails)
-def test_map_is_referenced_in_readme(thumbnail):
-    map_name = thumbnail.split(".")[0]
-    assert f"[{map_name}](https://steamcommunity.com/sharedfiles/filedetails/?id=)" in readme.read()
