@@ -36,24 +36,18 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - name: Install dependencies
-        if: startsWith(github.ref, 'refs/tags/')
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+      - id: setup-steamcmd
+        uses: CyberAndrii/setup-steamcmd@v1.2.0
       - id: setup-steam-dir
         if: startsWith(github.ref, 'refs/tags/')
         run: |
-          mkdir -p "/home/runner/Steam/config"
-          echo "$SteamConfigVDF" > "/home/runner/Steam/config/config.vdf"
+          mkdir "/home/runner/Steam/config"
+          echo "${{ secrets.STEAM_CONFIG_VDF }}" | base64 "/home/runner/Steam/config/config.vdf"
           chmod 777 "/home/runner/Steam/config/config.vdf"
-      - id: setup-steamcmd
-        if: startsWith(github.ref, 'refs/tags/')
-        uses: CyberAndrii/setup-steamcmd@v1.2.0
       - id: update_workshop
         if: startsWith(github.ref, 'refs/tags/')
-        env:
-          # Plain-text steam config vdf generated for the account being used. Used for MFA
-          # Generate the content by logging in locally using MFA
-          STEAM_CONFIG_VDF: ${{ secrets.STEAM_CONFIG_VDF }}
         run: |
           python src/workshop.py --steam_account_name ${{ secrets.STEAM_ACCOUNT_NAME }} --steam_cmd ${{ steps.setup-steamcmd.outputs.executable }}
