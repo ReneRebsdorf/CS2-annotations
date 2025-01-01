@@ -3,7 +3,12 @@ import os
 import keyvalues3 as kv3
 import re
 
-# Find txt files starting with 'de_' in the root folder of the project
+# Get all the preview files, which are PNGs with the map name as the filename
+thumbnails = os.listdir("./assets/")
+thumbnails = [f for f in thumbnails if f.endswith(".PNG")]
+thumbnails = [f for f in thumbnails if f.startswith("de_")]
+
+# Find txt files starting with 'de_' and assume them to be annotation files
 test_files = []
 annotations = []
 for dirpath, dirnames, filenames in os.walk("./local/"):
@@ -128,5 +133,11 @@ def test_grenade_type(annotation):
             ]
             assert grenade_type in valid_grenade_types
 
-# TODO: preview file sizes must be less than 1MB
+
+@pytest.mark.parametrize("thumbnail", thumbnails)
+def test_preview_file_size(thumbnail):
+    size = os.path.getsize(f"./assets/{thumbnail}")
+    sizeMB = size / 1024 / 1024
+    assert sizeMB < 1, f"{thumbnail} is too large: {sizeMB} MB"
+
 # TODO: each annotation should be referenced in the README.md file
