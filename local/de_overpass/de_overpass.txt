@@ -1,10 +1,10 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	MapName = "de_overpass"
-	ScreenText = 
+	ScreenText =
 	{
 	}
-	MapAnnotationNode0 = 
+	MapAnnotationNode0 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -18,7 +18,7 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Smoke bathroom"
 			FontSize = 125
@@ -26,7 +26,7 @@
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = "Stand in corner"
 			FontSize = 75
@@ -39,7 +39,7 @@
 		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode1 = 
+	MapAnnotationNode1 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -52,7 +52,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Smoke bathroom"
 			FontSize = 125
@@ -60,7 +60,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = "Align to shadow of lamp and top of wall\n1 step jumpthrow"
 			FontSize = 75
@@ -70,7 +70,7 @@
 		}
 		MasterNodeId = "909ee800-ef34-45d9-99fe-274d8dccb2c9"
 	}
-	MapAnnotationNode2 = 
+	MapAnnotationNode2 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -83,7 +83,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -91,7 +91,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -102,7 +102,7 @@
 		MasterNodeId = "909ee800-ef34-45d9-99fe-274d8dccb2c9"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode3 = 
+	MapAnnotationNode3 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -116,7 +116,7 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Smoke top conn"
 			FontSize = 125
@@ -124,7 +124,7 @@
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = "Stand in corner"
 			FontSize = 75
@@ -137,7 +137,7 @@
 		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode4 = 
+	MapAnnotationNode4 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -150,7 +150,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = "Smoke top conn"
 			FontSize = 125
@@ -158,7 +158,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = "Aim where line on wall and leaf connect\n1 step jumpthrow"
 			FontSize = 75
@@ -168,7 +168,7 @@
 		}
 		MasterNodeId = "62814af9-6299-4180-92cb-1b7e1553605c"
 	}
-	MapAnnotationNode5 = 
+	MapAnnotationNode5 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -181,7 +181,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -189,7 +189,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -200,7 +200,7 @@
 		MasterNodeId = "62814af9-6299-4180-92cb-1b7e1553605c"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode6 = 
+	MapAnnotationNode6 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -214,17 +214,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke walkway - Stand in corner - Aim at pole align with middle lamp on pole - Left click throw"
+			Text = "Smoke walkway"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Stand in corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -235,7 +235,7 @@
 		JumpThrow = false
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode7 = 
+	MapAnnotationNode7 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -248,17 +248,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke walkway - Stand in corner - Aim at pole align with middle lamp on pole - Left click throw"
+			Text = "Smoke walkway"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim at pole align with middle lamp on pole"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -266,7 +266,7 @@
 		}
 		MasterNodeId = "e83c0d65-94b3-445b-a459-262ad3ccb50c"
 	}
-	MapAnnotationNode8 = 
+	MapAnnotationNode8 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -279,7 +279,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -287,7 +287,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -298,7 +298,7 @@
 		MasterNodeId = "e83c0d65-94b3-445b-a459-262ad3ccb50c"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode9 = 
+	MapAnnotationNode9 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -312,17 +312,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke bridge - stand infront of hinge - Aim at top of pole - Left click throw"
+			Text = "Smoke bridge"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Stand infront of hinge"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -333,7 +333,7 @@
 		JumpThrow = false
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode10 = 
+	MapAnnotationNode10 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -346,17 +346,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke bridge - stand infront of hinge - Aim at top of pole - Left click throw"
+			Text = "Smoke bridge"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim at top of pole"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -364,7 +364,7 @@
 		}
 		MasterNodeId = "90b33b2f-6fbb-4ca2-b295-007e1497158e"
 	}
-	MapAnnotationNode11 = 
+	MapAnnotationNode11 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -377,7 +377,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -385,7 +385,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -396,7 +396,7 @@
 		MasterNodeId = "90b33b2f-6fbb-4ca2-b295-007e1497158e"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode12 = 
+	MapAnnotationNode12 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -410,17 +410,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke bridge - stand on corner - Aim on lid on barrel - Jumpthrow"
+			Text = "Smoke bridge"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Stand on corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -428,10 +428,10 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode13 = 
+	MapAnnotationNode13 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -444,17 +444,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke bridge - stand on corner - Aim on lid on barrel - Jumpthrow"
+			Text = "Smoke bridge"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim at lid on barrel"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -462,7 +462,7 @@
 		}
 		MasterNodeId = "7483912d-ee08-4bd9-9479-b30882d2535c"
 	}
-	MapAnnotationNode14 = 
+	MapAnnotationNode14 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -475,7 +475,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -483,7 +483,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -494,7 +494,7 @@
 		MasterNodeId = "7483912d-ee08-4bd9-9479-b30882d2535c"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode15 = 
+	MapAnnotationNode15 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -508,17 +508,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke B site - wedge in between barrel and wall - Align with middle line and top bar - Left click throw"
+			Text = "Smoke B site"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Wedge in between barrel and wall"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -529,7 +529,7 @@
 		JumpThrow = false
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode16 = 
+	MapAnnotationNode16 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -542,17 +542,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke B site - wedge in between barrel and wall - Align with middle line and top bar - Left click throw"
+			Text = "Smoke B site"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Align with middle line and top bar"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -560,7 +560,7 @@
 		}
 		MasterNodeId = "67292183-2a2a-4765-b451-edab994c6886"
 	}
-	MapAnnotationNode17 = 
+	MapAnnotationNode17 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -573,7 +573,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -581,7 +581,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -592,7 +592,7 @@
 		MasterNodeId = "67292183-2a2a-4765-b451-edab994c6886"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode18 = 
+	MapAnnotationNode18 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -606,17 +606,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke pit - wedge in beteween wall and board - aim where bridge and roof meet - Left click throw"
+			Text = "Smoke pit"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Wedge in beteween wall and board"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -627,7 +627,7 @@
 		JumpThrow = false
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode19 = 
+	MapAnnotationNode19 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -640,17 +640,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke pit - wedge in beteween wall and board - aim where bridge and roof meet - Left click throw"
+			Text = "Smoke pit"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim where bridge and roof meet"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -658,7 +658,7 @@
 		}
 		MasterNodeId = "18181456-fe89-4213-9b43-0ec9e2704de9"
 	}
-	MapAnnotationNode20 = 
+	MapAnnotationNode20 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -671,7 +671,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -679,7 +679,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -690,7 +690,7 @@
 		MasterNodeId = "18181456-fe89-4213-9b43-0ec9e2704de9"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode21 = 
+	MapAnnotationNode21 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -704,17 +704,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke barrels - wedge into corner - Aim furthest away on top of railing - Jumpthrow"
+			Text = "Smoke barrels"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Wedge into corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -722,10 +722,10 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode22 = 
+	MapAnnotationNode22 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -738,17 +738,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke barrels - wedge into corner - Aim furthest away on top of railing - Jumpthrow"
+			Text = "Smoke barrels"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim furthest away on top of railing"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -756,7 +756,7 @@
 		}
 		MasterNodeId = "7a9d44eb-4a45-484b-b199-7529f6e026ee"
 	}
-	MapAnnotationNode23 = 
+	MapAnnotationNode23 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -769,7 +769,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -777,7 +777,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -788,7 +788,7 @@
 		MasterNodeId = "7a9d44eb-4a45-484b-b199-7529f6e026ee"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode24 = 
+	MapAnnotationNode24 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -802,17 +802,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke heaven - wedge in between wall and board - Aim on top of thick part of pole - Left click throw"
+			Text = "Smoke heaven"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Wedge in between wall and board"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -823,7 +823,7 @@
 		JumpThrow = false
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode25 = 
+	MapAnnotationNode25 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -836,17 +836,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke heaven - wedge in between wall and board - Aim on top of thick part of pole - Left click throw"
+			Text = "Smoke heaven"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim at top of thick part of pole"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -854,7 +854,7 @@
 		}
 		MasterNodeId = "29c91e37-7651-4118-9951-c9e07d453f02"
 	}
-	MapAnnotationNode26 = 
+	MapAnnotationNode26 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -867,7 +867,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -875,7 +875,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -886,7 +886,7 @@
 		MasterNodeId = "29c91e37-7651-4118-9951-c9e07d453f02"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode27 = 
+	MapAnnotationNode27 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -900,17 +900,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke heaven - wedge in between cabel drum and washing machine - Aim left side of the left eye - 2 setp Jumpthrow"
+			Text = "Smoke heaven"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Wedge in between cabel drum and washing machine"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -918,10 +918,10 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode28 = 
+	MapAnnotationNode28 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -934,17 +934,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke heaven - wedge in between cabel drum and washing machine - Aim left side of the left eye - 2 setp Jumpthrow"
+			Text = "Smoke heaven"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim left side of the left eye\n2-step jumpthrow"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -952,7 +952,7 @@
 		}
 		MasterNodeId = "8cb9bb95-caec-4cc3-a759-b040aea71f1c"
 	}
-	MapAnnotationNode29 = 
+	MapAnnotationNode29 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -965,7 +965,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -973,7 +973,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -984,7 +984,7 @@
 		MasterNodeId = "8cb9bb95-caec-4cc3-a759-b040aea71f1c"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode30 = 
+	MapAnnotationNode30 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -998,17 +998,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke dumpster - Stand in middle on top of bench - aim at grey spot of lamp - Left click throw"
+			Text = "Smoke dumpster"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Stand in middle on top of bench"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1019,7 +1019,7 @@
 		JumpThrow = false
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode31 = 
+	MapAnnotationNode31 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1032,17 +1032,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke dumpster - Stand in middle on top of bench - aim at grey spot of lamp - Left click throw"
+			Text = "Smoke dumpster"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim at grey spot of lamp"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1050,7 +1050,7 @@
 		}
 		MasterNodeId = "097f8c99-19ae-4cd3-bba0-e099175c6d26"
 	}
-	MapAnnotationNode32 = 
+	MapAnnotationNode32 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1063,7 +1063,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -1071,7 +1071,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -1082,7 +1082,7 @@
 		MasterNodeId = "097f8c99-19ae-4cd3-bba0-e099175c6d26"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode33 = 
+	MapAnnotationNode33 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1096,17 +1096,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke dumpster - Stand on lamp shadow - Aim at bottom of wall - Jumpthrow"
+			Text = "Smoke dumpster"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Stand on shadow from the lamp"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1114,10 +1114,10 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode34 = 
+	MapAnnotationNode34 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1130,17 +1130,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke dumpster - Stand on lamp shadow - Aim at bottom of wall - Jumpthrow"
+			Text = "Smoke dumpster"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim at bottom of wall"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1148,7 +1148,7 @@
 		}
 		MasterNodeId = "c244af7a-b8c2-4244-82ad-d538cdfe221f"
 	}
-	MapAnnotationNode35 = 
+	MapAnnotationNode35 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1161,7 +1161,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -1169,7 +1169,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -1180,7 +1180,7 @@
 		MasterNodeId = "c244af7a-b8c2-4244-82ad-d538cdfe221f"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode36 = 
+	MapAnnotationNode36 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1194,17 +1194,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke bank - Stand infront of lamp - Aim left side og parasol - Jumpthrow"
+			Text = "Smoke bank"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Stand infront of lamp"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1212,10 +1212,10 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode37 = 
+	MapAnnotationNode37 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1228,17 +1228,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke bank - Stand infront of lamp - Aim left side og parasol - Jumpthrow"
+			Text = "Smoke bank"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim at left side of parasol"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1246,7 +1246,7 @@
 		}
 		MasterNodeId = "6657c06c-a592-4f12-bcb0-b675eee72f35"
 	}
-	MapAnnotationNode38 = 
+	MapAnnotationNode38 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1259,7 +1259,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -1267,7 +1267,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -1278,7 +1278,7 @@
 		MasterNodeId = "6657c06c-a592-4f12-bcb0-b675eee72f35"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode39 = 
+	MapAnnotationNode39 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1292,17 +1292,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke bank - Wedge in between bench and wall - Aim at top right on rafter - Jumpthrow"
+			Text = "Smoke bank"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Wedge in between bench and wall"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1310,10 +1310,10 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode40 = 
+	MapAnnotationNode40 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1326,17 +1326,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke bank - Wedge in between bench and wall - Aim at top right on rafter - Jumpthrow"
+			Text = "Smoke bank"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim at top right of rafter"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1344,7 +1344,7 @@
 		}
 		MasterNodeId = "bbe68db7-ba2b-4d55-a507-f8719ec9250c"
 	}
-	MapAnnotationNode41 = 
+	MapAnnotationNode41 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1357,7 +1357,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -1365,7 +1365,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -1376,7 +1376,7 @@
 		MasterNodeId = "bbe68db7-ba2b-4d55-a507-f8719ec9250c"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode42 = 
+	MapAnnotationNode42 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1385,22 +1385,22 @@
 		Position = [ -2351.968506, -815.968689, 393.195465 ]
 		Angles = [ 0.0, 87.479309, 0.0 ]
 		VisiblePfx = true
-		Color = [ 255, 255, 255 ]
+		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke A site - Wedge into corner - Aim at corner of roof - Middleclick jumpthrow"
+			Text = "Smoke A site"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Wedge into corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1408,10 +1408,10 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode43 = 
+	MapAnnotationNode43 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1424,17 +1424,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke A site - Wedge into corner - Aim at corner of roof - Middleclick jumpthrow"
+			Text = "Smoke A site"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim at corner of roof\nMiddle-click jumpthrow"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1442,7 +1442,7 @@
 		}
 		MasterNodeId = "4aa4cb81-2ab9-4d79-b2af-cbd199cb1f27"
 	}
-	MapAnnotationNode44 = 
+	MapAnnotationNode44 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1455,7 +1455,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -1463,7 +1463,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -1474,7 +1474,7 @@
 		MasterNodeId = "4aa4cb81-2ab9-4d79-b2af-cbd199cb1f27"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode45 = 
+	MapAnnotationNode45 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1488,17 +1488,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke truck - Wedge into corner - Aim at grey spot on lamp - Left click throw"
+			Text = "Smoke truck"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Wedge into corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1509,7 +1509,7 @@
 		JumpThrow = false
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode46 = 
+	MapAnnotationNode46 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1522,17 +1522,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke truck - Wedge into corner - Aim at grey spot on lamp - Left click throw"
+			Text = "Smoke truck"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim at grey spot on lamp"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1540,7 +1540,7 @@
 		}
 		MasterNodeId = "60d01569-19f9-4384-ad5f-a2a0831bf712"
 	}
-	MapAnnotationNode47 = 
+	MapAnnotationNode47 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1553,7 +1553,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -1561,7 +1561,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -1572,7 +1572,7 @@
 		MasterNodeId = "60d01569-19f9-4384-ad5f-a2a0831bf712"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode48 = 
+	MapAnnotationNode48 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1586,17 +1586,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke left default - Wedge in between bench and wall - Aim at X in railing where bottom of left chair is - Jumpthrow"
+			Text = "Smoke left default"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Wedge in between bench and wall"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1604,10 +1604,10 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode49 = 
+	MapAnnotationNode49 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1620,17 +1620,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke left default - Wedge in between bench and wall - Aim at X in railing where bottom of left chair is - Jumpthrow"
+			Text = "Smoke left default"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim at X in railing where bottom of left chair is"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1638,7 +1638,7 @@
 		}
 		MasterNodeId = "f41cf4ce-47f2-4b9a-88a5-00d37e68e5f6"
 	}
-	MapAnnotationNode50 = 
+	MapAnnotationNode50 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1651,7 +1651,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -1659,7 +1659,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -1670,7 +1670,7 @@
 		MasterNodeId = "f41cf4ce-47f2-4b9a-88a5-00d37e68e5f6"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode51 = 
+	MapAnnotationNode51 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1684,17 +1684,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke T ramp - Wedge into corner - Aim top of roof between the 2 vents furthest to the right - Jumpthrow"
+			Text = "Smoke T ramp"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Wedge into corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1702,10 +1702,10 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode52 = 
+	MapAnnotationNode52 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1718,17 +1718,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke T ramp - Wedge into corner - Aim top of roof between the 2 vents furthest to the right - Jumpthrow"
+			Text = "Smoke T ramp"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim top of roof between the 2 vents furthest to the right"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1736,7 +1736,7 @@
 		}
 		MasterNodeId = "c0b6d132-d45d-4b26-b998-5575c029605c"
 	}
-	MapAnnotationNode53 = 
+	MapAnnotationNode53 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1749,7 +1749,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -1757,7 +1757,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -1768,7 +1768,7 @@
 		MasterNodeId = "c0b6d132-d45d-4b26-b998-5575c029605c"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode54 = 
+	MapAnnotationNode54 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1777,22 +1777,22 @@
 		Position = [ -2116.466553, 993.140015, 484.03125 ]
 		Angles = [ 0.0, -49.492722, 0.0 ]
 		VisiblePfx = true
-		Color = [ 255, 255, 255 ]
+		Color = [ 151, 201, 250 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke monster - Wedge into corner - Aim a little under the tip of pole - Jumpthrow"
+			Text = "Smoke monster"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Wedge into corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1800,10 +1800,10 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode55 = 
+	MapAnnotationNode55 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1816,17 +1816,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke monster - Wedge into corner - Aim a little under the tip of pole - Jumpthrow"
+			Text = "Smoke monster"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim a little under tip of the pole"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1834,7 +1834,7 @@
 		}
 		MasterNodeId = "8ad632de-4dc4-48f2-9ed9-a027eb4d6d07"
 	}
-	MapAnnotationNode56 = 
+	MapAnnotationNode56 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1847,7 +1847,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -1855,7 +1855,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -1866,7 +1866,7 @@
 		MasterNodeId = "8ad632de-4dc4-48f2-9ed9-a027eb4d6d07"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode57 = 
+	MapAnnotationNode57 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1880,17 +1880,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke water tunnel - Wedge into corner - Aim at hole on truck - Jumpthrow"
+			Text = "Smoke water tunnel"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Wedge into corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1898,10 +1898,10 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode58 = 
+	MapAnnotationNode58 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1914,17 +1914,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Smoke water tunnel - Wedge into corner - Aim at hole on truck - Jumpthrow"
+			Text = "Smoke water tunnel"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim at hole on truck"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1932,7 +1932,7 @@
 		}
 		MasterNodeId = "b7d1da41-1ca7-4f7b-91fc-1d63ed413d6d"
 	}
-	MapAnnotationNode59 = 
+	MapAnnotationNode59 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1945,7 +1945,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -1953,7 +1953,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -1964,7 +1964,7 @@
 		MasterNodeId = "b7d1da41-1ca7-4f7b-91fc-1d63ed413d6d"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode60 = 
+	MapAnnotationNode60 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1978,17 +1978,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Molo A site - Stand on left side of piller - Aim at thick part of pole shadow - Jumpthrow"
+			Text = "Molo A site"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Stand on left side of piller"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1996,10 +1996,10 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode61 = 
+	MapAnnotationNode61 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2012,17 +2012,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Molo A site - Stand on left side of piller - Aim at thick part of pole shadow - Jumpthrow"
+			Text = "Molo A site"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim at thick part of pole shadow"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2030,7 +2030,7 @@
 		}
 		MasterNodeId = "1ce86762-6129-488f-afbc-3232e07c0bfb"
 	}
-	MapAnnotationNode62 = 
+	MapAnnotationNode62 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2043,7 +2043,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -2051,7 +2051,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -2062,7 +2062,7 @@
 		MasterNodeId = "1ce86762-6129-488f-afbc-3232e07c0bfb"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode63 = 
+	MapAnnotationNode63 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2076,17 +2076,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Molo truck - Stand on corner - Aim at 2nd row of bricks - Jumpthrow"
+			Text = "Molo truck"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Stand on corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2094,10 +2094,10 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode64 = 
+	MapAnnotationNode64 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2110,17 +2110,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Molo truck - Stand on corner - Aim at 2nd row of bricks - Jumpthrow"
+			Text = "Molo truck"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim at 2nd row of bricks"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2128,7 +2128,7 @@
 		}
 		MasterNodeId = "6d16277d-d25c-4400-827f-d4020d20c018"
 	}
-	MapAnnotationNode65 = 
+	MapAnnotationNode65 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2141,7 +2141,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -2149,7 +2149,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -2160,7 +2160,7 @@
 		MasterNodeId = "6d16277d-d25c-4400-827f-d4020d20c018"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode66 = 
+	MapAnnotationNode66 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2174,17 +2174,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Molo dumpster - Wedge into corner - Aim in middle of brick wall - Running jumpthrow - Release throw when reaching bottom of stairs"
+			Text = "Molo dumpster"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Wedge into corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2192,10 +2192,10 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode67 = 
+	MapAnnotationNode67 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2208,17 +2208,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Molo dumpster - Wedge into corner - Aim in middle of brick wall - Running jumpthrow - Release throw when reaching bottom of stairs"
+			Text = "Molo dumpster"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim in middle of brick wall\nRunning jumpthrow\nRelease throw when reaching bottom of stairs"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2226,7 +2226,7 @@
 		}
 		MasterNodeId = "7460a4ed-c40c-4d23-aaea-9123efa7fd01"
 	}
-	MapAnnotationNode68 = 
+	MapAnnotationNode68 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2239,7 +2239,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -2247,7 +2247,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -2258,105 +2258,7 @@
 		MasterNodeId = "7460a4ed-c40c-4d23-aaea-9123efa7fd01"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode69 = 
-	{
-		Enabled = true
-		Type = "grenade"
-		Id = "074e38a7-6baa-4803-90c5-460205e512c2"
-		SubType = "main"
-		Position = [ -540.911743, -1505.600708, 148.634064 ]
-		Angles = [ 0.0, 99.098755, 0.0 ]
-		VisiblePfx = true
-		Color = [ 255, 255, 255 ]
-		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
-		TextFacePlayer = true
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = "Molo barrels - Wedge into corner - Aim at left eye\n1 step jumpthrow - Skal slettes"
-			FontSize = 125
-			FadeInDist = 600.0
-			FadeOutDist = 40.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = "standing instructions"
-			FontSize = 75
-			FadeInDist = 300.0
-			FadeOutDist = 40.0
-			ShowBackground = true
-		}
-		StreakLimitGuidesOn = 2
-		StreakLimitGuidesOff = 2
-		JumpThrow = false
-		GrenadeType = "molotov"
-	}
-	MapAnnotationNode70 = 
-	{
-		Enabled = true
-		Type = "grenade"
-		Id = "14409dd0-129f-42ae-b8b3-ea3efb8a9968"
-		SubType = "aim_target"
-		Position = [ -556.642761, -1407.373535, 201.730148 ]
-		Angles = [ 5.851788, 99.098602, 0.0 ]
-		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = "Molo barrels - Wedge into corner - Aim at left eye\n1 step jumpthrow - Skal slettes"
-			FontSize = 125
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = "aim instructions"
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		MasterNodeId = "074e38a7-6baa-4803-90c5-460205e512c2"
-	}
-	MapAnnotationNode71 = 
-	{
-		Enabled = true
-		Type = "grenade"
-		Id = "653f9222-9422-4904-b466-3be54e85313c"
-		SubType = "destination"
-		Position = [ -808.167969, 508.138702, 178.588806 ]
-		Angles = [ 5.851788, 99.098602, 0.0 ]
-		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		MasterNodeId = "074e38a7-6baa-4803-90c5-460205e512c2"
-		DistanceThreshold = 80.0
-	}
-	MapAnnotationNode72 = 
+	MapAnnotationNode69 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2370,17 +2272,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Molo barrels - Wedge into corner - Aim at left eye\n1 step jumpthrow - Den rigtige"
+			Text = "Molo barrels"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Wedge into corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2388,10 +2290,10 @@
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode73 = 
+	MapAnnotationNode70 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2404,17 +2306,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Molo barrels - Wedge into corner - Aim at left eye\n1 step jumpthrow - Den rigtige"
+			Text = "Molo barrels"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim at left eye\n1 step jumpthrow"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2422,7 +2324,7 @@
 		}
 		MasterNodeId = "37cffe08-fb5b-4c4a-8c03-cb4c1bb623a8"
 	}
-	MapAnnotationNode74 = 
+	MapAnnotationNode71 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2435,7 +2337,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -2443,7 +2345,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -2454,7 +2356,7 @@
 		MasterNodeId = "37cffe08-fb5b-4c4a-8c03-cb4c1bb623a8"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode75 = 
+	MapAnnotationNode72 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2468,17 +2370,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Molo barrels - Wedge into corner - Aim on top of higest rebar - Runthrow"
+			Text = "Molo barrels"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Wedge into corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2489,7 +2391,7 @@
 		JumpThrow = false
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode76 = 
+	MapAnnotationNode73 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2502,17 +2404,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Molo barrels - Wedge into corner - Aim on top of higest rebar - Runthrow"
+			Text = "Molo barrels"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim on top of highest rebar\nRunthrow"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2520,7 +2422,7 @@
 		}
 		MasterNodeId = "855cf8e2-dbcd-4904-a680-b564291ff277"
 	}
-	MapAnnotationNode77 = 
+	MapAnnotationNode74 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2533,7 +2435,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -2541,7 +2443,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -2552,7 +2454,7 @@
 		MasterNodeId = "855cf8e2-dbcd-4904-a680-b564291ff277"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode78 = 
+	MapAnnotationNode75 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2566,17 +2468,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Molo pit - Wedge into corner - Aim at tip of S - Runthrow"
+			Text = "Molo pit"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Wedge into corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2587,7 +2489,7 @@
 		JumpThrow = false
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode79 = 
+	MapAnnotationNode76 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2600,17 +2502,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Molo pit - Wedge into corner - Aim at tip of S - Runthrow"
+			Text = "Molo pit"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim at tip of S\nRunthrow"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2618,7 +2520,7 @@
 		}
 		MasterNodeId = "fa2bbd77-2840-4545-8afe-500b736e92dd"
 	}
-	MapAnnotationNode80 = 
+	MapAnnotationNode77 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2631,7 +2533,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -2639,7 +2541,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
@@ -2650,7 +2552,7 @@
 		MasterNodeId = "fa2bbd77-2840-4545-8afe-500b736e92dd"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode81 = 
+	MapAnnotationNode78 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2664,17 +2566,17 @@
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Molo B site - Stand in middle on top of bench - Aim at 2nd spike from the right - Leftclick throw"
+			Text = "Molo B site"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "standing instructions"
+			Text = "Stand in middle on top of bench"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2685,7 +2587,7 @@
 		JumpThrow = false
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode82 = 
+	MapAnnotationNode79 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2698,17 +2600,17 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
-			Text = "Molo B site - Stand in middle on top of bench - Aim at 2nd spike from the right - Leftclick throw"
+			Text = "Molo B site"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
-			Text = "aim instructions"
+			Text = "Aim at 2nd spike from the right"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2716,7 +2618,7 @@
 		}
 		MasterNodeId = "3e8d77a5-2ad6-47a5-981a-2004db5abf5e"
 	}
-	MapAnnotationNode83 = 
+	MapAnnotationNode80 =
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2729,7 +2631,7 @@
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
-		Title = 
+		Title =
 		{
 			Text = ""
 			FontSize = 75
@@ -2737,7 +2639,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		Desc = 
+		Desc =
 		{
 			Text = ""
 			FontSize = 75
