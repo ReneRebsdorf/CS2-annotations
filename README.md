@@ -14,7 +14,15 @@ This repository contains curated utility lineups for Counter-Strike 2, using the
 2. Start the game, select __practice__ and __competitive__ in the top menu, choose a map, enable 'Load Map Guide' on the
    left, select the map guide from the dropdown, and click 'Go'. The annotations will be loaded and displayed in-game.
 
-## Updating annotations
+## Contributing
+
+Contributions are warmly welcomed. Please create a pull request with your changes, and they will be reviewed as soon as
+possible. The [issue tracker](https://github.com/ReneRebsdorf/CS2-annotations/issues) is also open for any suggestions
+or bugs found.
+
+The below sections describe how to create and update annotations.
+
+### Updating annotations
 
 Annotations are to be placed in the following directory upon saving:
 
@@ -50,7 +58,7 @@ Steps to update the annotations:
   - For the third annotation (the destination annotation):
     - `DistanceThreshold`: The size of the target circle, useful for showing the accuracy needed for the lineup
 
-## Annotation Commands
+### Annotation Commands
 
 Annotations use the annotation\_\* commands in the console. Below are some useful commands:
 
@@ -73,7 +81,7 @@ Annotations use the annotation\_\* commands in the console. Below are some usefu
 - `annotation_save <filename>`: Save the current annotations to a file, after doing so copy it back to this repository
 - `annotation_reload`: Reload the annotations, useful when creating new annotations
 
-## Color codes
+### Color codes
 
 It is possible to change the color of the annotations by modifying the `Color` field in the annotation file. The in-game
 color codes are as follows:
@@ -81,16 +89,10 @@ color codes are as follows:
 - `ct-blue`: [ 151, 201, 250 ]
 - `t-yellow`: [ 255, 239, 111 ]
 
-## Testing
+### Testing
 
 The current tests are implemented using `pytest`. To run the tests it is recommended to create a virtual environment.
 
 - Run `python -m venv .venv`
 - Activate the virtual environment. Ie. with `./.venv/bin/Activate.ps1`, `./.venv/Scripts/Activate.ps1` or similar
 - Run `pytest` or `pytest --verbose`. It will discover tests in the `tests` folder and execute all the discovered tests.
-
-## Contributing
-
-Contributions are warmly welcomed. Please create a pull request with your changes, and they will be reviewed as soon as
-possible. The [issue tracker](https://github.com/ReneRebsdorf/CS2-annotations/issues) is also open for any suggestions
-or bugs found.
