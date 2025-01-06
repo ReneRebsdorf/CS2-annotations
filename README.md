@@ -1,4 +1,7 @@
 ﻿# CS2-Annotations
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This repository contains curated utility lineups for Counter-Strike 2, using the built-in annotations feature.
 
@@ -14,83 +17,34 @@ This repository contains curated utility lineups for Counter-Strike 2, using the
 2. Start the game, select __practice__ and __competitive__ in the top menu, choose a map, enable 'Load Map Guide' on the
    left, select the map guide from the dropdown, and click 'Go'. The annotations will be loaded and displayed in-game.
 
-## Updating annotations
-
-Annotations are to be placed in the following directory upon saving:
-
-```text
-C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\annotations\local\map-name\name-of-the-annotation-file.txt
-```
-
-It is important to know that when using annotation_create as described in the below steps, three annotations are
-created:
-
-1. The position annotation for where to stand
-2. The lineup annotation for where to aim
-3. The destination annotation for where to throw (a target circle)
-
-Steps to update the annotations:
-
-- Start the game with annotations enabled (see above [Usage section](#usage)), __or__ use the zip file in the
-  [releases](https://github.com/ReneRebsdorf/CS2-annotations/releases), __or__ git clone this repo to the csgo folder,
-  and rename the folder to 'annotations'.
-- Throw the lineup you want to create annotations for (this is important to record the destination target, whether it is
-  a jump throw, etc.)
-- Open the console and type `annotation_create grenade [smoke|flash|he|molotov|incgrenade|decoy] "label"`
-- Save the annotations with `annotation_save de_map-name`
-- Open the annotation file in the annotations directory and copy the new annotations to this repository (unless using
-  the git clone method from the first step)
-- Modify the 3 newest annotations (those in the bottom of the file), the following properties are useful to check:
-  - For the first annotation (the position annotation):
-    - `Color`: The color of the annotation, see [Color codes](#color-codes)
-    - `Desc.Text`: A second line of text for the standing position, useful for advanced instructions
-  - For the second annotation (the lineup/marker annotation):
-    - `Desc.Text`: A second line of text for aiming instructions, useful for advanced lineups, and to instruct the type
-      of throw, e.g. "Middle click, jump throw", make sure to remove the 'aim instructions'
-  - For the third annotation (the destination annotation):
-    - `DistanceThreshold`: The size of the target circle, useful for showing the accuracy needed for the lineup
-
-## Annotation Commands
-
-Annotations use the annotation\_\* commands in the console. Below are some useful commands:
-
-- `annotation_create`: Creates a new lineup, described below. Omit parameters to get help text.
-  The below commands can be used in combination to provide a more detailed lineup, with where to stand, where to aim,
-  etc.
-  - `annotation_create grenade [smoke|flash|he|molotov|decoy] "label"`: Creates a set of annotations with predefined values and uses a grenade icon with
-    an arrow to help find the lineup. the label field becomes the name of the lineup. This also results in the lineup
-    having a success-score, where after 2 successful throws, the help text and icons will disappear, and you will have to
-    line it up yourself for 2 more successful throws. This is the recommended way to create lineups, but do note that the
-    help text needs to be customized in the annotations file manually.
-  - `annotation_create position "text"`: Adds a position on the map with the given text and displayed with a pair of
-    boots
-  - `annotation_create spot`: Creates two markers where you are looking to help you align your lineup.
-  - `annotation_create text "free text" "extra text" float`: Creates a text floating in the air at where you are
-    looking. Useful for providing additional information, such as what the lineup is for. the "extra text" parameter is
-    optional, and provides a second line of text.
-  - `annotation_create text "free text" "extra text" surface`: Similar to the above command, but the text is attached to
-    a wall or similar
-- `annotation_save <filename>`: Save the current annotations to a file, after doing so copy it back to this repository
-- `annotation_reload`: Reload the annotations, useful when creating new annotations
-
-## Color codes
-
-It is possible to change the color of the annotations by modifying the `Color` field in the annotation file. The in-game
-color codes are as follows:
-
-- `ct-blue`: [ 151, 201, 250 ]
-- `t-yellow`: [ 255, 239, 111 ]
-
-## Testing
-
-The current tests are implemented using `pytest`. To run the tests it is recommended to create a virtual environment.
-
-- Run `python -m venv .venv`
-- Activate the virtual environment. Ie. with `./.venv/bin/Activate.ps1`, `./.venv/Scripts/Activate.ps1` or similar
-- Run `pytest` or `pytest --verbose`. It will discover tests in the `tests` folder and execute all the discovered tests.
-
 ## Contributing
 
-Contributions are warmly welcomed. Please create a pull request with your changes, and they will be reviewed as soon as
-possible. The [issue tracker](https://github.com/ReneRebsdorf/CS2-annotations/issues) is also open for any suggestions
-or bugs found.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to contribute.
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ReneRebsdorf"><img src="https://avatars.githubusercontent.com/u/44376705?v=4?s=100" width="100px;" alt="Rene Rebsdorf"/><br /><sub><b>Rene Rebsdorf</b></sub></a><br /><a href="https://github.com/ReneRebsdorf/CS2-annotations/commits?author=ReneRebsdorf" title="Code">💻</a> <a href="#design-ReneRebsdorf" title="Design">🎨</a> <a href="#content-ReneRebsdorf" title="Content">🖋</a> <a href="https://github.com/ReneRebsdorf/CS2-annotations/commits?author=ReneRebsdorf" title="Documentation">📖</a> <a href="#ideas-ReneRebsdorf" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-ReneRebsdorf" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-ReneRebsdorf" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Staalet"><img src="https://avatars.githubusercontent.com/u/16689470?v=4?s=100" width="100px;" alt="Thomas Staal"/><br /><sub><b>Thomas Staal</b></sub></a><br /><a href="#infra-Staalet" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/JanElholm"><img src="https://avatars.githubusercontent.com/u/12870036?v=4?s=100" width="100px;" alt="Jan Elholm"/><br /><sub><b>Jan Elholm</b></sub></a><br /><a href="https://github.com/ReneRebsdorf/CS2-annotations/commits?author=JanElholm" title="Tests">⚠️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/EMRandall13"><img src="https://avatars.githubusercontent.com/u/119271148?v=4?s=100" width="100px;" alt="EMRandall13"/><br /><sub><b>EMRandall13</b></sub></a><br /><a href="#design-EMRandall13" title="Design">🎨</a> <a href="#ideas-EMRandall13" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-EMRandall13" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/MrGronning"><img src="https://avatars.githubusercontent.com/u/193924841?v=4?s=100" width="100px;" alt="Andreas"/><br /><sub><b>Andreas</b></sub></a><br /><a href="#data-MrGronning" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Friiiis"><img src="https://avatars.githubusercontent.com/u/20768890?v=4?s=100" width="100px;" alt="Gustav Friis-Hansen"/><br /><sub><b>Gustav Friis-Hansen</b></sub></a><br /><a href="#data-Friiiis" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/EstevaoCalera"><img src="https://avatars.githubusercontent.com/u/49175179?v=4?s=100" width="100px;" alt="Estêvão Calera"/><br /><sub><b>Estêvão Calera</b></sub></a><br /><a href="https://github.com/ReneRebsdorf/CS2-annotations/commits?author=EstevaoCalera" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## License
+
+[MIT](LICENSE)
