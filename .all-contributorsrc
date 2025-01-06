@@ -1,0 +1,87 @@
+{
+  "projectName": "CS2-annotations",
+  "projectOwner": "ReneRebsdorf",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "ReneRebsdorf",
+      "name": "Rene Rebsdorf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44376705?v=4",
+      "profile": "https://github.com/ReneRebsdorf",
+      "contributions": [
+        "code",
+        "design",
+        "content",
+        "doc",
+        "ideas",
+        "infra",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "Staalet",
+      "name": "Thomas Staal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16689470?v=4",
+      "profile": "https://github.com/Staalet",
+      "contributions": [
+        "infra"
+      ]
+    },
+    {
+      "login": "JanElholm",
+      "name": "Jan Elholm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12870036?v=4",
+      "profile": "https://github.com/JanElholm",
+      "contributions": [
+        "test"
+      ]
+    },
+    {
+      "login": "EMRandall13",
+      "name": "EMRandall13",
+      "avatar_url": "https://avatars.githubusercontent.com/u/119271148?v=4",
+      "profile": "https://github.com/EMRandall13",
+      "contributions": [
+        "design",
+        "ideas",
+        "content"
+      ]
+    },
+    {
+      "login": "MrGronning",
+      "name": "Andreas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193924841?v=4",
+      "profile": "https://github.com/MrGronning",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "login": "Friiiis",
+      "name": "Gustav Friis-Hansen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20768890?v=4",
+      "profile": "https://github.com/Friiiis",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "login": "EstevaoCalera",
+      "name": "Estêvão Calera",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49175179?v=4",
+      "profile": "https://github.com/EstevaoCalera",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "linkToUsage": false
+}
