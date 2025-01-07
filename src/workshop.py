@@ -67,7 +67,8 @@ if __name__ == "__main__":
         map_name = folder_name
 
         map_path = os.path.join(cwd, base_folder, map_name)
-        preview_file = os.path.join(cwd, "assets", f"{map_name}.PNG")
+        preview_file = os.path.join(cwd, "assets", "thumbnails",
+                                    f"{map_name}.PNG")
 
         # Check if required files exist
         if not os.path.exists(map_path):
