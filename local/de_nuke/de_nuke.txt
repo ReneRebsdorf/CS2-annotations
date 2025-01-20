@@ -2357,7 +2357,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at the wire, align with center of ladder"
+			Text = "Aim at the wire, align with center of ladder\nJumpThrow when reaching the end of the annotation line\nAlign with chimney on the right in matches"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2396,5 +2396,67 @@
 		}
 		MasterNodeId = "1419f1ec-2a3d-418f-961e-d02377f83baa"
 		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode74 = 
+	{
+		Enabled = true
+		Type = "line"
+		Id = "bb644748-11be-479f-8504-0df4cba919c2"
+		SubType = "main"
+		Position = [ -593.217102, -1141.934937, -58.888184 ]
+		Angles = [ 0.0, -85.491829, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "1378b009-e95c-4b41-84c5-cec78f774370"
+	}
+	MapAnnotationNode75 = 
+	{
+		Enabled = true
+		Type = "line"
+		Id = "1378b009-e95c-4b41-84c5-cec78f774370"
+		SubType = "aim_target"
+		Position = [ -841.601929, -1135.303955, -39.425903 ]
+		Angles = [ 0.0, 5.776398, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
 	}
 }
