@@ -44,6 +44,9 @@ Steps to update the annotations:
 
 ## Annotation Commands
 
+The [MapGuide.gg](https://mapguide.gg/) website is a great resource for learning how to use the commands used to create
+annotations.
+
 Annotations use the annotation\_\* commands in the console. Below are some useful commands:
 
 - `annotation_create`: Creates a new lineup, described below. Omit parameters to get help text.
