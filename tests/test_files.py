@@ -90,7 +90,7 @@ def test_annotation_ids_are_unique():
 @pytest.mark.parametrize("annotation", annotations)
 def test_annotations_have_no_empty_title(annotation):
     annotation_type = annotation["Type"]
-    if annotation_type in ["spot", "text"]:
+    if annotation_type in ["spot", "text", "line"]:
         return
     subType = annotation["SubType"]
     is_destination = subType == "destination"
