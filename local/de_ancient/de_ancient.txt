@@ -3959,7 +3959,7 @@
 		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode127 = 
+	MapAnnotationNode121 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3990,7 +3990,7 @@
 		}
 		MasterNodeId = "0a66665d-1d19-4de4-bbdb-22d1c5dcca6f"
 	}
-	MapAnnotationNode128 = 
+	MapAnnotationNode122 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4022,7 +4022,7 @@
 		MasterNodeId = "0a66665d-1d19-4de4-bbdb-22d1c5dcca6f"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode129 = 
+	MapAnnotationNode123 = 
 	{
 		Enabled = true
 		Type = "line"
@@ -4053,7 +4053,7 @@
 		}
 		MasterNodeId = "f050a69a-dcfc-4d60-9dd8-51f9ff19247b"
 	}
-	MapAnnotationNode130 = 
+	MapAnnotationNode124 = 
 	{
 		Enabled = true
 		Type = "line"
@@ -4084,7 +4084,7 @@
 			ShowBackground = true
 		}
 	}
-	MapAnnotationNode131 = 
+	MapAnnotationNode125 = 
 	{
 		Enabled = true
 		Type = "spot"
@@ -4115,7 +4115,7 @@
 			ShowBackground = true
 		}
 	}
-	MapAnnotationNode132 = 
+	MapAnnotationNode126 = 
 	{
 		Enabled = true
 		Type = "spot"
@@ -4146,7 +4146,7 @@
 		}
 		MasterNodeId = "278649f8-b18c-4854-8b89-79737f36e270"
 	}
-MapAnnotationNode126 = 
+  MapAnnotationNode127 = 
 	{
 		Enabled = true
 		Type = "grenade"
