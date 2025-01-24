@@ -1,6 +1,6 @@
 # CS2-Annotations
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This repository contains curated utility lineups for Counter-Strike 2, using the built-in annotations feature.
@@ -36,6 +36,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to contribute
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/MrGronning"><img src="https://avatars.githubusercontent.com/u/193924841?v=4?s=100" width="100px;" alt="Andreas"/><br /><sub><b>Andreas</b></sub></a><br /><a href="#data-MrGronning" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Friiiis"><img src="https://avatars.githubusercontent.com/u/20768890?v=4?s=100" width="100px;" alt="Gustav Friis-Hansen"/><br /><sub><b>Gustav Friis-Hansen</b></sub></a><br /><a href="#data-Friiiis" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/EstevaoCalera"><img src="https://avatars.githubusercontent.com/u/49175179?v=4?s=100" width="100px;" alt="Estêvão Calera"/><br /><sub><b>Estêvão Calera</b></sub></a><br /><a href="https://github.com/ReneRebsdorf/CS2-annotations/commits?author=EstevaoCalera" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/code"><img src="https://avatars.githubusercontent.com/u/7318?v=4?s=100" width="100px;" alt="Code/OS"/><br /><sub><b>Code/OS</b></sub></a><br /><a href="https://github.com/ReneRebsdorf/CS2-annotations/commits?author=code" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
