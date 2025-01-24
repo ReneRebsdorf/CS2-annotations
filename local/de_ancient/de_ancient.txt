@@ -4351,14 +4351,14 @@ MapAnnotationNode126 =
 		Position = [ 1004.03125, 970.96814, 100.986053 ]
 		Angles = [ 0.0, -116.203423, 0.0 ]
 		VisiblePfx = true
-		Color = [ 255, 255, 255 ]
-		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		Color = [ 151, 201, 250 ]
+		TextPositionOffset = [ 0.0, 0.0, 70.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Retake cave smoke \\n Aim at the intersection of the two white bricks \\n Middle click jump throw"
+			Text = "Retake cave smoke"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -4366,7 +4366,7 @@ MapAnnotationNode126 =
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -4374,10 +4374,10 @@ MapAnnotationNode126 =
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode127 = 
+	MapAnnotationNode128 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4392,7 +4392,7 @@ MapAnnotationNode126 =
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Retake cave smoke \\n Aim at the intersection of the two white bricks \\n Middle click jump throw"
+			Text = "Retake cave smoke"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -4400,7 +4400,7 @@ MapAnnotationNode126 =
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Aim where the two white bricks meet\nMiddle click jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -4408,7 +4408,7 @@ MapAnnotationNode126 =
 		}
 		MasterNodeId = "90330c18-208e-478d-ac7b-e9615aa64252"
 	}
-	MapAnnotationNode128 = 
+	MapAnnotationNode129 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4440,7 +4440,7 @@ MapAnnotationNode126 =
 		MasterNodeId = "90330c18-208e-478d-ac7b-e9615aa64252"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode129 = 
+	MapAnnotationNode130 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4449,14 +4449,14 @@ MapAnnotationNode126 =
 		Position = [ 1004.061768, 970.968689, 100.985924 ]
 		Angles = [ 0.0, -120.853386, 0.0 ]
 		VisiblePfx = true
-		Color = [ 255, 255, 255 ]
-		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		Color = [ 151, 201, 250 ]
+		TextPositionOffset = [ 0.0, 0.0, 80.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Retake molo B default \\n Sigt i hakket på stenen \\n Normal throw"
+			Text = "Retake molo B default"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -4464,7 +4464,7 @@ MapAnnotationNode126 =
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -4475,7 +4475,7 @@ MapAnnotationNode126 =
 		JumpThrow = false
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode130 = 
+	MapAnnotationNode131 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4490,7 +4490,7 @@ MapAnnotationNode126 =
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Retake molo B default \\n Sigt i hakket på stenen \\n Normal throw"
+			Text = "Retake molo B default"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -4498,7 +4498,7 @@ MapAnnotationNode126 =
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Aim at top right corner of the brick"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -4506,7 +4506,7 @@ MapAnnotationNode126 =
 		}
 		MasterNodeId = "a1751a6d-749f-48f7-915a-4becc3c54273"
 	}
-	MapAnnotationNode131 = 
+	MapAnnotationNode132 = 
 	{
 		Enabled = true
 		Type = "grenade"
