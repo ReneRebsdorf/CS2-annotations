@@ -1,6 +1,7 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	MapName = "de_ancient"
+	WorkshopSubmissionID = "3397846803"
 	ScreenText = 
 	{
 	}
@@ -1676,8 +1677,8 @@
 		Type = "grenade"
 		Id = "f5b6f6a4-0500-4e66-87b3-8018da64c48e"
 		SubType = "main"
-		Position = [ -2009.05127, 185.590149, 72.031258 ]
-		Angles = [ 0.0, 90.0, 0.0 ]
+		Position = [ -1983.030518, 235.893661, 87.981766 ]
+		Angles = [ 0.0, 79.886414, 0.0 ]
 		VisiblePfx = true
 		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
@@ -1694,14 +1695,14 @@
 		}
 		Desc = 
 		{
-			Text = ""
+			Text = "Wedge into corner on the right, and shift walk to the left.\nNot sensitive, can be thrown as soon as you are clear of the wall."
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
 			ShowBackground = true
 		}
-		StreakLimitGuidesOn = 0
-		StreakLimitGuidesOff = 0
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
 		JumpThrow = false
 		GrenadeType = "molotov"
 	}
@@ -1711,10 +1712,10 @@
 		Type = "grenade"
 		Id = "c84770f4-8f15-4b81-8bc5-a27e8ab06801"
 		SubType = "aim_target"
-		Position = [ -1993.661377, 284.377869, 137.923172 ]
-		Angles = [ -1.175746, 81.145004, 0.0 ]
-		VisiblePfx = false
-		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		Position = [ -1964.569458, 334.173828, 146.140472 ]
+		Angles = [ -0.257278, 79.361488, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 50.0, 30.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
@@ -1728,7 +1729,7 @@
 		}
 		Desc = 
 		{
-			Text = "X axis hovering on the top of the crates"
+			Text = "Aim slightly to the left of the top left corner of the box\nMolo clears left and right box, and behind it."
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1742,8 +1743,8 @@
 		Type = "grenade"
 		Id = "6d76691f-03bd-4414-b1c9-0dcfcf269752"
 		SubType = "destination"
-		Position = [ -1874.802979, 1012.862915, 54.03125 ]
-		Angles = [ -1.175746, 81.145004, 0.0 ]
+		Position = [ -1829.541382, 1056.151367, 54.03125 ]
+		Angles = [ -0.257278, 79.361488, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
@@ -4146,7 +4147,7 @@
 		}
 		MasterNodeId = "278649f8-b18c-4854-8b89-79737f36e270"
 	}
-  MapAnnotationNode127 = 
+	MapAnnotationNode127 = 
 	{
 		Enabled = true
 		Type = "grenade"
