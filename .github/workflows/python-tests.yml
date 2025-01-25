@@ -2,6 +2,7 @@ name: Python Tests
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+permissions: read-all
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -10,8 +11,14 @@ jobs:
         python-version: [3.12]
     steps:
       - name: Checkout code
+        # Accept Unpinned Actions Full Length Commit SHA
+        # As we trust the merge and release process of Actions/
+        # kics-scan ignore-line
         uses: actions/checkout@v4
       - name: Set up Python
+        # Accept Unpinned Actions Full Length Commit SHA
+        # As we trust the merge and release process of Actions/
+        # kics-scan ignore-line
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
