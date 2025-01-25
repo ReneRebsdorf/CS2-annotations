@@ -1,6 +1,7 @@
 import os
 import subprocess  # nosec - Used to run SteamCMD
 import argparse
+import re
 
 
 # Function to generate the VDF content
@@ -27,21 +28,6 @@ def generate_vdf(output_path, content_folder, preview_file, title,
 
 
 if __name__ == "__main__":
-    # Map folder names to their corresponding published_file_id
-    # At the time of writing, I have only found this to be working
-    # when the map is already uploaded to the workshop using the
-    # workshop_annotation_submit command in the game console.
-    published_file_id_map = {
-        "de_ancient": "3397846803",
-        "de_anubis": "3397845762",
-        "de_dust2": "3397851092",
-        "de_inferno": "3397850337",
-        "de_mirage": "3397848956",
-        "de_nuke": "3393679779",
-        "de_overpass": "3397844011",
-        "de_train": "3397841296",
-        "de_vertigo": "3397844974",
-    }
 
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -76,15 +62,16 @@ if __name__ == "__main__":
         if not os.path.exists(preview_file):
             raise FileNotFoundError(f"Preview file missing: {preview_file}")
 
-        # Check if the folder name has a corresponding published_file_id
-        if map_name not in published_file_id_map:
-            raise KeyError(f"No published_file_id found for {map_name}.")
-
         # Generate metadata for the VDF
         title = f"zitrez {map_name} annotations"
         url = "https://github.com/ReneRebsdorf/CS2-annotations"
         description = f"Map annotations from {url}"
-        published_file_id = published_file_id_map[map_name]
+        # Get the WorkshopSubmissionID from the file using regex
+        file_path = os.path.join(map_path, map_name + ".txt")
+        file_content = open(file_path, "r").read()
+        published_file_id = re.search(
+            r'WorkshopSubmissionID.*"(\d+)"', file_content
+        ).group(1)
 
         # Create a temporary VDF file for this folder
         temp_vdf = os.path.join(map_path, "metadata.vdf")

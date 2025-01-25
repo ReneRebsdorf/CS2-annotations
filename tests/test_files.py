@@ -8,12 +8,11 @@ thumbnails = os.listdir("./assets/")
 thumbnails = [f for f in thumbnails if f.endswith(".PNG")]
 thumbnails = [f for f in thumbnails if f.startswith("de_")]
 
-# Get readme file content for use in test
-readme = open("README.md", "r")
-
 # Find txt files starting with 'de_' and assume them to be annotation files
 test_files = []
 annotations = []
+annotation_collections = []
+workshop_ids = []
 for dirpath, dirnames, filenames in os.walk("./local/"):
     for filename in [f for f in filenames if f.endswith(".txt")]:
         if filename.startswith("de_"):
@@ -23,6 +22,10 @@ for file_name in test_files:
     file_annotations = []
     dict = kv3.read(file_name)
     assert dict is not None
+
+    # Add the dictionary (parsed map file, e.g. all of de_ancient.txt)
+    # to the annotation collections
+    annotation_collections.append(dict)
 
     # Get the annotations where the key is MapAnnotationNodeX
     for key in dict:
@@ -62,6 +65,21 @@ for file_name in test_files:
 
 assert len(annotations) > 0, "No annotations found in the test files"
 
+@pytest.mark.parametrize("annotation_collection", annotation_collections)
+def test_annotation_file_has_workshop_id(annotation_collection):
+    map_name = annotation_collection.value["MapName"]
+    assert "WorkshopSubmissionID" in annotation_collection.value, f"WorkshopSubmissionID not found in: {map_name}"
+    workshop_id = annotation_collection.value["WorkshopSubmissionID"]
+    assert workshop_id is not None, f"WorkshopSubmissionID is empty in: {map_name}"
+    assert workshop_id is not "0", f"WorkshopSubmissionID is 0 in: {map_name}, ensure it is set to the correct value"
+
+
+def test_workshop_ids_are_unique():
+    ids = []
+    for annotation_collection in annotation_collections:
+        id = annotation_collection["WorkshopSubmissionID"]
+        assert id not in ids, f"Duplicate WorkshopSubmissionID: {id}"
+        ids.append(id)
 
 @pytest.mark.parametrize("annotation", annotations)
 def test_annotations_are_blue_or_yellow(annotation):
