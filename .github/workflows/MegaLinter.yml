@@ -7,7 +7,6 @@ on: # yamllint disable-line rule:truthy - false positive
   pull_request:
     branches:
       - main
-      - master
 env:
   APPLY_FIXES: all
   APPLY_FIXES_EVENT: pull_request
@@ -31,7 +30,7 @@ jobs:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
           # If using VALIDATE_ALL_CODEBASE = true, the below line 
           # can be removed to improve performance
-          fetch-depth: 0
+          # fetch-depth: 0
       - name: MegaLinter
         uses: oxsecurity/megalinter@v8
         id: megalinter
@@ -48,11 +47,7 @@ jobs:
           #     github.event_name == 'push' &&
           #     contains(fromJSON('["refs/heads/main", "refs/heads/master"]'), github.ref)
           #   }}
-          VALIDATE_ALL_CODEBASE: >-
-            ${{
-              github.event_name == 'push' &&
-              contains(fromJSON('["refs/heads/main", "refs/heads/master"]'), github.ref)
-            }}
+          VALIDATE_ALL_CODEBASE: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Archive production artifacts
         if: success() || failure()
