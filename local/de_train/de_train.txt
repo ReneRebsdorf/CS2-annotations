@@ -1129,7 +1129,7 @@
 		MasterNodeId = "940b5fcb-733d-45e5-a7ad-c7e39a6e1aa4"
 		DistanceThreshold = 80.0
 	}
-MapAnnotationNode35 = 
+	MapAnnotationNode35 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1138,14 +1138,14 @@ MapAnnotationNode35 =
 		Position = [ -1499.03125, 1479.967651, -170.96875 ]
 		Angles = [ 0.0, -25.84877, 0.0 ]
 		VisiblePfx = true
-		Color = [ 255, 255, 255 ]
+		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Camera smoke \\n Aim at the edge of the roof and jump throw"
+			Text = "Camera smoke"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -1153,7 +1153,7 @@ MapAnnotationNode35 =
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1161,7 +1161,7 @@ MapAnnotationNode35 =
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "smoke"
 	}
 	MapAnnotationNode36 = 
@@ -1179,7 +1179,7 @@ MapAnnotationNode35 =
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Camera smoke \\n Aim at the edge of the roof and jump throw"
+			Text = "Camera smoke"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1187,7 +1187,7 @@ MapAnnotationNode35 =
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Aim at the edge of the roof"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1236,14 +1236,14 @@ MapAnnotationNode35 =
 		Position = [ -1499.048584, 1479.968018, -170.96875 ]
 		Angles = [ 0.0, -25.413437, 0.0 ]
 		VisiblePfx = true
-		Color = [ 255, 255, 255 ]
+		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Connector smoke \\n Aim at the white spot and jump throw"
+			Text = "Connector smoke"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -1251,7 +1251,7 @@ MapAnnotationNode35 =
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1259,7 +1259,7 @@ MapAnnotationNode35 =
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "smoke"
 	}
 	MapAnnotationNode39 = 
@@ -1277,7 +1277,7 @@ MapAnnotationNode35 =
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Connector smoke \\n Aim at the white spot and jump throw"
+			Text = "Connector smoke"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1285,7 +1285,7 @@ MapAnnotationNode35 =
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Aim at the white spot"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1334,14 +1334,14 @@ MapAnnotationNode35 =
 		Position = [ -1755.03125, 1479.969238, -170.96875 ]
 		Angles = [ 0.0, -27.061737, 0.0 ]
 		VisiblePfx = true
-		Color = [ 255, 255, 255 ]
+		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Sandwich smoke \n Aim in the middle of the brown part below the second beam and jump throw"
+			Text = "Sandwich smoke"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -1349,7 +1349,7 @@ MapAnnotationNode35 =
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1357,7 +1357,7 @@ MapAnnotationNode35 =
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "smoke"
 	}
 	MapAnnotationNode42 = 
@@ -1375,7 +1375,7 @@ MapAnnotationNode35 =
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Sandwich smoke \n Aim in the middle of the brown part below the second beam and jump throw"
+			Text = "Sandwich smoke"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1383,7 +1383,7 @@ MapAnnotationNode35 =
 		}
 		Desc = 
 		{
-			Text = "Jump throw"
+			Text = "Aim in the middle of the brown part below the second beam"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1432,14 +1432,14 @@ MapAnnotationNode35 =
 		Position = [ -764.424011, 524.421936, -215.96875 ]
 		Angles = [ 0.0, -0.630341, 0.0 ]
 		VisiblePfx = true
-		Color = [ 255, 255, 255 ]
+		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Backsite molly \\n Aim above the two squares on the yellow beam while running, release once your crosshair reaches the squares"
+			Text = "Back site molly"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -1447,7 +1447,7 @@ MapAnnotationNode35 =
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1473,7 +1473,7 @@ MapAnnotationNode35 =
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Backsite molly \\n Aim above the two squares on the yellow beam while running, release once your crosshair reaches the squares"
+			Text = "Back site molly"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1481,7 +1481,7 @@ MapAnnotationNode35 =
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Aim above the two squares on the yellow beam while running\nRelease once your crosshair reaches the squares"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1498,14 +1498,14 @@ MapAnnotationNode35 =
 		Position = [ -650.054688, 1559.738159, -209.804443 ]
 		Angles = [ 0.0, -79.748383, 0.0 ]
 		VisiblePfx = true
-		Color = [ 255, 255, 255 ]
+		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "A site flash \\n Aim on the top right corner of the sign and jump throw"
+			Text = "A site flash"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -1513,7 +1513,7 @@ MapAnnotationNode35 =
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1521,7 +1521,7 @@ MapAnnotationNode35 =
 		}
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
-		JumpThrow = false
+		JumpThrow = true
 		GrenadeType = "flash"
 	}
 	MapAnnotationNode47 = 
@@ -1539,7 +1539,7 @@ MapAnnotationNode35 =
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "A site flash \\n Aim on the top right corner of the sign and jump throw"
+			Text = "A site flash"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1547,7 +1547,7 @@ MapAnnotationNode35 =
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Aim on the top right corner of the sign"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
