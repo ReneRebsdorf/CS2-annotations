@@ -1,5 +1,8 @@
 # MegaLinter GitHub Action configuration file
 # More info at https://megalinter.io
+
+# Disable: Unpinned Actions Full Length Commit SHA
+# kics-scan disable=555ab8f9-2001-455e-a077-f2d0f41e2fb9
 ---
 name: MegaLinter
 on: # yamllint disable-line rule:truthy - false positive
@@ -24,9 +27,6 @@ jobs:
       pull-requests: write
     steps:
       - name: Checkout Code
-        # Accept Unpinned Actions Full Length Commit SHA
-        # As we trust the merge and release process of actions/
-        # kics-scan ignore-line
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
@@ -34,9 +34,6 @@ jobs:
           # can be removed to improve performance
           # fetch-depth: 0
       - name: MegaLinter
-        # Accept Unpinned Actions Full Length Commit SHA
-        # As we trust the merge and release process of oxsecurity/
-        # kics-scan ignore-line
         uses: oxsecurity/megalinter@v8
         id: ml
         env:
@@ -56,9 +53,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Archive production artifacts
         if: success() || failure()
-        # Accept Unpinned Actions Full Length Commit SHA
-        # As we trust the merge and release process of actions/
-        # kics-scan ignore-line
         uses: actions/upload-artifact@v4
         with:
           name: MegaLinter reports
@@ -93,9 +87,6 @@ jobs:
       # Create pull request if applicable
       # (for now works only on PR from same repository, not from forks)
       - name: Create Pull Request with applied fixes
-        # Accept Unpinned Actions Full Length Commit SHA
-        # As we trust the merge and release process of peter-evans/
-        # kics-scan ignore-line
         uses: peter-evans/create-pull-request@v6
         id: cpr
         if: env.APPLY_FIXES_IF_PR == 'true'
@@ -118,9 +109,6 @@ jobs:
         run: sudo chown -Rc $UID .git/
 
       - name: Commit and push applied linter fixes
-        # Accept Unpinned Actions Full Length Commit SHA
-        # As we trust the merge and release process of stefanzweifel/
-        # kics-scan ignore-line
         uses: stefanzweifel/git-auto-commit-action@v4
         if: env.APPLY_FIXES_IF_COMMIT == 'true'
         with:

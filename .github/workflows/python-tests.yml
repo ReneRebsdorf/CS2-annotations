@@ -1,3 +1,6 @@
+# Disable: Unpinned Actions Full Length Commit SHA
+# kics-scan disable=555ab8f9-2001-455e-a077-f2d0f41e2fb9
+---
 name: Python Tests
 on:
   pull_request:
@@ -11,14 +14,8 @@ jobs:
         python-version: [3.12]
     steps:
       - name: Checkout code
-        # Accept Unpinned Actions Full Length Commit SHA
-        # As we trust the merge and release process of Actions/
-        # kics-scan ignore-line
         uses: actions/checkout@v4
       - name: Set up Python
-        # Accept Unpinned Actions Full Length Commit SHA
-        # As we trust the merge and release process of Actions/
-        # kics-scan ignore-line
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
