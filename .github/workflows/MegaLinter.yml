@@ -30,7 +30,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
-          # If using VALIDATE_ALL_CODEBASE = true, the below line 
+          # If using VALIDATE_ALL_CODEBASE = true, the below line
           # can be removed to improve performance
           # fetch-depth: 0
       - name: MegaLinter
