@@ -1,7 +1,11 @@
+# Disable: Unpinned Actions Full Length Commit SHA
+# kics-scan disable=555ab8f9-2001-455e-a077-f2d0f41e2fb9
+---
 name: Python Tests
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+permissions: read-all
 jobs:
   test:
     runs-on: ubuntu-latest

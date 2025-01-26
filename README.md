@@ -1,6 +1,6 @@
 # CS2-Annotations
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This repository contains curated utility lineups for Counter-Strike 2, using the built-in annotations feature.
@@ -23,6 +23,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to contribute
 
 ## Contributors
 
+<!-- spell-checker:disable -->
+<!-- markdown-link-check-disable -->
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -44,6 +46,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to contribute
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- markdown-link-check-enable -->
+<!-- spell-checker:enable -->
 
 ## License
 
