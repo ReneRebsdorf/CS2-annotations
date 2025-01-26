@@ -1,15 +1,13 @@
 {
-  "projectName": "CS2-annotations",
+  "projectName": "CS2-Annotations",
   "projectOwner": "ReneRebsdorf",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "files": [
-    "README.md"
-  ],
+  "files": ["README.md"],
   "imageSize": 100,
-  "commit": true,
   "commitConvention": "angular",
-  // spell-checker:disable
+  "commitType": "docs",
+  "skipCi": true,
   "contributors": [
     {
       "login": "ReneRebsdorf",
@@ -31,59 +29,43 @@
       "name": "Thomas Staal",
       "avatar_url": "https://avatars.githubusercontent.com/u/16689470?v=4",
       "profile": "https://github.com/Staalet",
-      "contributions": [
-        "infra"
-      ]
+      "contributions": ["infra"]
     },
     {
       "login": "JanElholm",
       "name": "Jan Elholm",
       "avatar_url": "https://avatars.githubusercontent.com/u/12870036?v=4",
       "profile": "https://github.com/JanElholm",
-      "contributions": [
-        "test"
-      ]
+      "contributions": ["test"]
     },
     {
       "login": "EMRandall13",
       "name": "EMRandall13",
       "avatar_url": "https://avatars.githubusercontent.com/u/119271148?v=4",
       "profile": "https://github.com/EMRandall13",
-      "contributions": [
-        "design",
-        "ideas",
-        "content"
-      ]
+      "contributions": ["design", "ideas", "content"]
     },
     {
       "login": "MrGronning",
       "name": "Andreas",
       "avatar_url": "https://avatars.githubusercontent.com/u/193924841?v=4",
       "profile": "https://github.com/MrGronning",
-      "contributions": [
-        "data"
-      ]
+      "contributions": ["data"]
     },
     {
       "login": "Friiiis",
       "name": "Gustav Friis-Hansen",
       "avatar_url": "https://avatars.githubusercontent.com/u/20768890?v=4",
       "profile": "https://github.com/Friiiis",
-      "contributions": [
-        "data"
-      ]
+      "contributions": ["data"]
     },
     {
       "login": "EstevaoCalera",
       "name": "Estêvão Calera",
       "avatar_url": "https://avatars.githubusercontent.com/u/49175179?v=4",
       "profile": "https://github.com/EstevaoCalera",
-      "contributions": [
-        "code"
-      ]
+      "contributions": ["code"]
     }
   ],
-  // spell-checker:enable
-  "contributorsPerLine": 7,
-  "linkToUsage": false
+  "contributorsPerLine": 7
 }
