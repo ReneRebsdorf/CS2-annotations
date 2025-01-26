@@ -1,0 +1,8 @@
+PYTHON_PRE_COMMANDS:
+  - command:
+      python -m pip install --upgrade pip
+      pip install -r requirements.txt
+  - command: *pip_install
+    venv: pylint
+  - command: *pip_install
+    venv: pyright
