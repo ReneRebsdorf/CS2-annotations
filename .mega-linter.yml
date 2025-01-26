@@ -1,5 +1,4 @@
 PRE_COMMANDS:
-  - command: pip install -r requirements.txt
+  - command: python3 -m pip install --no-cache-dir /tmp/requirements.txt
     venv: pylint
-  - command: pip install -r requirements.txt
-    venv: pyright
+    continue_if_failed: false
