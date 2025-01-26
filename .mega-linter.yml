@@ -1,4 +1,4 @@
-PRE_COMMANDS:
+PYTHON_PRE_COMMANDS:
   - command: >
       pip install --upgrade pip --root-user-action=ignore &&
       python3 -m pip install --no-cache-dir -r /tmp/lint/requirements.txt
