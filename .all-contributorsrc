@@ -1,12 +1,13 @@
 {
-  "projectName": "CS2-annotations",
+  "projectName": "CS2-Annotations",
   "projectOwner": "ReneRebsdorf",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": ["README.md"],
   "imageSize": 100,
-  "commit": true,
   "commitConvention": "angular",
+  "commitType": "docs",
+  "skipCi": true,
   "contributors": [
     {
       "login": "ReneRebsdorf",
@@ -66,6 +67,5 @@
       "contributions": ["code"]
     }
   ],
-  "contributorsPerLine": 7,
-  "linkToUsage": false
+  "contributorsPerLine": 7
 }
