@@ -1,13 +1,11 @@
 # Disable: Unpinned Actions Full Length Commit SHA
 # kics-scan disable=555ab8f9-2001-455e-a077-f2d0f41e2fb9
 ---
-name: main
+name: Release
 on:
   push:
     tags:
       - v*.*.*
-    branches:
-      - "*"
 permissions:
   contents: write
   discussions: write
@@ -26,8 +24,6 @@ jobs:
           cp -r local/ annotations/local/
           zip -r annotations.zip annotations/
       - name: Release zip
-        # Only release when a tag is pushed, which triggered this workflow
-        if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
           files: annotations.zip
@@ -39,24 +35,20 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - name: Install dependencies
-        if: startsWith(github.ref, 'refs/tags/')
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - id: setup-steam-dir
-        if: startsWith(github.ref, 'refs/tags/')
         run: |
           mkdir -p "/home/runner/Steam/config"
           echo "$SteamConfigVDF" > "/home/runner/Steam/config/config.vdf"
           chmod 777 "/home/runner/Steam/config/config.vdf"
       - id: setup-steamcmd
-        if: startsWith(github.ref, 'refs/tags/')
         # Accept Unpinned Actions Full Length Commit SHA
         # As we trust the merge and release process of CyberAndrii/
         # kics-scan ignore-line
         uses: CyberAndrii/setup-steamcmd@v1.2.0
       - id: update_workshop
-        if: startsWith(github.ref, 'refs/tags/')
         env:
           # Plain-text steam config vdf generated for the account being used. Used for MFA
           # Generate the content by logging in locally using MFA
