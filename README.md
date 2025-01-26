@@ -4,11 +4,8 @@
 [![GitHub branches](https://badgen.net/github/branches/ReneRebsdorf/CS2-Annotations)](https://github.com/ReneRebsdorf/CS2-Annotations/)
 [![GitHub latest commit](https://badgen.net/github/last-commit/ReneRebsdorf/CS2-Annotations)](https://GitHub.com/ReneRebsdorf/CS2-Annotations/commit/)
 [![GitHub issues](https://img.shields.io/github/issues/ReneRebsdorf/CS2-Annotations.svg)](https://GitHub.com/ReneRebsdorf/CS2-Annotations/issues/)
-[![MegaLinter](https://github.com/oxsecurity/megalinter/workflows/MegaLinter/badge.svg?branch=main)](https://github.com/ReneRebsdorf/CS2-Annotations/actions?query=workflow%3AMegaLinter+branch%3Amain)
 [![GitHub license](https://badgen.net/github/license/ReneRebsdorf/CS2-Annotations)](https://github.com/ReneRebsdorf/CS2-Annotations/blob/main/LICENSE)
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![All Contributors](https://img.shields.io/github/all-contributors/ReneRebsdorf/CS2-Annotations?color=ee8449&style=flat-square)](#contributors)
 
 This repository contains curated utility lineups for Counter-Strike 2, using the built-in annotations feature.
 The lineups are designed to help players learn and practice utility lineups, and can be accessed by subscribing to the
