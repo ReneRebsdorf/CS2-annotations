@@ -35,9 +35,6 @@ jobs:
           # fetch-depth controls how much of the git history to fetch
           # default is 1, which is the last commit
           # fetch-depth: 0
-      # Make the local and GitHub runner experience consistent
-      - name: Create symlink
-        run: ln -s /github/workspace /tmp/lint
       - name: MegaLinter
         uses: oxsecurity/megalinter@v8
         id: ml

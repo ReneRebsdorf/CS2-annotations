@@ -3,8 +3,8 @@
 import os
 import re
 
-import keyvalues3 as kv3
-import pytest
+import keyvalues3 as kv3  # pylint: disable=import-error
+import pytest  # pylint: disable=import-error
 
 # Get all the preview files, which are PNGs with the map name as the filename
 thumbnails = os.listdir("./assets/")
