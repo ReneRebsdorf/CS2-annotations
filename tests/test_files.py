@@ -28,7 +28,7 @@ for file_name in test_files:
 
     # Add the dictionary (parsed map file, e.g. all of de_ancient.txt)
     # to the annotation collections
-    annotation_collections.append(dict)
+    annotation_collections.append(dictionary)
 
     # Get the annotations where the key is MapAnnotationNodeX
     for key in dictionary:
@@ -85,7 +85,7 @@ def test_annotation_file_has_workshop_id(annotation_collection):
     assert workshop_id is not None, error_msg
 
     error_msg = f"WorkshopSubmissionID is 0 in: {map_name}"
-    assert workshop_id != "0", error_msg
+    assert workshop_id not in ["0", ""], error_msg
 
 
 def test_workshop_ids_are_unique():
