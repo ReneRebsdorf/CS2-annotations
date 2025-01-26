@@ -1,4 +1,4 @@
-PRE_COMMANDS:
+PYTHON_PRE_COMMANDS:
   - command: python3 -m pip install --no-cache-dir -r /tmp/lint/requirements.txt
     venv: pylint
     continue_if_failed: false
