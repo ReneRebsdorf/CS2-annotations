@@ -2,8 +2,9 @@
 
 import os
 import re
-import pytest
+
 import keyvalues3 as kv3
+import pytest
 
 # Get all the preview files, which are PNGs with the map name as the filename
 thumbnails = os.listdir("./assets/")

@@ -1,8 +1,8 @@
 """This script uploads the annotations to the Steam Workshop"""
 
+import argparse
 import os
 import subprocess  # nosec - Used to run SteamCMD
-import argparse
 
 
 def generate_vdf(output_path, content_folder, preview_file, title,
