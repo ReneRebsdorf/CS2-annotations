@@ -63,7 +63,7 @@
 		}
 		Desc = 
 		{
-			Text = "Align to shadow of lamp and top of wall\n1 step jumpthrow"
+			Text = "Align to shadow of lamp and top of wall\n1 step jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -225,7 +225,7 @@
 		}
 		Desc = 
 		{
-			Text = "Stand infront of hinge"
+			Text = "Stand in front of hinge"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -553,7 +553,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim where bridge and roof meet\nMiddle-click jumpthrow"
+			Text = "Aim where bridge and roof meet\nMiddle-click jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -813,7 +813,7 @@
 		}
 		Desc = 
 		{
-			Text = "Wedge in between cabel drum and washing machine"
+			Text = "Wedge in between cable drum and washing machine"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -847,7 +847,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim left side of the left eye\n2-step jumpthrow"
+			Text = "Aim left side of the left eye\n2-step jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1107,7 +1107,7 @@
 		}
 		Desc = 
 		{
-			Text = "Stand infront of lamp"
+			Text = "Stand in front of lamp"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1337,7 +1337,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at corner of roof\nMiddle-click jumpthrow"
+			Text = "Aim at corner of roof\nMiddle-click jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1891,7 +1891,7 @@
 		}
 		Desc = 
 		{
-			Text = "Stand on left side of piller"
+			Text = "Stand on left side of pillar"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2121,7 +2121,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim in middle of brick wall\nRunning jumpthrow\nRelease throw when reaching bottom of stairs"
+			Text = "Aim in middle of brick wall\nRunning jump throw\nRelease throw when reaching bottom of stairs"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2219,7 +2219,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at left eye\n2 step jumpthrow"
+			Text = "Aim at left eye\n2 step jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2317,7 +2317,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim on top of highest rebar\nRunthrow"
+			Text = "Aim on top of highest rebar\nRun-throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0

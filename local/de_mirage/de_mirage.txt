@@ -2732,7 +2732,7 @@
 		}
 		Desc = 
 		{
-			Text = "Wedge into corner infront of bin"
+			Text = "Wedge into corner in front of bin"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0

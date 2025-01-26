@@ -1,9 +1,15 @@
 # CS2-Annotations
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+[![Github version](https://badgen.net/github/tag/ReneRebsdorf/CS2-Annotations)](https://github.com/ReneRebsdorf/CS2-Annotations/tags/)
+[![GitHub branches](https://badgen.net/github/branches/ReneRebsdorf/CS2-Annotations)](https://github.com/ReneRebsdorf/CS2-Annotations/)
+[![GitHub latest commit](https://badgen.net/github/last-commit/ReneRebsdorf/CS2-Annotations)](https://GitHub.com/ReneRebsdorf/CS2-Annotations/commit/)
+[![GitHub issues](https://img.shields.io/github/issues/ReneRebsdorf/CS2-Annotations.svg)](https://GitHub.com/ReneRebsdorf/CS2-Annotations/issues/)
+[![GitHub license](https://img.shields.io/github/license/ReneRebsdorf/CS2-Annotations)](https://github.com/ReneRebsdorf/CS2-Annotations/blob/main/LICENSE)
+[![All Contributors](https://img.shields.io/github/all-contributors/ReneRebsdorf/CS2-Annotations?color=ee8449&style=flat)](#contributors)
 
 This repository contains curated utility lineups for Counter-Strike 2, using the built-in annotations feature.
+The lineups are designed to help players learn and practice utility lineups, and can be accessed by subscribing to the
+[Steam workshop collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3397847952)
 
 |                                                     |                                                |
 | --------------------------------------------------- | ---------------------------------------------- |
@@ -14,7 +20,7 @@ This repository contains curated utility lineups for Counter-Strike 2, using the
 1. Go to [the Steam workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=3397847952) and click
    "Subscribe to all". This will download the annotations to your game. Any updates to the annotations will be
    automatically downloaded.
-2. Start the game, select __practice__ and __competitive__ in the top menu, choose a map, enable 'Load Map Guide' on the
+2. Start the game, select **practice** and **competitive** in the top menu, choose a map, enable 'Load Map Guide' on the
    left, select the map guide from the dropdown, and click 'Go'. The annotations will be loaded and displayed in-game.
 
 ## Contributing
@@ -23,6 +29,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to contribute
 
 ## Contributors
 
+<!-- spell-checker:disable -->
+<!-- markdown-link-check-disable -->
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -44,6 +52,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to contribute
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- markdown-link-check-enable -->
+<!-- spell-checker:enable -->
 
 ## License
 

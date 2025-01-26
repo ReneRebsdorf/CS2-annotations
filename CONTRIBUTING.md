@@ -23,8 +23,8 @@ created:
 
 Steps to update the annotations:
 
-- Start the game with annotations enabled, __or__ use the zip file in the
-  [releases](https://github.com/ReneRebsdorf/CS2-annotations/releases), __or__ git clone this repo to the csgo folder,
+- Start the game with annotations enabled, **or** use the zip file in the
+  [releases](https://github.com/ReneRebsdorf/CS2-annotations/releases), **or** git clone this repo to the csgo folder,
   and rename the folder to 'annotations'.
 - Throw the lineup you want to create annotations for (this is important to record the destination target, whether it is
   a jump throw, etc.)
@@ -81,9 +81,15 @@ color codes are as follows:
 
 The current tests are implemented using `pytest`. To run the tests it is recommended to create a virtual environment.
 
+### Pytest
+
 - Run `python -m venv .venv`
 - Activate the virtual environment. Ie. with `./.venv/bin/Activate.ps1`, `./.venv/Scripts/Activate.ps1` or similar
 - Run `pytest` or `pytest --verbose`. It will discover tests in the `tests` folder and execute all the discovered tests.
+
+### MegaLinter
+
+- run `npx mega-linter-runner` to run the linter and other tools on the codebase.
 
 ## Recognition
 

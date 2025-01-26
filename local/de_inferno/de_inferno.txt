@@ -127,7 +127,7 @@
 		}
 		Desc = 
 		{
-			Text = "Wedge into corner infront of chair"
+			Text = "Wedge into corner in front of chair"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1631,7 +1631,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at top of left steelbar on window\nRun middleclick throw\nrelease when crossing out of T main"
+			Text = "Aim at top of left steel bar on window\nRun middle-click throw\nrelease when crossing out of T main"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1989,7 +1989,7 @@
 		}
 		Desc = 
 		{
-			Text = "Stand infront of cabels"
+			Text = "Stand in front of cables"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2121,7 +2121,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at bottom right of yellow dress\nW + jumpthrow"
+			Text = "Aim at bottom right of yellow dress\nW + jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2317,7 +2317,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at wall on the top building and line up with the overhang\nW + jumpthrow"
+			Text = "Aim at wall on the top building and line up with the overhang\nW + jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2513,7 +2513,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at tip of overhang - W + jumpthrow"
+			Text = "Aim at tip of overhang - W + jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2709,7 +2709,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim furthest left on tallest roof\nW + jumpthrow"
+			Text = "Aim furthest left on tallest roof\nW + jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2962,7 +2962,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at bottom of left most support\nW + jumpthrow"
+			Text = "Aim at bottom of left most support\nW + jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -3060,7 +3060,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at left most first star\nW + jumpthrow"
+			Text = "Aim at left most first star\nW + jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -3158,7 +3158,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim in small D\nW + Jumpthrow"
+			Text = "Aim in small D\nW + Jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -3256,7 +3256,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at A\nMiddle jumpthrow"
+			Text = "Aim at A\nMiddle jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -3320,7 +3320,7 @@
 		}
 		Desc = 
 		{
-			Text = "Stand infront of red wall"
+			Text = "Stand in front of red wall"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -3614,7 +3614,7 @@
 		}
 		Desc = 
 		{
-			Text = "Stand infront of corner on the half wall"
+			Text = "Stand in front of corner on the half wall"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -3648,7 +3648,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim where the parasol and pole connects\nW + Jumpthrow"
+			Text = "Aim where the parasol and pole connects\nW + Jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -3712,7 +3712,7 @@
 		}
 		Desc = 
 		{
-			Text = "Stand in corner infront of trashcan"
+			Text = "Stand in corner in front of trashcan"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -3942,7 +3942,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim slightly above corner of the roof on the building in the distance\n2 step runthrow"
+			Text = "Aim slightly above corner of the roof on the building in the distance\n2 step run-throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -4040,7 +4040,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at Y\nW + jumpthrow"
+			Text = "Aim at Y\nW + jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -4104,7 +4104,7 @@
 		}
 		Desc = 
 		{
-			Text = "Stand infront of corner"
+			Text = "Stand in front of corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0

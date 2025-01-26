@@ -12,3 +12,6 @@ annotations.zip
 
 # vs code settings
 .vscode/
+
+# megalinter reports
+megalinter-reports/

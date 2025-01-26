@@ -609,7 +609,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke CT Spawn (aim at wringle)"
+			Text = "Smoke CT Spawn"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -643,7 +643,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke CT Spawn (aim at wringle)"
+			Text = "Smoke CT Spawn"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -651,7 +651,7 @@
 		}
 		Desc = 
 		{
-			Text = ""
+			Text = "Aim at wrinkle"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2423,7 +2423,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Molo headshot\nW + Jumpthrow"
+			Text = "Molo headshot\nW + Jump throw"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2921,7 +2921,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim in middle of windowframe under middle steelbar"
+			Text = "Aim in middle of window frame under middle steel bar"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2985,7 +2985,7 @@
 		}
 		Desc = 
 		{
-			Text = "Wedge into corner on left side of wallbox"
+			Text = "Wedge into corner on left side of box"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -3117,7 +3117,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim between crane cabin and metel beam"
+			Text = "Aim between crane cabin and metal beam"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0

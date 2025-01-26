@@ -1,18 +1,20 @@
+"""This script uploads the annotations to the Steam Workshop"""
+
+import argparse
 import os
 import subprocess  # nosec - Used to run SteamCMD
-import argparse
 import re
 
 
-# Function to generate the VDF content
 def generate_vdf(output_path, content_folder, preview_file, title,
                  description, published_file_id):
+    """Function to generate the VDF content"""
 
     # Import the template file content
-    cwd = os.getcwd()
+    working_dir = os.getcwd()
     template_file_name = "workshop-metadata-template.vdf"
-    template_file_path = os.path.join(cwd, "src", template_file_name)
-    with open(template_file_path, "r") as file:
+    template_file_path = os.path.join(working_dir, "src", template_file_name)
+    with open(template_file_path, "r", encoding="utf-8") as file:
         vdf_content = file.read()
 
     # Modify placeholders
@@ -23,7 +25,7 @@ def generate_vdf(output_path, content_folder, preview_file, title,
     vdf_content = vdf_content.replace("{published_file_id}", published_file_id)
 
     # Write the modified content to the output file
-    with open(output_path, "w") as output:
+    with open(output_path, "w", encoding="utf-8") as output:
         output.write(vdf_content)
 
 
@@ -44,15 +46,15 @@ if __name__ == "__main__":
     steam_cmd = args.steam_cmd
     steam_account_name = args.steam_account_name
 
-    base_folder = "local"
+    BASE_FOLDER = "local"
     cwd = os.getcwd()
 
     # Iterate through sub-folders and upload items
-    for folder_name in os.listdir(base_folder):
+    for folder_name in os.listdir(BASE_FOLDER):
         print(f"Processing: {folder_name}")
         map_name = folder_name
 
-        map_path = os.path.join(cwd, base_folder, map_name)
+        map_path = os.path.join(cwd, BASE_FOLDER, map_name)
         preview_file = os.path.join(cwd, "assets", "thumbnails",
                                     f"{map_name}.PNG")
 
@@ -64,8 +66,8 @@ if __name__ == "__main__":
 
         # Generate metadata for the VDF
         title = f"zitrez {map_name} annotations"
-        url = "https://github.com/ReneRebsdorf/CS2-annotations"
-        description = f"Map annotations from {url}"
+        URL = "https://github.com/ReneRebsdorf/CS2-annotations"
+        description = f"Map annotations from {URL}"
         # Get the WorkshopSubmissionID from the file using regex
         file_path = os.path.join(map_path, map_name + ".txt")
         file_content = open(file_path, "r").read()
