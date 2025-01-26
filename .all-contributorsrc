@@ -9,6 +9,7 @@
   "imageSize": 100,
   "commit": true,
   "commitConvention": "angular",
+  // spell-checker:disable
   "contributors": [
     {
       "login": "ReneRebsdorf",
@@ -82,6 +83,7 @@
       ]
     }
   ],
+  // spell-checker:enable
   "contributorsPerLine": 7,
   "linkToUsage": false
 }
