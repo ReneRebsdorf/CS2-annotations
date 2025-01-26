@@ -70,21 +70,33 @@ for file_name in test_files:
 
 assert len(annotations) > 0, "No annotations found in the test files"
 
+
 @pytest.mark.parametrize("annotation_collection", annotation_collections)
 def test_annotation_file_has_workshop_id(annotation_collection):
+    """Test that the annotation file has a valid WorkshopSubmissionID."""
     map_name = annotation_collection.value["MapName"]
-    assert "WorkshopSubmissionID" in annotation_collection.value, f"WorkshopSubmissionID not found in: {map_name}"
+
+    error_msg = f"WorkshopSubmissionID not found in: {map_name}"
+    assert "WorkshopSubmissionID" in annotation_collection.value, error_msg
+
     workshop_id = annotation_collection.value["WorkshopSubmissionID"]
-    assert workshop_id is not None, f"WorkshopSubmissionID is empty in: {map_name}"
-    assert workshop_id is not "0", f"WorkshopSubmissionID is 0 in: {map_name}, ensure it is set to the correct value"
+
+    error_msg = f"WorkshopSubmissionID is empty in: {map_name}"
+    assert workshop_id is not None, error_msg
+
+    error_msg = f"WorkshopSubmissionID is 0 in: {map_name}"
+    assert workshop_id != "0", error_msg
 
 
 def test_workshop_ids_are_unique():
+    """Test that all WorkshopSubmissionIDs are unique."""
     ids = []
     for annotation_collection in annotation_collections:
-        id = annotation_collection["WorkshopSubmissionID"]
-        assert id not in ids, f"Duplicate WorkshopSubmissionID: {id}"
-        ids.append(id)
+        workshop_id = annotation_collection["WorkshopSubmissionID"]
+        error_msg = f"Duplicate WorkshopSubmissionID: {workshop_id}"
+        assert workshop_id not in ids, error_msg
+        ids.append(workshop_id)
+
 
 @pytest.mark.parametrize("annotation", annotations)
 def test_annotations_are_blue_or_yellow(annotation):
