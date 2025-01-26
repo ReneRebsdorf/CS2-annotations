@@ -70,10 +70,14 @@ if __name__ == "__main__":
         description = f"Map annotations from {URL}"
         # Get the WorkshopSubmissionID from the file using regex
         file_path = os.path.join(map_path, map_name + ".txt")
-        file_content = open(file_path, "r").read()
-        published_file_id = re.search(
+        file_content = open(file_path, "r", encoding="utf-8").read()
+        match = re.search(
             r'WorkshopSubmissionID.*"(\d+)"', file_content
-        ).group(1)
+        )
+        if match:
+            published_file_id = match.group(1)
+        else:
+            raise ValueError(f"WorkshopSubmissionID not found in {file_path}")
 
         # Create a temporary VDF file for this folder
         temp_vdf = os.path.join(map_path, "metadata.vdf")
