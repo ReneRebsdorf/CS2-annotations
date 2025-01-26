@@ -23,7 +23,7 @@ The lineups are designed to help players learn and practice utility lineups, and
 1. Go to [the Steam workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=3397847952) and click
    "Subscribe to all". This will download the annotations to your game. Any updates to the annotations will be
    automatically downloaded.
-2. Start the game, select __practice__ and __competitive__ in the top menu, choose a map, enable 'Load Map Guide' on the
+2. Start the game, select **practice** and **competitive** in the top menu, choose a map, enable 'Load Map Guide' on the
    left, select the map guide from the dropdown, and click 'Go'. The annotations will be loaded and displayed in-game.
 
 ## Contributing
