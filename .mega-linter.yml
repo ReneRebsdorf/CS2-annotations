@@ -2,3 +2,6 @@ PRE_COMMANDS:
   - command: python3 -m pip install --no-cache-dir -r /tmp/lint/requirements.txt
     venv: pylint
     continue_if_failed: false
+DISABLE_LINTERS:
+  # Disabling black as I do not agree with the formatting
+  - PYTHON_BLACK
