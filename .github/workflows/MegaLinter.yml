@@ -32,23 +32,16 @@ jobs:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
           # If using VALIDATE_ALL_CODEBASE = true, the below line
           # can be removed to improve performance
+          # fetch-depth controls how much of the git history to fetch
+          # default is 1, which is the last commit
           # fetch-depth: 0
+      # Make the local and GitHub runner experience consistent
+      - name: Create symlink
+        run: ln -s /github/workspace /tmp/lint
       - name: MegaLinter
         uses: oxsecurity/megalinter@v8
         id: ml
         env:
-          # Validates all source when push on main, else just the git diff with
-          # main. Override with true if you always want to lint all sources
-          #
-          # To validate the entire codebase, set to:
-          # VALIDATE_ALL_CODEBASE: true
-          #
-          # To validate only diff with main, set to:
-          # VALIDATE_ALL_CODEBASE: >-
-          #   ${{
-          #     github.event_name == 'push' &&
-          #     contains(fromJSON('["refs/heads/main", "refs/heads/master"]'), github.ref)
-          #   }}
           VALIDATE_ALL_CODEBASE: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Archive production artifacts
