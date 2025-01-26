@@ -1,0 +1,8 @@
+DISABLE_LINTERS:
+  # Disabling black as I do not agree with the formatting
+  - PYTHON_BLACK
+  # markdown tables are formatted with prettier
+  - MARKDOWN_MARKDOWN_TABLE_FORMATTER
+  # DevSkim is currently reporting a missing dotnet core version
+  # as it requires 8.0.0 but megalinter ships with 9.0.1
+  - REPOSITORY_DEVSKIM

@@ -1787,7 +1787,7 @@
 		}
 		Desc = 
 		{
-			Text = "Stand infront of the electric danger sign"
+			Text = "Stand in front of the electric danger sign"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0

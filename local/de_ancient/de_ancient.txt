@@ -1631,7 +1631,7 @@
 		}
 		Desc = 
 		{
-			Text = "Place -1y where the right branch and the top \n of the sine wave meet, and jumpthrow."
+			Text = "Place -1y where the right branch and the top \n of the sine wave meet, and jump throw."
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1827,7 +1827,7 @@
 		}
 		Desc = 
 		{
-			Text = "Line up the X axis on the black crevice, \n and have the Y axis on the right side of the two rocks. \n and then do a middle powered jumpthrow."
+			Text = "Line up the X axis on the black crevice, \n and have the Y axis on the right side of the two rocks. \n and then do a middle powered jump throw."
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2381,7 +2381,7 @@
 		}
 		Desc = 
 		{
-			Text = "Infront of left most flower (not the door handle)"
+			Text = "In front of left most flower (not the door handle)"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -3093,7 +3093,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoka A main\nCT Spawn 1"
+			Text = "Smoke A main\nCT Spawn 1"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -3493,7 +3493,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at right corner of brick\nW + Jumpthrow"
+			Text = "Aim at right corner of brick\nW + Jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -3591,7 +3591,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at top of brick as shown - Release jumpthrow at bottom of brick"
+			Text = "Aim at top of brick as shown - Release jump throw at bottom of brick"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -3787,7 +3787,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim top right of the mountain\nW + Jumpthrow"
+			Text = "Aim top right of the mountain\nW + Jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0

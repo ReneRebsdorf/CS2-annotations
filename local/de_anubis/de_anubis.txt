@@ -616,7 +616,7 @@
 		}
 		Desc = 
 		{
-			Text = "Infront of middle column"
+			Text = "In front of middle column"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2095,7 +2095,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim a little to the right of the edge of the big brick\nThrow when reaching middle of the thin brick at the bottom\nRun jumpthrow"
+			Text = "Aim a little to the right of the edge of the big brick\nThrow when reaching middle of the thin brick at the bottom\nRun jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2185,7 +2185,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Mid flash - stand in small corner - aim at corner of wall and smal overhang - left click throw"
+			Text = "Mid flash"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2193,7 +2193,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at corner of wall and smal overhang"
+			Text = "Aim at corner of wall and small overhang"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2683,7 +2683,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at top leaf over the big plant\nRun jumpthrow\nRelease after 1 step"
+			Text = "Aim at top leaf over the big plant\nRun jump throw\nRelease after 1 step"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0

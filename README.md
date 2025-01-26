@@ -32,6 +32,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to contribute
 
 ## Contributors
 
+<!-- spell-checker:disable -->
+<!-- markdown-link-check-disable -->
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -53,3 +55,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to contribute
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- markdown-link-check-enable -->
+<!-- spell-checker:enable -->
+
+## License
+
+[MIT](LICENSE)
