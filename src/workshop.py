@@ -2,8 +2,8 @@
 
 import argparse
 import os
-import subprocess  # nosec - Used to run SteamCMD
 import re
+import subprocess  # nosec - Used to run SteamCMD
 
 
 def generate_vdf(output_path, content_folder, preview_file, title,
