@@ -15,7 +15,6 @@ thumbnails = [f for f in thumbnails if f.startswith("de_")]
 test_files = []
 annotations = []
 annotation_collections = []
-workshop_ids = []
 for dirpath, dirnames, filenames in os.walk("./local/"):
     for filename in [f for f in filenames if f.endswith(".txt")]:
         if filename.startswith("de_"):
