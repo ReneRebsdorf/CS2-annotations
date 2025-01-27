@@ -5,10 +5,18 @@
 # Ignores all local annotations except for those named as map names
 **/local/*
 !**/local/de_*/
+!**/local/cs_*/
 
 # Ignore output files
 annotations/*
 annotations.zip
+
+# Generated when uploading to workshop
+metadata.vdf
+
+# Generated when saving annotations in-game
+local/**/de_*.png
+local/**/cs_*.png
 
 # vs code settings
 .vscode/

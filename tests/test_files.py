@@ -14,6 +14,7 @@ thumbnails = [f for f in thumbnails if f.startswith("de_")]
 # Find txt files starting with 'de_' and assume them to be annotation files
 test_files = []
 annotations = []
+annotation_collections = []
 for dirpath, dirnames, filenames in os.walk("./local/"):
     for filename in [f for f in filenames if f.endswith(".txt")]:
         if filename.startswith("de_"):
@@ -23,6 +24,10 @@ for file_name in test_files:
     map_specific_annotations = []
     dictionary = kv3.read(file_name)
     assert dictionary is not None
+
+    # Add the dictionary (parsed map file, e.g. all of de_ancient.txt)
+    # to the annotation collections
+    annotation_collections.append(dictionary)
 
     # Get the annotations where the key is MapAnnotationNodeX
     for key in dictionary:
@@ -63,6 +68,33 @@ for file_name in test_files:
             assert distance > 1, error_message
 
 assert len(annotations) > 0, "No annotations found in the test files"
+
+
+@pytest.mark.parametrize("annotation_collection", annotation_collections)
+def test_annotation_file_has_workshop_id(annotation_collection):
+    """Test that the annotation file has a valid WorkshopSubmissionID."""
+    map_name = annotation_collection.value["MapName"]
+
+    error_msg = f"WorkshopSubmissionID not found in: {map_name}"
+    assert "WorkshopSubmissionID" in annotation_collection.value, error_msg
+
+    workshop_id = annotation_collection.value["WorkshopSubmissionID"]
+
+    error_msg = f"WorkshopSubmissionID is empty in: {map_name}"
+    assert workshop_id is not None, error_msg
+
+    error_msg = f"WorkshopSubmissionID is 0 in: {map_name}"
+    assert workshop_id not in ["0", ""], error_msg
+
+
+def test_workshop_ids_are_unique():
+    """Test that all WorkshopSubmissionIDs are unique."""
+    ids = []
+    for annotation_collection in annotation_collections:
+        workshop_id = annotation_collection["WorkshopSubmissionID"]
+        error_msg = f"Duplicate WorkshopSubmissionID: {workshop_id}"
+        assert workshop_id not in ids, error_msg
+        ids.append(workshop_id)
 
 
 @pytest.mark.parametrize("annotation", annotations)

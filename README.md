@@ -5,7 +5,7 @@
 [![GitHub latest commit](https://badgen.net/github/last-commit/ReneRebsdorf/CS2-Annotations)](https://GitHub.com/ReneRebsdorf/CS2-Annotations/commit/)
 [![GitHub issues](https://img.shields.io/github/issues/ReneRebsdorf/CS2-Annotations.svg)](https://GitHub.com/ReneRebsdorf/CS2-Annotations/issues/)
 [![GitHub license](https://img.shields.io/github/license/ReneRebsdorf/CS2-Annotations)](https://github.com/ReneRebsdorf/CS2-Annotations/blob/main/LICENSE)
-[![All Contributors](https://img.shields.io/github/all-contributors/ReneRebsdorf/CS2-Annotations?color=ee8449&style=flat)](#contributors)
+[![All Contributors](https://img.shields.io/github/all-contributors/ReneRebsdorf/CS2-Annotations/main?color=ee8449&style=flat)](#contributors)
 
 This repository contains curated utility lineups for Counter-Strike 2, using the built-in annotations feature.
 The lineups are designed to help players learn and practice utility lineups, and can be accessed by subscribing to the

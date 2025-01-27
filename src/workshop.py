@@ -2,6 +2,7 @@
 
 import argparse
 import os
+import re
 import subprocess  # nosec - Used to run SteamCMD
 
 
@@ -29,21 +30,6 @@ def generate_vdf(output_path, content_folder, preview_file, title,
 
 
 if __name__ == "__main__":
-    # Map folder names to their corresponding published_file_id
-    # At the time of writing, I have only found this to be working
-    # when the map is already uploaded to the workshop using the
-    # workshop_annotation_submit command in the game console.
-    published_file_id_map = {
-        "de_ancient": "3397846803",
-        "de_anubis": "3397845762",
-        "de_dust2": "3397851092",
-        "de_inferno": "3397850337",
-        "de_mirage": "3397848956",
-        "de_nuke": "3393679779",
-        "de_overpass": "3397844011",
-        "de_train": "3397841296",
-        "de_vertigo": "3397844974",
-    }
 
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -69,30 +55,35 @@ if __name__ == "__main__":
         map_name = folder_name
 
         map_path = os.path.join(cwd, BASE_FOLDER, map_name)
-        preview_file = os.path.join(cwd, "assets", "thumbnails",
-                                    f"{map_name}.PNG")
+        thumbnail_path = os.path.join(cwd, "assets", "thumbnails",
+                                      f"{map_name}.PNG")
 
         # Check if required files exist
         if not os.path.exists(map_path):
             raise FileNotFoundError(f"Content folder missing: {map_path}")
-        if not os.path.exists(preview_file):
-            raise FileNotFoundError(f"Preview file missing: {preview_file}")
-
-        # Check if the folder name has a corresponding published_file_id
-        if map_name not in published_file_id_map:
-            raise KeyError(f"No published_file_id found for {map_name}.")
+        if not os.path.exists(thumbnail_path):
+            raise FileNotFoundError(f"Preview file missing: {thumbnail_path}")
 
         # Generate metadata for the VDF
-        title = f"zitrez {map_name} annotations"
+        vdf_title = f"zitrez {map_name} annotations"
         URL = "https://github.com/ReneRebsdorf/CS2-annotations"
-        description = f"Map annotations from {URL}"
-        published_file_id = published_file_id_map[map_name]
+        vdf_description = f"Map annotations from {URL}"
+        # Get the WorkshopSubmissionID from the file using regex
+        file_path = os.path.join(map_path, map_name + ".txt")
+        file_content = open(file_path, "r", encoding="utf-8").read()
+        match = re.search(
+            r'WorkshopSubmissionID.*"(\d+)"', file_content
+        )
+        if match:
+            vdf_published_file_id = match.group(1)
+        else:
+            raise ValueError(f"WorkshopSubmissionID not found in {file_path}")
 
         # Create a temporary VDF file for this folder
         temp_vdf = os.path.join(map_path, "metadata.vdf")
         generate_vdf(
-            temp_vdf, map_path, preview_file, title,
-            description, published_file_id
+            temp_vdf, map_path, thumbnail_path, vdf_title,
+            vdf_description, vdf_published_file_id
         )
 
         # Run SteamCMD to upload the item
