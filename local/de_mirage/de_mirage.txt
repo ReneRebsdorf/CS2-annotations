@@ -2806,4 +2806,128 @@
 		MasterNodeId = "06d3c397-f9d9-4f49-8e5f-46cf3cd5c097"
 		DistanceThreshold = 80.0
 	}
+	MapAnnotationNode86 = 
+	{
+		Enabled = true
+		Type = "position"
+		Id = "8b84c5fa-2f0d-46cc-b4f0-7f6b5b27cb52"
+		SubType = "main"
+		Position = [ -1045.587646, 434.308899, -79.96875 ]
+		Angles = [ 0.0, 176.64093, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Spray B Jail"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode87 = 
+	{
+		Enabled = true
+		Type = "spot"
+		Id = "81176ada-79c3-4ed5-97f3-992ee9c73e8e"
+		SubType = "main"
+		Position = [ -1045.587646, 434.308899, -79.96875 ]
+		Angles = [ 0.0, 176.64093, 0.0 ]
+		VisiblePfx = false
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode88 = 
+	{
+		Enabled = true
+		Type = "spot"
+		Id = "c5550a67-c5c6-4e76-ad63-01d43aff3356"
+		SubType = "aim_target"
+		Position = [ -1145.406494, 439.212769, -37.620178 ]
+		Angles = [ 2.000845, 177.1875, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, -10.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "81176ada-79c3-4ed5-97f3-992ee9c73e8e"
+	}
+	MapAnnotationNode89 = 
+	{
+		Enabled = true
+		Type = "text"
+		Id = "16ebbda6-d5e1-487e-8425-481b92d8af1f"
+		SubType = "main"
+		Position = [ -1143.657349, 439.247925, -15.234369 ]
+		Angles = [ -10.891155, 177.110458, 0.0 ]
+		VisiblePfx = false
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Spray B Jail"
+			FontSize = 125
+			FadeInDist = 800.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Crouch and aim at the bottom of the top plank, above the white dot on the plank below"
+			FontSize = 75
+			FadeInDist = 800.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+	}
 }
