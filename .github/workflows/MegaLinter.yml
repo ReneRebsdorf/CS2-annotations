@@ -36,7 +36,7 @@ jobs:
           # default is 1, which is the last commit
           # fetch-depth: 0
       - name: MegaLinter
-        uses: oxsecurity/megalinter@v8
+        uses: oxsecurity/megalinter@beta
         id: ml
         env:
           VALIDATE_ALL_CODEBASE: true
