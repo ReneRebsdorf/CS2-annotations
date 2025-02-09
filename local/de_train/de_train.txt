@@ -1208,3 +1208,101 @@
 		MasterNodeId = "b698319f-a79f-4bc2-9f59-4bccb2aa8e27"
 		DistanceThreshold = 80.0
 	}
+	MapAnnotationNode37 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "66cef8f3-37a6-4081-9c72-ac2ccaaf0eb1"
+		SubType = "main"
+		Position = [ -1040.966187, -1112.474609, -153.96875 ]
+		Angles = [ 0.0, 24.204941, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Smoke Left bomb from halls"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Wedge into corner"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = true
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode38 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "8cccb103-02cc-4870-919c-14650f2812b1"
+		SubType = "aim_target"
+		Position = [ -949.982666, -1071.575684, -97.147835 ]
+		Angles = [ 4.024948, 24.204889, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 30.0, 10.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Smoke Left bomb from halls"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Aim on the side of the bottom drawer"
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "66cef8f3-37a6-4081-9c72-ac2ccaaf0eb1"
+	}
+	MapAnnotationNode39 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "209717af-6225-4db5-84c3-479737295f2a"
+		SubType = "destination"
+		Position = [ -71.37851, -1263.794312, -275.968719 ]
+		Angles = [ 4.024948, 24.204889, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "66cef8f3-37a6-4081-9c72-ac2ccaaf0eb1"
+		DistanceThreshold = 80.0
+	}
