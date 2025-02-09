@@ -1110,3 +1110,101 @@
 		MasterNodeId = "290e4956-0f4a-413e-b47a-e0580a668d73"
 		DistanceThreshold = 80.0
 	}
+	MapAnnotationNode34 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "b698319f-a79f-4bc2-9f59-4bccb2aa8e27"
+		SubType = "main"
+		Position = [ -1040.966064, -1112.474609, -153.96875 ]
+		Angles = [ 0.0, 11.162445, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 70.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Smoke B connector from halls"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = true
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode35 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "0ac16cb3-07d8-4176-aad9-5ec0851867a0"
+		SubType = "aim_target"
+		Position = [ -943.188721, -1093.180664, -98.334671 ]
+		Angles = [ 4.706939, 11.162529, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, -30.0, 10.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Smoke B connector from halls"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Aim between bullet hole and white spot"
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "b698319f-a79f-4bc2-9f59-4bccb2aa8e27"
+	}
+	MapAnnotationNode36 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "22a03e92-79f0-48b2-b7f2-7758ab1a9383"
+		SubType = "destination"
+		Position = [ 593.636353, -786.033264, -236.968719 ]
+		Angles = [ 4.706939, 11.162529, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "b698319f-a79f-4bc2-9f59-4bccb2aa8e27"
+		DistanceThreshold = 80.0
+	}
