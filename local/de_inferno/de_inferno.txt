@@ -2167,8 +2167,8 @@
 		Type = "grenade"
 		Id = "b19d309a-4698-43c4-b7c6-36c44fc69675"
 		SubType = "main"
-		Position = [ 2472.340088, 2005.959961, 134.505981 ]
-		Angles = [ 0.0, -141.395752, 0.0 ]
+		Position = [ 2472.0, 2005.0, 134.592056 ]
+		Angles = [ 0.0, -139.177551, 0.0 ]
 		VisiblePfx = true
 		Color = [ 151, 201, 250 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
@@ -2202,8 +2202,8 @@
 		Type = "grenade"
 		Id = "f7fb0d05-fa12-42b0-84f7-48fc273ada2f"
 		SubType = "aim_target"
-		Position = [ 2405.368652, 1952.41333, 249.117371 ]
-		Angles = [ -30.967163, -141.356079, 0.0 ]
+		Position = [ 2408.374512, 1949.99353, 251.79567 ]
+		Angles = [ -32.747208, -139.15538, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
 		TextFacePlayer = false
@@ -2219,7 +2219,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim furthest at 3 rafter"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2233,8 +2233,8 @@
 		Type = "grenade"
 		Id = "f589beae-f41e-4a54-ab47-0146ff27652f"
 		SubType = "destination"
-		Position = [ 434.881989, 502.810669, 86.915245 ]
-		Angles = [ -30.967163, -141.356079, 0.0 ]
+		Position = [ 531.644531, 565.144409, 89.811188 ]
+		Angles = [ -32.747208, -139.15538, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
