@@ -3254,7 +3254,7 @@
 		}
 		Desc = 
 		{
-			Text = "Wedge into corner\nRight click jump throw"
+			Text = "Wedge into corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -3288,7 +3288,7 @@
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Right click jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
