@@ -65,9 +65,9 @@ if __name__ == "__main__":
             raise FileNotFoundError(f"Preview file missing: {thumbnail_path}")
 
         # Generate metadata for the VDF
-        vdf_title = f"zitrez {map_name} annotations"
+        VDF_TITLE = f"zitrez {map_name} annotations"
         URL = "https://github.com/ReneRebsdorf/CS2-annotations"
-        vdf_description = f"Map annotations from {URL}"
+        VDF_DESCRIPTION = f"Map annotations from {URL}"
         # Get the WorkshopSubmissionID from the file using regex
         file_path = os.path.join(map_path, map_name + ".txt")
         file_content = open(file_path, "r", encoding="utf-8").read()
@@ -82,8 +82,8 @@ if __name__ == "__main__":
         # Create a temporary VDF file for this folder
         temp_vdf = os.path.join(map_path, "metadata.vdf")
         generate_vdf(
-            temp_vdf, map_path, thumbnail_path, vdf_title,
-            vdf_description, vdf_published_file_id
+            temp_vdf, map_path, thumbnail_path, VDF_TITLE,
+            VDF_DESCRIPTION, vdf_published_file_id
         )
 
         # Run SteamCMD to upload the item
