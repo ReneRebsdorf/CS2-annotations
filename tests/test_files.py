@@ -7,9 +7,7 @@ import keyvalues3 as kv3  # pylint: disable=import-error
 import pytest  # pylint: disable=import-error
 
 # Get all the preview files, which are PNGs with the map name as the filename
-thumbnails = os.listdir("./assets/")
-thumbnails = [f for f in thumbnails if f.endswith(".PNG")]
-thumbnails = [f for f in thumbnails if f.startswith("de_")]
+thumbnails = os.listdir("./assets/thumbnails/")
 
 # Find txt files starting with 'de_' and assume them to be annotation files
 test_files = []
@@ -117,9 +115,9 @@ def test_annotations_are_blue_or_yellow(annotation):
 @pytest.mark.parametrize("annotation", annotations)
 def test_annotations_have_no_placeholders(annotation):
     """Test that annotations have no placeholders."""
-    place_holder_key = annotation["Desc"]["Text"]
-    assert place_holder_key != "standing instructions"
-    assert place_holder_key != "aim instructions"
+    desc_text = annotation["Desc"]["Text"]
+    assert desc_text != "standing instructions"
+    assert desc_text != "aim instructions"
 
 
 def test_annotation_ids_are_unique():
@@ -186,7 +184,12 @@ def test_grenade_type(annotation):
 
 @pytest.mark.parametrize("thumbnail", thumbnails)
 def test_preview_file_size(thumbnail):
-    """Test that the preview file size is less than 1 MB."""
-    size = os.path.getsize(f"./assets/{thumbnail}")
+    """
+    Test that the preview file size is less than 1 MB.
+    And matches the correct syntax for the map name.
+    """
+    err_msg = f"{thumbnail} is not a valid file name"
+    assert re.match(r"^[a-z]{2}_\w+\.PNG$", thumbnail), err_msg
+    size = os.path.getsize(f"./assets/thumbnails/{thumbnail}")
     size_megabytes = size / 1024 / 1024
     assert size_megabytes < 1, f"{thumbnail} is too large: {size_megabytes} MB"
