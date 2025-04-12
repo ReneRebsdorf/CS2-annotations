@@ -45,25 +45,29 @@ for file_name in test_files:
         if MASTER_NODE_ID != "":
             assert MASTER_NODE_ID in map_specific_annotation_ids
         annotation_type = map_specific_annotation["Type"]
-        annotation_sub_type = map_specific_annotation["SubType"]
-        if annotation_type == 'grenade' and annotation_sub_type == "main":
+        anno_sub_type = map_specific_annotation["SubType"]
+        is_valid_anno_sub_type = anno_sub_type in ["main", "aim_target"]
+        if annotation_type == 'grenade' and is_valid_anno_sub_type:
+            annotation_type = map_specific_annotation["Type"]
             name = map_specific_annotation["Title"]["Text"]
             position = map_specific_annotation["Position"]
             offset = map_specific_annotation["TextPositionOffset"]
             x = position[0] + offset[0]
             y = position[1] + offset[1]
             z = position[2] + offset[2]
-            positions.append((name, x, y, z))
-    for i, (name1, x1, y1, z1) in enumerate(positions):
-        for name2, x2, y2, z2 in positions[i + 1:]:
-            overlap_text = f"{name1} and {name2} overlap"
-            error_message = f"{file_name}: {overlap_text}"
+            positions.append((anno_sub_type, name, x, y, z))
+    for i, (anno_sub_type_first, name1, x1, y1, z1) in enumerate(positions):
+        for anno_sub_type_second, name2, x2, y2, z2 in positions[i + 1:]:
+            FIRST_NAME = f"{anno_sub_type_first}:{name1}"
+            SECOND_NAME = f"{anno_sub_type_second}:{name2}"
+            OVERLAP_TEXT = f"{FIRST_NAME} and {SECOND_NAME} overlap"
+            ERROR_MESSAGE = f"{file_name}: {OVERLAP_TEXT}"
             # In a 3 dimensional plane, the distance between points
             # (X1, Y1, Z1) and (X2, Y2, Z2) is given by:
             # sqrt((X2 - X1)^2 + (Y2 - Y1)^2 + (Z2 - Z1)^2)
             squared = (x2 - x1) ** 2 + (y2 - y1) ** 2 + (z2 - z1) ** 2
             distance = squared ** 0.5
-            assert distance > 1, error_message
+            assert distance > 1, ERROR_MESSAGE
 
 assert len(annotations) > 0, "No annotations found in the test files"
 
