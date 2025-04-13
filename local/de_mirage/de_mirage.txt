@@ -3038,7 +3038,7 @@
 		Angles = [ 0.0, -157.981689, 0.0 ]
 		VisiblePfx = true
 		Color = [ 255, 239, 111 ]
-		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextPositionOffset = [ 0.0, 0.0, 70.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
@@ -3135,7 +3135,7 @@
 		Position = [ 473.427765, 401.470917, -251.96875 ]
 		Angles = [ 0.0, -175.065079, 0.0 ]
 		VisiblePfx = true
-		Color = 473.427765, 401.470917, -251.96875
+		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
@@ -3674,7 +3674,7 @@
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -3724,7 +3724,7 @@
 		Angles = [ 0.0, -174.586151, 0.0 ]
 		VisiblePfx = true
 		Color = [ 255, 239, 111 ]
-		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextPositionOffset = [ 0.0, 0.0, 70.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
@@ -3738,7 +3738,7 @@
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
