@@ -2254,7 +2254,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "T Spawn 6"
+			Text = "Vent dive smoke\nT spawn 6"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -2262,7 +2262,7 @@
 		}
 		Desc = 
 		{
-			Text = ""
+			Text = "setpos_exact -1832 -1160 -414"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2358,7 +2358,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at the wire, align with center of ladder\nJumpThrow when reaching the end of the annotation line\nAlign with chimney on the right in matches"
+			Text = "Aim at the wire, align with center of ladder\nJumpThrow when reaching the end of the annotation line\nAlign with chimney on the right for when to throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -3244,7 +3244,7 @@
 		MasterNodeId = "2f833c82-19be-4864-a194-018c18069f04"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode103 = 
+	MapAnnotationNode100 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3279,7 +3279,7 @@
 		JumpThrow = false
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode104 = 
+	MapAnnotationNode101 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3310,7 +3310,7 @@
 		}
 		MasterNodeId = "8360380b-d750-410f-8804-9087579f7c82"
 	}
-	MapAnnotationNode105 = 
+	MapAnnotationNode102 = 
 	{
 		Enabled = true
 		Type = "grenade"
