@@ -11,8 +11,8 @@
 		Type = "grenade"
 		Id = "18fcc7ff-5cbb-4c47-83db-146f61b8d052"
 		SubType = "main"
-		Position = [ -1754.496582, -1245.047119, -407.96875 ]
-		Angles = [ 0.0, -11.000748, 0.0 ]
+		Position = [ -1754.495117, -1245.821899, -407.96875 ]
+		Angles = [ 0.0, -10.323029, 0.0 ]
 		VisiblePfx = true
 		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
@@ -29,7 +29,7 @@
 		}
 		Desc = 
 		{
-			Text = ""
+			Text = "Stand in front of post"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -46,8 +46,8 @@
 		Type = "grenade"
 		Id = "92f34c22-7709-4da1-9b92-23e7131b8341"
 		SubType = "aim_target"
-		Position = [ -1665.971436, -1262.256104, -300.918091 ]
-		Angles = [ -25.601324, -11.000881, 0.0 ]
+		Position = [ -1665.919067, -1261.920776, -300.595886 ]
+		Angles = [ -25.8062, -10.301163, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
 		TextFacePlayer = false
@@ -63,7 +63,7 @@
 		}
 		Desc = 
 		{
-			Text = "Jump throw"
+			Text = "Aim in the middle of the vents\nJump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -77,8 +77,8 @@
 		Type = "grenade"
 		Id = "915c8e8b-df79-4dc7-82a3-64a2820e1b64"
 		SubType = "destination"
-		Position = [ 843.017212, -1685.020752, -237.96875 ]
-		Angles = [ -25.601324, -11.000881, 0.0 ]
+		Position = [ 838.908936, -1642.617432, -237.96875 ]
+		Angles = [ -25.8062, -10.301163, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
