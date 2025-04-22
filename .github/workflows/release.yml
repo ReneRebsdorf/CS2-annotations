@@ -47,7 +47,6 @@ jobs:
         env:
           STEAM_CONFIG_VDF: ${{ secrets.STEAM_CONFIG_VDF }}
         run: |
-          STEAM_CMD="${{ steps.setup-steamcmd.outputs.executable }}"
           STEAM_DIR="${{ steps.setup-steamcmd.outputs.directory }}"
           CONFIG_DIR="$STEAM_DIR/config"
           CONFIG_PATH="$CONFIG_DIR/config.vdf"
