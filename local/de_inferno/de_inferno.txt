@@ -697,8 +697,8 @@
 		Type = "grenade"
 		Id = "9b20b21f-f66c-4eeb-9db5-8517e8fbb0a7"
 		SubType = "main"
-		Position = [ 479.024109, 2016.967529, 136.031204 ]
-		Angles = [ 0.0, 123.26178, 0.0 ]
+		Position = [ 479.024384, 2016.971191, 136.031204 ]
+		Angles = [ 0.0, 140.137482, 0.0 ]
 		VisiblePfx = true
 		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
@@ -732,8 +732,8 @@
 		Type = "grenade"
 		Id = "a481ac71-8e21-40f1-a3e8-19c1a496b2c2"
 		SubType = "aim_target"
-		Position = [ 435.189331, 2084.1521, 259.57666 ]
-		Angles = [ -36.659233, 123.122559, 0.0 ]
+		Position = [ 434.858307, 2084.098145, 259.397034 ]
+		Angles = [ -36.531048, 123.342842, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, -30.0, 30.0 ]
 		TextFacePlayer = false
@@ -749,7 +749,7 @@
 		}
 		Desc = 
 		{
-			Text = "Middle of gutter bracket"
+			Text = "Left side of gutter bracket"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -763,8 +763,8 @@
 		Type = "grenade"
 		Id = "adb70c52-51df-4356-a446-37a1b9bf7d98"
 		SubType = "destination"
-		Position = [ 105.788521, 2541.905762, 163.03125 ]
-		Angles = [ -36.659233, 123.122559, 0.0 ]
+		Position = [ 102.415421, 2540.146484, 167.816391 ]
+		Angles = [ -36.531048, 123.342842, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
@@ -5940,6 +5940,202 @@
 			ShowBackground = true
 		}
 		MasterNodeId = "e3b2a788-6118-4c4c-b2dd-04a1415078da"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode182 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "9d1b9874-8331-4d95-bc3d-77a921c0582f"
+		SubType = "main"
+		Position = [ 1354.03125, -89.96875, 132.03125 ]
+		Angles = [ 0.0, 5.798035, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Smoke pit entrance"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Wedge into corner"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode183 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "b55d1c5f-ec3c-4f49-81a8-671029d00ea0"
+		SubType = "aim_target"
+		Position = [ 1453.223999, -90.310997, 208.546844 ]
+		Angles = [ -7.282176, -0.197688, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Smoke pit entrance"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "9d1b9874-8331-4d95-bc3d-77a921c0582f"
+	}
+	MapAnnotationNode184 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "c3e96ac8-b535-430c-96c1-ac0ddffef855"
+		SubType = "destination"
+		Position = [ 2290.398682, -105.528839, 108.280167 ]
+		Angles = [ -7.282176, -0.197688, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "9d1b9874-8331-4d95-bc3d-77a921c0582f"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode185 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "9e8b9e5d-99dd-4296-b11e-8a071a7d99dc"
+		SubType = "main"
+		Position = [ 120.587097, 1593.892578, 107.246971 ]
+		Angles = [ 0.0, 47.794312, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 70.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Entry Flash B (Balcony)"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = true
+		GrenadeType = "flash"
+	}
+	MapAnnotationNode186 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "c86065dd-9a75-4764-81bb-fbe627224a9a"
+		SubType = "aim_target"
+		Position = [ 187.717102, 1667.911743, 165.695053 ]
+		Angles = [ 2.199865, 47.794239, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Entry Flash B (Balcony)"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Step Jump Throw"
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "9e8b9e5d-99dd-4296-b11e-8a071a7d99dc"
+	}
+	MapAnnotationNode187 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "2e76e089-8595-422a-a352-e64f74f56ea4"
+		SubType = "destination"
+		Position = [ 881.472595, 2446.244385, 364.401123 ]
+		Angles = [ 2.199865, 47.794239, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "9e8b9e5d-99dd-4296-b11e-8a071a7d99dc"
 		DistanceThreshold = 80.0
 	}
 }

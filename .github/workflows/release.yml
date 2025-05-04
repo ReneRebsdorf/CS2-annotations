@@ -53,6 +53,7 @@ jobs:
           mkdir -p $CONFIG_DIR
           echo "$STEAM_CONFIG_VDF" | base64 -d > $CONFIG_PATH
           chmod 700 $CONFIG_PATH
+          ls -halt $STEAM_DIR
       - id: update_workshop
         run: |
           python src/workshop.py --steam_account_name ${{ secrets.STEAM_ACCOUNT_NAME }} --steam_cmd ${{ steps.setup-steamcmd.outputs.executable }}
