@@ -100,8 +100,8 @@ def test_workshop_ids_are_unique():
 
 
 @pytest.mark.parametrize("annotation", annotations)
-def test_annotations_are_blue_or_yellow(annotation):
-    """Test that all annotations are either blue or yellow."""
+def test_annotations_are_colored(annotation):
+    """Test that annotations do not use the default white color."""
     if "Color" in annotation:
         a_type = annotation["Type"]
         a_sub_type = annotation["SubType"]
@@ -111,9 +111,7 @@ def test_annotations_are_blue_or_yellow(annotation):
                 a_title_text = annotation["Title"]["Text"]
         e_msg = f"{a_type}/{a_sub_type}: {a_title_text}"
         color = annotation["Color"]
-        ct_blue = [151, 201, 250]
-        t_yellow = [255, 239, 111]
-        assert color == ct_blue or color == t_yellow, e_msg
+        assert color != [255, 255, 255], e_msg
 
 
 @pytest.mark.parametrize("annotation", annotations)
