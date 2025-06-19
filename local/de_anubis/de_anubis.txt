@@ -6407,7 +6407,7 @@
 		Angles = [ 0.0, -142.057678, 0.0 ]
 		VisiblePfx = true
 		Color = [ 151, 201, 250 ]
-		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextPositionOffset = [ 0.0, 0.0, 70.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
