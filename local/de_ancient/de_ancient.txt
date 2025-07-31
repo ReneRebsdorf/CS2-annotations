@@ -5856,7 +5856,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke backline towards B site"
+			Text = "Smoke Back-line towards B site"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -5890,7 +5890,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke Backline towards B site"
+			Text = "Smoke Back-line towards B site"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
