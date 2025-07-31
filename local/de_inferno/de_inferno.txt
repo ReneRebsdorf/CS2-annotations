@@ -1383,8 +1383,8 @@
 		Type = "grenade"
 		Id = "12ed30aa-14a7-4534-b1c1-18d2d8b23990"
 		SubType = "main"
-		Position = [ 953.970398, 424.040863, 96.03125 ]
-		Angles = [ 0.0, 13.163681, 0.0 ]
+		Position = [ 953.937256, 424.080963, 96.03125 ]
+		Angles = [ 0.0, 12.501068, 0.0 ]
 		VisiblePfx = true
 		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
@@ -1393,7 +1393,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke moto"
+			Text = "Smoke Moto from Mid"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -1418,8 +1418,8 @@
 		Type = "grenade"
 		Id = "8243b7b8-023c-4159-ad23-f2afa12840d9"
 		SubType = "aim_target"
-		Position = [ 1050.399048, 446.593811, 173.759491 ]
-		Angles = [ -7.983184, 13.163856, 0.0 ]
+		Position = [ 1027.986694, 440.513519, 225.197617 ]
+		Angles = [ -40.667152, 12.511938, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 10.0, 30.0 ]
 		TextFacePlayer = false
@@ -1427,7 +1427,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke moto"
+			Text = "Smoke Moto from Mid"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1435,7 +1435,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at middle of grout between 2nd and 3rd brick"
+			Text = "-2y on roof"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1449,8 +1449,8 @@
 		Type = "grenade"
 		Id = "9d508f47-2535-4f82-a5ff-48cfe6777b42"
 		SubType = "destination"
-		Position = [ 2261.203613, 840.914246, 154.114883 ]
-		Angles = [ -7.983184, 13.163856, 0.0 ]
+		Position = [ 2322.922852, 818.092468, 154.734344 ]
+		Angles = [ -40.667152, 12.511938, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
@@ -1873,8 +1873,8 @@
 		Type = "grenade"
 		Id = "b792d71c-10b2-4dae-bc03-8e0a6268c76f"
 		SubType = "main"
-		Position = [ 1136.350464, 587.970642, 117.995239 ]
-		Angles = [ 0.0, -29.531937, 0.0 ]
+		Position = [ 1134.114136, 587.96875, 115.005074 ]
+		Angles = [ 0.0, -27.244385, 0.0 ]
 		VisiblePfx = true
 		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
