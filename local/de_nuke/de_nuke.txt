@@ -3848,4 +3848,103 @@
 		MasterNodeId = "cea4f726-3040-4986-a5c2-7759dccd275d"
 		DistanceThreshold = 80.0
 	}
+	
+	MapAnnotationNode76 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "de82d75b-9c5e-4429-bba9-c8ca23900277"
+		SubType = "main"
+		Position = [ -13.044556, -769.614258, -95.96875 ]
+		Angles = [ 0.0, 12.85434, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Molo and flash behind A silo from T Roof"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = true
+		GrenadeType = "molotov"
+	}
+	MapAnnotationNode77 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "5d25a1ff-41df-443b-ac48-158f397fe5c8"
+		SubType = "aim_target"
+		Position = [ 84.216606, -747.420288, -38.874779 ]
+		Angles = [ 3.960014, 12.854218, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Molo and flash behind A silo from T Roof"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "de82d75b-9c5e-4429-bba9-c8ca23900277"
+	}
+	MapAnnotationNode78 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "69cbd5d8-abf9-401c-9a39-3e9e23d33d9e"
+		SubType = "destination"
+		Position = [ 743.165405, -578.06366, -397.968262 ]
+		Angles = [ 3.960014, 12.854218, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "de82d75b-9c5e-4429-bba9-c8ca23900277"
+		DistanceThreshold = 80.0
+	}
 }
