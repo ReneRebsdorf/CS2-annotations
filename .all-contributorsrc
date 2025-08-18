@@ -65,6 +65,14 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/49175179?v=4",
       "profile": "https://github.com/EstevaoCalera",
       "contributions": ["code"]
+    },
+    
+    {
+      "login": "trycedev",
+      "name": "Theis Jensen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58644536?v=4",
+      "profile": "https://github.com/trycedev",
+      "contributions": ["data"]
     }
   ],
   "contributorsPerLine": 7
