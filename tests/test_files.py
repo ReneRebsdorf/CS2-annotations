@@ -48,19 +48,19 @@ for file_name in test_files:
         anno_sub_type = map_specific_annotation["SubType"]
         is_valid_anno_sub_type = anno_sub_type in ["main", "aim_target"]
         if annotation_type == 'grenade' and is_valid_anno_sub_type:
-            annotation_type = map_specific_annotation["Type"]
             name = map_specific_annotation["Title"]["Text"]
+            desc = map_specific_annotation["Desc"]["Text"]
             position = map_specific_annotation["Position"]
             offset = map_specific_annotation["TextPositionOffset"]
             x = position[0] + offset[0]
             y = position[1] + offset[1]
             z = position[2] + offset[2]
-            positions.append((anno_sub_type, name, x, y, z))
-    for i, (anno_sub_type_first, name1, x1, y1, z1) in enumerate(positions):
-        for anno_sub_type_second, name2, x2, y2, z2 in positions[i + 1:]:
-            FIRST_NAME = f"{anno_sub_type_first}:{name1}"
-            SECOND_NAME = f"{anno_sub_type_second}:{name2}"
-            OVERLAP_TEXT = f"{FIRST_NAME} and {SECOND_NAME} overlap"
+            positions.append((anno_sub_type, name, desc, x, y, z))
+    for i, (sub_type_first, name1, desc1, x1, y1, z1) in enumerate(positions):
+        for sub_type_second, name2, desc2, x2, y2, z2 in positions[i + 1:]:
+            FIRST_NAME = f"{sub_type_first}:{name1}:{desc1}"
+            SECOND_NAME = f"{sub_type_second}:{name2}:{desc2}"
+            OVERLAP_TEXT = f"'{FIRST_NAME}' and '{SECOND_NAME}' overlap"
             ERROR_MESSAGE = f"{file_name}: {OVERLAP_TEXT}"
             # In a 3 dimensional plane, the distance between points
             # (X1, Y1, Z1) and (X2, Y2, Z2) is given by:
