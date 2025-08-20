@@ -903,7 +903,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Smoke dumpster"
+			Text = "Smoke Dumpster"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -945,7 +945,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at grey spot of lamp"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1883,7 +1883,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Molo A site"
+			Text = "Molo Dice"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -1891,7 +1891,7 @@
 		}
 		Desc = 
 		{
-			Text = "Stand on left side of pillar"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1917,7 +1917,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Molo A site"
+			Text = "Molo Dice"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1963,104 +1963,6 @@
 			ShowBackground = true
 		}
 		MasterNodeId = "1ce86762-6129-488f-afbc-3232e07c0bfb"
-		DistanceThreshold = 80.0
-	}
-	MapAnnotationNode60 = 
-	{
-		Enabled = true
-		Type = "grenade"
-		Id = "6d16277d-d25c-4400-827f-d4020d20c018"
-		SubType = "main"
-		Position = [ -2295.831299, -632.030151, 393.195465 ]
-		Angles = [ 0.0, 77.274414, 0.0 ]
-		VisiblePfx = true
-		Color = [ 255, 239, 111 ]
-		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
-		TextFacePlayer = true
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = "Molo truck"
-			FontSize = 125
-			FadeInDist = 600.0
-			FadeOutDist = 40.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = "Stand on corner"
-			FontSize = 75
-			FadeInDist = 300.0
-			FadeOutDist = 40.0
-			ShowBackground = true
-		}
-		StreakLimitGuidesOn = 2
-		StreakLimitGuidesOff = 2
-		JumpThrow = true
-		GrenadeType = "molotov"
-	}
-	MapAnnotationNode61 = 
-	{
-		Enabled = true
-		Type = "grenade"
-		Id = "0c0dd402-046a-4801-888d-b60003bc6b32"
-		SubType = "aim_target"
-		Position = [ -2273.832275, -534.494629, 452.646484 ]
-		Angles = [ 0.970185, 77.289742, 0.0 ]
-		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = "Molo truck"
-			FontSize = 125
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = "Aim at 2nd row of bricks"
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		MasterNodeId = "6d16277d-d25c-4400-827f-d4020d20c018"
-	}
-	MapAnnotationNode62 = 
-	{
-		Enabled = true
-		Type = "grenade"
-		Id = "fbeed0fc-72fa-4114-83a4-3a5bdb127380"
-		SubType = "destination"
-		Position = [ -1977.885742, 775.763916, 559.536255 ]
-		Angles = [ 0.970185, 77.289742, 0.0 ]
-		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		MasterNodeId = "6d16277d-d25c-4400-827f-d4020d20c018"
 		DistanceThreshold = 80.0
 	}
 	MapAnnotationNode63 = 
@@ -2945,7 +2847,7 @@
 		MasterNodeId = "4a2b1f59-4892-4312-a425-9079a10eb5d5"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode93 = 
+	MapAnnotationNode90 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2980,7 +2882,7 @@
 		JumpThrow = false
 		GrenadeType = "flash"
 	}
-	MapAnnotationNode94 = 
+	MapAnnotationNode91 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3011,7 +2913,7 @@
 		}
 		MasterNodeId = "bf2acbb3-b5ea-4384-822d-10302775d673"
 	}
-	MapAnnotationNode95 = 
+	MapAnnotationNode92 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3043,7 +2945,7 @@
 		MasterNodeId = "bf2acbb3-b5ea-4384-822d-10302775d673"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode96 = 
+	MapAnnotationNode93 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3078,7 +2980,7 @@
 		JumpThrow = false
 		GrenadeType = "flash"
 	}
-	MapAnnotationNode97 = 
+	MapAnnotationNode94 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3109,7 +3011,7 @@
 		}
 		MasterNodeId = "26516c59-982c-4e13-aa84-cdfea08dbcf0"
 	}
-	MapAnnotationNode98 = 
+	MapAnnotationNode95 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3141,7 +3043,7 @@
 		MasterNodeId = "26516c59-982c-4e13-aa84-cdfea08dbcf0"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode99 = 
+	MapAnnotationNode96 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3176,7 +3078,7 @@
 		JumpThrow = false
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode100 = 
+	MapAnnotationNode97 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3207,7 +3109,7 @@
 		}
 		MasterNodeId = "69d51110-bf78-4fd2-9970-d83a8cfe5e8a"
 	}
-	MapAnnotationNode101 = 
+	MapAnnotationNode98 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3239,7 +3141,7 @@
 		MasterNodeId = "69d51110-bf78-4fd2-9970-d83a8cfe5e8a"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode102 = 
+	MapAnnotationNode99 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3274,7 +3176,7 @@
 		JumpThrow = false
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode103 = 
+	MapAnnotationNode100 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3305,7 +3207,7 @@
 		}
 		MasterNodeId = "d53fc5a4-ce36-40a9-af7a-1417a069f215"
 	}
-	MapAnnotationNode104 = 
+	MapAnnotationNode101 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3337,7 +3239,7 @@
 		MasterNodeId = "d53fc5a4-ce36-40a9-af7a-1417a069f215"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode105 = 
+	MapAnnotationNode102 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3361,7 +3263,7 @@
 		}
 		Desc = 
 		{
-			Text = "Align with the dark line on the bottom of the wall"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -3372,7 +3274,7 @@
 		JumpThrow = false
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode106 = 
+	MapAnnotationNode103 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3403,7 +3305,7 @@
 		}
 		MasterNodeId = "a99f654b-8d3b-4c61-841c-87b1867a4710"
 	}
-	MapAnnotationNode107 = 
+	MapAnnotationNode104 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3435,7 +3337,7 @@
 		MasterNodeId = "a99f654b-8d3b-4c61-841c-87b1867a4710"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode108 = 
+	MapAnnotationNode105 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3470,7 +3372,7 @@
 		JumpThrow = false
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode109 = 
+	MapAnnotationNode106 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3501,7 +3403,7 @@
 		}
 		MasterNodeId = "8f4d898e-704b-4a1f-921e-c713133f90c0"
 	}
-	MapAnnotationNode110 = 
+	MapAnnotationNode107 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3533,7 +3435,7 @@
 		MasterNodeId = "8f4d898e-704b-4a1f-921e-c713133f90c0"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode111 = 
+	MapAnnotationNode108 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3557,7 +3459,7 @@
 		}
 		Desc = 
 		{
-			Text = "Align with the dark line in the ground"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -3568,7 +3470,7 @@
 		JumpThrow = true
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode112 = 
+	MapAnnotationNode109 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3577,7 +3479,7 @@
 		Position = [ -2269.383545, -535.436096, 452.600739 ]
 		Angles = [ 1.041287, 75.034805, 0.0 ]
 		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextPositionOffset = [ 0.0, -50.0, 0.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
@@ -3591,7 +3493,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at the left side of the concrete and in the middle of the 2nd plank"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -3599,7 +3501,7 @@
 		}
 		MasterNodeId = "9552dab3-81f4-4eac-8837-ed869695c082"
 	}
-	MapAnnotationNode113 = 
+	MapAnnotationNode110 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3631,7 +3533,7 @@
 		MasterNodeId = "9552dab3-81f4-4eac-8837-ed869695c082"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode114 = 
+	MapAnnotationNode111 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3655,7 +3557,7 @@
 		}
 		Desc = 
 		{
-			Text = "Align with the dark line on the ground"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -3666,7 +3568,7 @@
 		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode115 = 
+	MapAnnotationNode112 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3675,7 +3577,7 @@
 		Position = [ -2278.293945, -533.459717, 453.441833 ]
 		Angles = [ 0.55925, 80.308594, 0.0 ]
 		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextPositionOffset = [ 0.0, -40.0, 10.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
@@ -3689,7 +3591,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim in the middle of the 2 grey dots on the wall"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -3697,7 +3599,7 @@
 		}
 		MasterNodeId = "6c82955f-55fc-4750-81e2-2d95d625fcf2"
 	}
-	MapAnnotationNode116 = 
+	MapAnnotationNode113 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3729,7 +3631,7 @@
 		MasterNodeId = "6c82955f-55fc-4750-81e2-2d95d625fcf2"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode117 = 
+	MapAnnotationNode114 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3753,7 +3655,7 @@
 		}
 		Desc = 
 		{
-			Text = "Align with the dark line in the ground"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -3764,7 +3666,7 @@
 		JumpThrow = true
 		GrenadeType = "flash"
 	}
-	MapAnnotationNode118 = 
+	MapAnnotationNode115 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3773,7 +3675,7 @@
 		Position = [ -2284.217529, -532.639282, 454.49649 ]
 		Angles = [ -0.044927, 83.671013, 0.0 ]
 		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextPositionOffset = [ 0.0, -30.0, 20.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
@@ -3787,7 +3689,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at the top of the plant"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -3795,7 +3697,7 @@
 		}
 		MasterNodeId = "d1fe0ef2-f626-483e-98f5-1e19c077406c"
 	}
-	MapAnnotationNode119 = 
+	MapAnnotationNode116 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3827,7 +3729,7 @@
 		MasterNodeId = "d1fe0ef2-f626-483e-98f5-1e19c077406c"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode120 = 
+	MapAnnotationNode117 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3843,7 +3745,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Molo Behind Dices"
+			Text = "Molo (Behind) Dice"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
@@ -3862,7 +3764,7 @@
 		JumpThrow = true
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode121 = 
+	MapAnnotationNode118 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3871,13 +3773,13 @@
 		Position = [ -2217.103516, -1053.167236, 457.952423 ]
 		Angles = [ 2.322459, 98.693275, 0.0 ]
 		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextPositionOffset = [ 0.0, 0.0, -30.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Molo Behind Dices"
+			Text = "Molo (Behind) Dice"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -3885,7 +3787,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at the base of the lamps shadow, run until you make 1 audible step"
+			Text = "Aim at the base of the lamp shadow to molo on top of Dice\nAim as shown to Molo behind Dice\nRun until you make 1 audible step"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -3893,7 +3795,7 @@
 		}
 		MasterNodeId = "e4c572bc-b285-4943-b9e9-e9f5c92bfd43"
 	}
-	MapAnnotationNode122 = 
+	MapAnnotationNode119 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3925,7 +3827,7 @@
 		MasterNodeId = "e4c572bc-b285-4943-b9e9-e9f5c92bfd43"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode123 = 
+	MapAnnotationNode120 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3960,7 +3862,7 @@
 		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode124 = 
+	MapAnnotationNode121 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3991,7 +3893,7 @@
 		}
 		MasterNodeId = "fd76f2ed-6712-4a11-99c3-1389b8dae8e2"
 	}
-	MapAnnotationNode125 = 
+	MapAnnotationNode122 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4021,6 +3923,790 @@
 			ShowBackground = true
 		}
 		MasterNodeId = "fd76f2ed-6712-4a11-99c3-1389b8dae8e2"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode123 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "a39b5970-356e-46b3-9f9b-13b8db251500"
+		SubType = "main"
+		Position = [ -713.419128, -2388.563721, 156.995041 ]
+		Angles = [ 0.0, 145.288025, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Smoke toilets from T Spawn"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = true
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode124 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "d628ab70-417d-47ee-9d71-6249d0d001e0"
+		SubType = "aim_target"
+		Position = [ -784.523682, -2339.306396, 263.256042 ]
+		Angles = [ -30.117964, 145.287842, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Smoke toilets from T Spawn"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "a39b5970-356e-46b3-9f9b-13b8db251500"
+	}
+	MapAnnotationNode125 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "04e35aee-0e57-4b8c-985d-71983dd38005"
+		SubType = "destination"
+		Position = [ -2713.174561, -995.916443, 438.03125 ]
+		Angles = [ -30.117964, 145.287842, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "a39b5970-356e-46b3-9f9b-13b8db251500"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode126 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "adb28b72-5793-4f13-9fb3-2bfb0121f4c4"
+		SubType = "main"
+		Position = [ -1581.604736, -696.792114, 140.28125 ]
+		Angles = [ 0.0, 91.446075, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 70.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Smoke Heaven"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode127 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "a8e1fbfc-54c1-4c85-abd1-759ea1a4dc12"
+		SubType = "aim_target"
+		Position = [ -1592.977905, -605.334778, 243.091156 ]
+		Angles = [ -22.836271, 97.088615, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Smoke heaven"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "adb28b72-5793-4f13-9fb3-2bfb0121f4c4"
+	}
+	MapAnnotationNode128 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "39b527da-61ab-492a-ad8b-ec6d5ae03f9c"
+		SubType = "destination"
+		Position = [ -1807.910278, 579.834351, 262.03125 ]
+		Angles = [ -22.836271, 97.088615, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "adb28b72-5793-4f13-9fb3-2bfb0121f4c4"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode129 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "72c37e8f-624e-401b-a5a2-c5807decbd90"
+		SubType = "main"
+		Position = [ -1581.480225, -697.351135, 140.28125 ]
+		Angles = [ 0.0, 58.178787, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Molo Barrels"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "molotov"
+	}
+	MapAnnotationNode130 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "8aed1dac-9db7-4635-afbf-61013f81a9f0"
+		SubType = "aim_target"
+		Position = [ -1529.409424, -616.341187, 231.225922 ]
+		Angles = [ -15.631346, 57.268284, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Molo Barrels"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "72c37e8f-624e-401b-a5a2-c5807decbd90"
+	}
+	MapAnnotationNode131 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "072f14e4-84d0-46f0-9dac-8783619f6e1e"
+		SubType = "destination"
+		Position = [ -892.264709, 374.886353, 102.03125 ]
+		Angles = [ -15.631346, 57.268284, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "72c37e8f-624e-401b-a5a2-c5807decbd90"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode132 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "a62f24dc-674d-43f9-8444-990889954b6f"
+		SubType = "main"
+		Position = [ -1581.480225, -697.351135, 140.28125 ]
+		Angles = [ 0.0, 29.189636, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 80.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Nade Rain"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "he"
+	}
+	MapAnnotationNode133 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "7209fd18-272a-45b9-a00c-9e6733694c56"
+		SubType = "aim_target"
+		Position = [ -1503.158569, -636.722412, 218.060883 ]
+		Angles = [ -7.920349, 37.743416, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Nade Rain"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "a62f24dc-674d-43f9-8444-990889954b6f"
+	}
+	MapAnnotationNode134 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "20d011b2-4025-4cf1-9c46-d5e21d36ab2a"
+		SubType = "destination"
+		Position = [ -732.126465, -39.863564, 102.829224 ]
+		Angles = [ -7.920349, 37.743416, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "a62f24dc-674d-43f9-8444-990889954b6f"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode135 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "aea7d276-eec4-45fe-8f5a-90a5be893960"
+		SubType = "main"
+		Position = [ -1751.84375, -671.964539, 132.03125 ]
+		Angles = [ 0.0, 30.585602, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 70.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Nade Rain"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "he"
+	}
+	MapAnnotationNode136 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "057772d5-f286-4e62-bf08-b4117cc4ea09"
+		SubType = "aim_target"
+		Position = [ -1668.865234, -622.919678, 222.661606 ]
+		Angles = [ -15.444424, 30.585443, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Nade Rain"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Step Throw"
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "aea7d276-eec4-45fe-8f5a-90a5be893960"
+	}
+	MapAnnotationNode137 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "0066e723-580c-4316-ae58-972bb6b2b4d8"
+		SubType = "destination"
+		Position = [ -638.657349, -14.007633, 217.43396 ]
+		Angles = [ -15.444424, 30.585443, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "aea7d276-eec4-45fe-8f5a-90a5be893960"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode138 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "bfe06fd1-616f-4875-9653-fcde43bf0951"
+		SubType = "main"
+		Position = [ -1751.844971, -671.970642, 132.03125 ]
+		Angles = [ 0.0, 78.899689, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 80.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Smoke heaven"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode139 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "3992bb51-c864-43a9-af83-9594acb25bf6"
+		SubType = "aim_target"
+		Position = [ -1749.691895, -577.669189, 229.236603 ]
+		Angles = [ -19.393463, 88.692085, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Smoke heaven"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "bfe06fd1-616f-4875-9653-fcde43bf0951"
+	}
+	MapAnnotationNode140 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "b0924ce5-1c61-4ab6-ace9-473db775fde7"
+		SubType = "destination"
+		Position = [ -1734.688843, 573.029724, 262.03125 ]
+		Angles = [ -19.393463, 88.692085, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "bfe06fd1-616f-4875-9653-fcde43bf0951"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode141 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "593bdc47-5fd2-4c3c-81d7-08665cda5d15"
+		SubType = "main"
+		Position = [ -1581.03479, -696.867493, 140.28125 ]
+		Angles = [ 0.0, 57.448547, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 90.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Molo Pillar"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "molotov"
+	}
+	MapAnnotationNode142 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "f8bd4ecf-752d-42df-9c37-5dd54aeb499c"
+		SubType = "aim_target"
+		Position = [ -1522.141113, -617.727112, 220.537125 ]
+		Angles = [ -9.428036, 53.344589, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Molo Pillar"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "593bdc47-5fd2-4c3c-81d7-08665cda5d15"
+	}
+	MapAnnotationNode143 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "0d7f6dc7-cdcc-479c-9460-39a7771e773e"
+		SubType = "destination"
+		Position = [ -1045.469727, 188.227386, 105.03125 ]
+		Angles = [ -9.428036, 53.344589, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "593bdc47-5fd2-4c3c-81d7-08665cda5d15"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode144 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "4d4f41c0-8509-4d6d-bbc3-730927807402"
+		SubType = "main"
+		Position = [ -1751.84375, -671.966858, 132.03125 ]
+		Angles = [ 0.0, 46.599548, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 90.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Molo Pillar"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "molotov"
+	}
+	MapAnnotationNode145 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "25a12484-868a-4b5c-8b51-c6cbdd1b62d0"
+		SubType = "aim_target"
+		Position = [ -1685.298828, -600.925842, 218.942932 ]
+		Angles = [ -13.245076, 46.871662, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Molo Pillar"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "4d4f41c0-8509-4d6d-bbc3-730927807402"
+	}
+	MapAnnotationNode146 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "ea5602e6-ee03-4de4-abb5-31233e4df267"
+		SubType = "destination"
+		Position = [ -929.807007, 205.611572, 102.03125 ]
+		Angles = [ -13.245076, 46.871662, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "4d4f41c0-8509-4d6d-bbc3-730927807402"
 		DistanceThreshold = 80.0
 	}
 }
