@@ -1965,7 +1965,7 @@
 		MasterNodeId = "1ce86762-6129-488f-afbc-3232e07c0bfb"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode63 = 
+	MapAnnotationNode60 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2000,7 +2000,7 @@
 		JumpThrow = true
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode64 = 
+	MapAnnotationNode61 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2031,7 +2031,7 @@
 		}
 		MasterNodeId = "7460a4ed-c40c-4d23-aaea-9123efa7fd01"
 	}
-	MapAnnotationNode65 = 
+	MapAnnotationNode62 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2063,7 +2063,7 @@
 		MasterNodeId = "7460a4ed-c40c-4d23-aaea-9123efa7fd01"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode66 = 
+	MapAnnotationNode63 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2098,7 +2098,7 @@
 		JumpThrow = true
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode67 = 
+	MapAnnotationNode64 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2129,7 +2129,7 @@
 		}
 		MasterNodeId = "37cffe08-fb5b-4c4a-8c03-cb4c1bb623a8"
 	}
-	MapAnnotationNode68 = 
+	MapAnnotationNode65 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2161,7 +2161,7 @@
 		MasterNodeId = "37cffe08-fb5b-4c4a-8c03-cb4c1bb623a8"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode69 = 
+	MapAnnotationNode66 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2196,7 +2196,7 @@
 		JumpThrow = false
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode70 = 
+	MapAnnotationNode67 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2227,7 +2227,7 @@
 		}
 		MasterNodeId = "855cf8e2-dbcd-4904-a680-b564291ff277"
 	}
-	MapAnnotationNode71 = 
+	MapAnnotationNode68 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2259,7 +2259,7 @@
 		MasterNodeId = "855cf8e2-dbcd-4904-a680-b564291ff277"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode72 = 
+	MapAnnotationNode69 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2294,7 +2294,7 @@
 		JumpThrow = false
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode73 = 
+	MapAnnotationNode70 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2325,7 +2325,7 @@
 		}
 		MasterNodeId = "3e8d77a5-2ad6-47a5-981a-2004db5abf5e"
 	}
-	MapAnnotationNode74 = 
+	MapAnnotationNode71 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2357,7 +2357,7 @@
 		MasterNodeId = "3e8d77a5-2ad6-47a5-981a-2004db5abf5e"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode75 = 
+	MapAnnotationNode72 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2392,7 +2392,7 @@
 		JumpThrow = true
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode76 = 
+	MapAnnotationNode73 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2423,7 +2423,7 @@
 		}
 		MasterNodeId = "e77bb17d-2eb2-4363-b8a6-0aa7a700a726"
 	}
-	MapAnnotationNode77 = 
+	MapAnnotationNode74 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2455,7 +2455,7 @@
 		MasterNodeId = "e77bb17d-2eb2-4363-b8a6-0aa7a700a726"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode78 = 
+	MapAnnotationNode75 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2490,7 +2490,7 @@
 		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode79 = 
+	MapAnnotationNode76 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2521,7 +2521,7 @@
 		}
 		MasterNodeId = "654fcb01-9263-453a-93af-c77122ef95a1"
 	}
-	MapAnnotationNode80 = 
+	MapAnnotationNode77 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2553,7 +2553,7 @@
 		MasterNodeId = "654fcb01-9263-453a-93af-c77122ef95a1"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode81 = 
+	MapAnnotationNode78 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2588,7 +2588,7 @@
 		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode82 = 
+	MapAnnotationNode79 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2619,7 +2619,7 @@
 		}
 		MasterNodeId = "6d36e0c9-7b2d-4d7c-a718-3599b454aec1"
 	}
-	MapAnnotationNode83 = 
+	MapAnnotationNode80 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2651,7 +2651,7 @@
 		MasterNodeId = "6d36e0c9-7b2d-4d7c-a718-3599b454aec1"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode84 = 
+	MapAnnotationNode81 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2686,7 +2686,7 @@
 		JumpThrow = true
 		GrenadeType = "flash"
 	}
-	MapAnnotationNode85 = 
+	MapAnnotationNode82 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2717,7 +2717,7 @@
 		}
 		MasterNodeId = "bb1f3f3a-9e70-4fbc-b786-a7a67c7526db"
 	}
-	MapAnnotationNode86 = 
+	MapAnnotationNode83 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2749,7 +2749,7 @@
 		MasterNodeId = "bb1f3f3a-9e70-4fbc-b786-a7a67c7526db"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode87 = 
+	MapAnnotationNode84 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2784,7 +2784,7 @@
 		JumpThrow = false
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode88 = 
+	MapAnnotationNode85 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2815,7 +2815,7 @@
 		}
 		MasterNodeId = "4a2b1f59-4892-4312-a425-9079a10eb5d5"
 	}
-	MapAnnotationNode89 = 
+	MapAnnotationNode86 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2847,7 +2847,7 @@
 		MasterNodeId = "4a2b1f59-4892-4312-a425-9079a10eb5d5"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode90 = 
+	MapAnnotationNode87 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2882,7 +2882,7 @@
 		JumpThrow = false
 		GrenadeType = "flash"
 	}
-	MapAnnotationNode91 = 
+	MapAnnotationNode88 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2913,7 +2913,7 @@
 		}
 		MasterNodeId = "bf2acbb3-b5ea-4384-822d-10302775d673"
 	}
-	MapAnnotationNode92 = 
+	MapAnnotationNode89 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2945,7 +2945,7 @@
 		MasterNodeId = "bf2acbb3-b5ea-4384-822d-10302775d673"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode93 = 
+	MapAnnotationNode90 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2980,7 +2980,7 @@
 		JumpThrow = false
 		GrenadeType = "flash"
 	}
-	MapAnnotationNode94 = 
+	MapAnnotationNode91 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3011,7 +3011,7 @@
 		}
 		MasterNodeId = "26516c59-982c-4e13-aa84-cdfea08dbcf0"
 	}
-	MapAnnotationNode95 = 
+	MapAnnotationNode92 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3043,7 +3043,7 @@
 		MasterNodeId = "26516c59-982c-4e13-aa84-cdfea08dbcf0"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode96 = 
+	MapAnnotationNode93 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3078,7 +3078,7 @@
 		JumpThrow = false
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode97 = 
+	MapAnnotationNode94 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3109,7 +3109,7 @@
 		}
 		MasterNodeId = "69d51110-bf78-4fd2-9970-d83a8cfe5e8a"
 	}
-	MapAnnotationNode98 = 
+	MapAnnotationNode95 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3141,7 +3141,7 @@
 		MasterNodeId = "69d51110-bf78-4fd2-9970-d83a8cfe5e8a"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode99 = 
+	MapAnnotationNode96 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3176,7 +3176,7 @@
 		JumpThrow = false
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode100 = 
+	MapAnnotationNode97 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3207,7 +3207,7 @@
 		}
 		MasterNodeId = "d53fc5a4-ce36-40a9-af7a-1417a069f215"
 	}
-	MapAnnotationNode101 = 
+	MapAnnotationNode98 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3239,7 +3239,7 @@
 		MasterNodeId = "d53fc5a4-ce36-40a9-af7a-1417a069f215"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode102 = 
+	MapAnnotationNode99 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3274,7 +3274,7 @@
 		JumpThrow = false
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode103 = 
+	MapAnnotationNode100 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3305,7 +3305,7 @@
 		}
 		MasterNodeId = "a99f654b-8d3b-4c61-841c-87b1867a4710"
 	}
-	MapAnnotationNode104 = 
+	MapAnnotationNode101 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3337,7 +3337,7 @@
 		MasterNodeId = "a99f654b-8d3b-4c61-841c-87b1867a4710"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode105 = 
+	MapAnnotationNode102 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3372,7 +3372,7 @@
 		JumpThrow = false
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode106 = 
+	MapAnnotationNode103 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3403,7 +3403,7 @@
 		}
 		MasterNodeId = "8f4d898e-704b-4a1f-921e-c713133f90c0"
 	}
-	MapAnnotationNode107 = 
+	MapAnnotationNode104 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3435,7 +3435,7 @@
 		MasterNodeId = "8f4d898e-704b-4a1f-921e-c713133f90c0"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode108 = 
+	MapAnnotationNode105 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3470,7 +3470,7 @@
 		JumpThrow = true
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode109 = 
+	MapAnnotationNode106 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3501,7 +3501,7 @@
 		}
 		MasterNodeId = "9552dab3-81f4-4eac-8837-ed869695c082"
 	}
-	MapAnnotationNode110 = 
+	MapAnnotationNode107 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3533,7 +3533,7 @@
 		MasterNodeId = "9552dab3-81f4-4eac-8837-ed869695c082"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode111 = 
+	MapAnnotationNode108 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3568,7 +3568,7 @@
 		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode112 = 
+	MapAnnotationNode109 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3599,7 +3599,7 @@
 		}
 		MasterNodeId = "6c82955f-55fc-4750-81e2-2d95d625fcf2"
 	}
-	MapAnnotationNode113 = 
+	MapAnnotationNode110 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3631,7 +3631,7 @@
 		MasterNodeId = "6c82955f-55fc-4750-81e2-2d95d625fcf2"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode114 = 
+	MapAnnotationNode111 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3666,7 +3666,7 @@
 		JumpThrow = true
 		GrenadeType = "flash"
 	}
-	MapAnnotationNode115 = 
+	MapAnnotationNode112 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3697,7 +3697,7 @@
 		}
 		MasterNodeId = "d1fe0ef2-f626-483e-98f5-1e19c077406c"
 	}
-	MapAnnotationNode116 = 
+	MapAnnotationNode113 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3729,7 +3729,7 @@
 		MasterNodeId = "d1fe0ef2-f626-483e-98f5-1e19c077406c"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode117 = 
+	MapAnnotationNode114 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3764,7 +3764,7 @@
 		JumpThrow = true
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode118 = 
+	MapAnnotationNode115 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3795,7 +3795,7 @@
 		}
 		MasterNodeId = "e4c572bc-b285-4943-b9e9-e9f5c92bfd43"
 	}
-	MapAnnotationNode119 = 
+	MapAnnotationNode116 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3827,7 +3827,7 @@
 		MasterNodeId = "e4c572bc-b285-4943-b9e9-e9f5c92bfd43"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode120 = 
+	MapAnnotationNode117 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3862,7 +3862,7 @@
 		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode121 = 
+	MapAnnotationNode118 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3893,7 +3893,7 @@
 		}
 		MasterNodeId = "fd76f2ed-6712-4a11-99c3-1389b8dae8e2"
 	}
-	MapAnnotationNode122 = 
+	MapAnnotationNode119 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3925,7 +3925,7 @@
 		MasterNodeId = "fd76f2ed-6712-4a11-99c3-1389b8dae8e2"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode123 = 
+	MapAnnotationNode120 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3960,7 +3960,7 @@
 		JumpThrow = true
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode124 = 
+	MapAnnotationNode121 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3991,7 +3991,7 @@
 		}
 		MasterNodeId = "a39b5970-356e-46b3-9f9b-13b8db251500"
 	}
-	MapAnnotationNode125 = 
+	MapAnnotationNode122 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4023,7 +4023,7 @@
 		MasterNodeId = "a39b5970-356e-46b3-9f9b-13b8db251500"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode126 = 
+	MapAnnotationNode123 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4058,7 +4058,7 @@
 		JumpThrow = false
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode127 = 
+	MapAnnotationNode124 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4089,7 +4089,7 @@
 		}
 		MasterNodeId = "adb28b72-5793-4f13-9fb3-2bfb0121f4c4"
 	}
-	MapAnnotationNode128 = 
+	MapAnnotationNode125 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4121,7 +4121,7 @@
 		MasterNodeId = "adb28b72-5793-4f13-9fb3-2bfb0121f4c4"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode129 = 
+	MapAnnotationNode126 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4156,7 +4156,7 @@
 		JumpThrow = false
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode130 = 
+	MapAnnotationNode127 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4187,7 +4187,7 @@
 		}
 		MasterNodeId = "72c37e8f-624e-401b-a5a2-c5807decbd90"
 	}
-	MapAnnotationNode131 = 
+	MapAnnotationNode128 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4219,7 +4219,7 @@
 		MasterNodeId = "72c37e8f-624e-401b-a5a2-c5807decbd90"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode132 = 
+	MapAnnotationNode129 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4254,7 +4254,7 @@
 		JumpThrow = false
 		GrenadeType = "he"
 	}
-	MapAnnotationNode133 = 
+	MapAnnotationNode130 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4285,7 +4285,7 @@
 		}
 		MasterNodeId = "a62f24dc-674d-43f9-8444-990889954b6f"
 	}
-	MapAnnotationNode134 = 
+	MapAnnotationNode131 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4317,7 +4317,7 @@
 		MasterNodeId = "a62f24dc-674d-43f9-8444-990889954b6f"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode135 = 
+	MapAnnotationNode132 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4352,7 +4352,7 @@
 		JumpThrow = false
 		GrenadeType = "he"
 	}
-	MapAnnotationNode136 = 
+	MapAnnotationNode133 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4383,7 +4383,7 @@
 		}
 		MasterNodeId = "aea7d276-eec4-45fe-8f5a-90a5be893960"
 	}
-	MapAnnotationNode137 = 
+	MapAnnotationNode134 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4415,7 +4415,7 @@
 		MasterNodeId = "aea7d276-eec4-45fe-8f5a-90a5be893960"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode138 = 
+	MapAnnotationNode135 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4450,7 +4450,7 @@
 		JumpThrow = false
 		GrenadeType = "smoke"
 	}
-	MapAnnotationNode139 = 
+	MapAnnotationNode136 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4481,7 +4481,7 @@
 		}
 		MasterNodeId = "bfe06fd1-616f-4875-9653-fcde43bf0951"
 	}
-	MapAnnotationNode140 = 
+	MapAnnotationNode137 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4513,7 +4513,7 @@
 		MasterNodeId = "bfe06fd1-616f-4875-9653-fcde43bf0951"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode141 = 
+	MapAnnotationNode138 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4548,7 +4548,7 @@
 		JumpThrow = false
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode142 = 
+	MapAnnotationNode139 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4579,7 +4579,7 @@
 		}
 		MasterNodeId = "593bdc47-5fd2-4c3c-81d7-08665cda5d15"
 	}
-	MapAnnotationNode143 = 
+	MapAnnotationNode140 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4611,7 +4611,7 @@
 		MasterNodeId = "593bdc47-5fd2-4c3c-81d7-08665cda5d15"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode144 = 
+	MapAnnotationNode141 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4646,7 +4646,7 @@
 		JumpThrow = false
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode145 = 
+	MapAnnotationNode142 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4677,7 +4677,7 @@
 		}
 		MasterNodeId = "4d4f41c0-8509-4d6d-bbc3-730927807402"
 	}
-	MapAnnotationNode146 = 
+	MapAnnotationNode143 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -4707,6 +4707,104 @@
 			ShowBackground = true
 		}
 		MasterNodeId = "4d4f41c0-8509-4d6d-bbc3-730927807402"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode144 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "8005ba5d-e456-4601-8c75-68769f4160e9"
+		SubType = "main"
+		Position = [ -3552.935547, -67.735962, 520.829346 ]
+		Angles = [ 0.0, 20.512512, 0.0 ]
+		VisiblePfx = true
+		Color = [ 255, 239, 111 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Molo Truck from Long"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "molotov"
+	}
+	MapAnnotationNode145 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "a8d9dc28-2b79-47f0-be24-92078b387bef"
+		SubType = "aim_target"
+		Position = [ -3466.067871, -29.912529, 614.459412 ]
+		Angles = [ -18.657127, 23.528988, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Molo Truck from Long"
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Step throw"
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "8005ba5d-e456-4601-8c75-68769f4160e9"
+	}
+	MapAnnotationNode146 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "92173d9d-78d5-4ab1-a5c5-7a6c3a52a045"
+		SubType = "destination"
+		Position = [ -2121.766357, 555.675232, 522.54071 ]
+		Angles = [ -18.657127, 23.528988, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "8005ba5d-e456-4601-8c75-68769f4160e9"
 		DistanceThreshold = 80.0
 	}
 }
