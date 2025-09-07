@@ -2023,7 +2023,7 @@
 		}
 		Desc = 
 		{
-			Text = "Left click throw"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2121,7 +2121,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at the end of the top most leaf\nLeft click throw"
+			Text = "Aim at the end of the top most leaf"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2317,7 +2317,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at the chipped block\nLeft click throw"
+			Text = "Aim at the chipped block"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2415,7 +2415,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at the top right corner of the brick\nRun forward until crosshair reaches bottom right corner of brick\nLeft click jump throw"
+			Text = "Aim at the top right corner of the brick\nRun forward until crosshair reaches bottom right corner of brick"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2513,7 +2513,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at the edge of platform on tower\nRun forward until crosshair reaches the top of the plant\nLeft click jump throw"
+			Text = "Aim at the edge of platform on tower\nRun forward until crosshair reaches the top of the plant"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0

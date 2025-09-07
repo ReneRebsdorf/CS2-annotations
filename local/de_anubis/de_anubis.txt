@@ -357,7 +357,7 @@
 		}
 		Desc = 
 		{
-			Text = "Left click jump throw for smoke\nMiddle click jump throw for flash"
+			Text = "Left click for smoke\nMiddle click for flash"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -455,7 +455,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at the top of the doorway - step walk left click throw"
+			Text = "Aim at the top of the doorway\nStep walk"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -553,7 +553,7 @@
 		}
 		Desc = 
 		{
-			Text = "Step left click jump throw"
+			Text = "Step jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -651,7 +651,7 @@
 		}
 		Desc = 
 		{
-			Text = "Left click jump throw"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0

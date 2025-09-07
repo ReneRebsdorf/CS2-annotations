@@ -553,7 +553,7 @@
 		}
 		Desc = 
 		{
-			Text = "Middle of the line\nLeft click throw"
+			Text = "Middle of the line"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -651,7 +651,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim between the two horizontal lines at the vertical line and left click throw"
+			Text = "Aim between the two horizontal lines at the vertical line"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -749,7 +749,7 @@
 		}
 		Desc = 
 		{
-			Text = "Tip of the antenna and left click throw"
+			Text = "Tip of the antenna"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -847,7 +847,7 @@
 		}
 		Desc = 
 		{
-			Text = "1x at the top of the flap on the box and left click throw"
+			Text = "1x at the top of the flap on the box"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -945,7 +945,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at the tip of the antenna and left click throw"
+			Text = "Aim at the tip of the antenna"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1141,7 +1141,7 @@
 		}
 		Desc = 
 		{
-			Text = "Top part of the right most window and left click throw jump throw"
+			Text = "Top part of the right most window"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -1239,7 +1239,7 @@
 		}
 		Desc = 
 		{
-			Text = "Right most part of the tower (not the beam) and left click jump throw"
+			Text = "Right most part of the tower (not the beam)"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0

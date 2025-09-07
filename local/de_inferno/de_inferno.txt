@@ -1631,7 +1631,7 @@
 		}
 		Desc = 
 		{
-			Text = "Aim at top of left steel bar on window\nRun middle-click throw\nrelease when crossing out of T main"
+			Text = "Aim at top of left steel bar on window\nRun middle-click throw\nRelease when crossing out of T main"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0

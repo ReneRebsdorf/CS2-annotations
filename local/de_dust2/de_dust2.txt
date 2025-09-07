@@ -1435,7 +1435,7 @@
 		}
 		Desc = 
 		{
-			Text = "Left click throw"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2741,7 +2741,7 @@
 		}
 		Desc = 
 		{
-			Text = "Left click"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -2839,7 +2839,7 @@
 		}
 		Desc = 
 		{
-			Text = "W + Left click"
+			Text = "W + Throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
