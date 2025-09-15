@@ -3848,8 +3848,7 @@
 		MasterNodeId = "cea4f726-3040-4986-a5c2-7759dccd275d"
 		DistanceThreshold = 80.0
 	}
-	
-	MapAnnotationNode76 = 
+	MapAnnotationNode119 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3884,7 +3883,7 @@
 		JumpThrow = true
 		GrenadeType = "molotov"
 	}
-	MapAnnotationNode77 = 
+	MapAnnotationNode120 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -3915,7 +3914,7 @@
 		}
 		MasterNodeId = "de82d75b-9c5e-4429-bba9-c8ca23900277"
 	}
-	MapAnnotationNode78 = 
+	MapAnnotationNode121 = 
 	{
 		Enabled = true
 		Type = "grenade"
