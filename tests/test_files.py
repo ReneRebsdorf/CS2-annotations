@@ -45,9 +45,10 @@ for file_name in test_files:
         if MASTER_NODE_ID != "":
             assert MASTER_NODE_ID in map_specific_annotation_ids
         annotation_type = map_specific_annotation["Type"]
+        is_valid_type = annotation_type in ["grenade"]
         anno_sub_type = map_specific_annotation["SubType"]
         is_valid_anno_sub_type = anno_sub_type in ["main", "aim_target"]
-        if annotation_type == 'grenade' and is_valid_anno_sub_type:
+        if is_valid_type and is_valid_anno_sub_type:
             name = map_specific_annotation["Title"]["Text"]
             desc = map_specific_annotation["Desc"]["Text"]
             position = map_specific_annotation["Position"]
@@ -67,7 +68,7 @@ for file_name in test_files:
             # sqrt((X2 - X1)^2 + (Y2 - Y1)^2 + (Z2 - Z1)^2)
             squared = (x2 - x1) ** 2 + (y2 - y1) ** 2 + (z2 - z1) ** 2
             distance = squared ** 0.5
-            assert distance > 1, ERROR_MESSAGE
+            assert distance > 3, ERROR_MESSAGE
 
 assert len(annotations) > 0, "No annotations found in the test files"
 

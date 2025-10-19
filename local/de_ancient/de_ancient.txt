@@ -603,7 +603,7 @@
 		Angles = [ 0.0, 67.035492, 0.0 ]
 		VisiblePfx = true
 		Color = [ 255, 239, 111 ]
-		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextPositionOffset = [ 0.0, 0.0, 70.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
@@ -691,104 +691,6 @@
 		MasterNodeId = "fc9c4a1d-c1ea-4802-a516-3442c374eede"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode21 = 
-	{
-		Enabled = true
-		Type = "grenade"
-		Id = "093db0c2-4272-4856-b84d-f6bcf2512162"
-		SubType = "main"
-		Position = [ -1936.841553, -862.034058, -1.619934 ]
-		Angles = [ 0.0, 75.747986, 0.0 ]
-		VisiblePfx = true
-		Color = [ 255, 239, 111 ]
-		TextPositionOffset = [ 0.0, 0.0, 70.0 ]
-		TextFacePlayer = true
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = "Smoke donut"
-			FontSize = 125
-			FadeInDist = 600.0
-			FadeOutDist = 40.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 300.0
-			FadeOutDist = 40.0
-			ShowBackground = true
-		}
-		StreakLimitGuidesOn = 2
-		StreakLimitGuidesOff = 2
-		JumpThrow = true
-		GrenadeType = "smoke"
-	}
-	MapAnnotationNode22 = 
-	{
-		Enabled = true
-		Type = "grenade"
-		Id = "164a8b4e-4dc4-41f2-8e9b-953679042509"
-		SubType = "aim_target"
-		Position = [ -1916.671387, -781.988098, 105.225868 ]
-		Angles = [ -34.36272, 75.856918, 0.0 ]
-		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 10.0, 10.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = "Smoke donut"
-			FontSize = 125
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = "Jump throw"
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		MasterNodeId = "093db0c2-4272-4856-b84d-f6bcf2512162"
-	}
-	MapAnnotationNode23 = 
-	{
-		Enabled = true
-		Type = "grenade"
-		Id = "5adef496-de76-42a9-aa8d-f327f8e63eb9"
-		SubType = "destination"
-		Position = [ -1335.891357, 445.85199, 77.03125 ]
-		Angles = [ -34.36272, 75.856918, 0.0 ]
-		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		MasterNodeId = "093db0c2-4272-4856-b84d-f6bcf2512162"
-		DistanceThreshold = 80.0
-	}
 	MapAnnotationNode24 = 
 	{
 		Enabled = true
@@ -847,7 +749,7 @@
 		}
 		Desc = 
 		{
-			Text = "Jump throw"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
