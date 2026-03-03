@@ -3,3 +3,5 @@ DISABLE_LINTERS:
   - PYTHON_BLACK
   # markdown tables are formatted with prettier
   - MARKDOWN_MARKDOWN_TABLE_FORMATTER
+  # Kingfisher secret scanning produces false positives (e.g. KINGFISHER.GITHUB.5)
+  - REPOSITORY_KINGFISHER
