@@ -403,8 +403,8 @@
 		Type = "grenade"
 		Id = "21e88a5d-d26b-47f8-9354-5de9b5b1250e"
 		SubType = "main"
-		Position = [ -732.876099, -1322.138062, -407.96875 ]
-		Angles = [ 0.0, -16.85199, 0.0 ]
+		Position = [ -732.876404, -1322.13855, -407.96875 ]
+		Angles = [ 0.0, -18.423737, 0.0 ]
 		VisiblePfx = true
 		Color = [ 255, 239, 111 ]
 		TextPositionOffset = [ 0.0, 0.0, 80.0 ]
@@ -438,8 +438,8 @@
 		Type = "grenade"
 		Id = "101d5b72-2be2-44b6-870f-6726778ad8f4"
 		SubType = "aim_target"
-		Position = [ -642.432007, -1349.53418, -311.738678 ]
-		Angles = [ -19.087103, -16.851908, 0.0 ]
+		Position = [ -643.30719, -1351.975586, -311.3078 ]
+		Angles = [ -19.251385, -18.423761, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
 		TextFacePlayer = false
@@ -469,8 +469,8 @@
 		Type = "grenade"
 		Id = "74edf922-ea08-4704-9458-5f8a9e97abe5"
 		SubType = "destination"
-		Position = [ 1069.490112, -2012.131592, -413.96875 ]
-		Angles = [ -19.087103, -16.851908, 0.0 ]
+		Position = [ 1145.557373, -2060.094727, -413.96875 ]
+		Angles = [ -19.251385, -18.423761, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
